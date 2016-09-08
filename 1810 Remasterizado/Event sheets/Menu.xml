@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu</name>
+    <events>
+        <event-group description="" sid="3031942681049735" title="Botones">
+            <sub-events>
+                <event-group description="" sid="1909660437119704" title="Nueva partida">
+                    <sub-events>
+                        <event-block sid="1597504735310301">
+                            <conditions>
+                                <condition id="6" name="On object clicked" sid="947960237341521" type="Mouse">
+                                    <param id="0" name="Mouse button">0</param>
+                                    <param id="1" name="Click type">0</param>
+                                    <param id="2" name="Object clicked">btnNuevaPartida</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="3098935761174306" type="fade">
+                                    <param id="0" name="Instance variable">fadeOUT</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="5919105388441709" type="fade">
+                                    <param id="0" name="Instance variable">tipoBoton</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="8440395781468533" type="btnNuevaPartida">
+                                    <param id="0" name="Animation">&quot;clicked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8027203973648624">
+                            <conditions>
+                                <condition behavior="Fade" id="1" name="On fade-in finished" sid="2787400220092182" type="fade" />
+                                <condition id="-7" name="Compare instance variable" sid="194810975340429" type="fade">
+                                    <param id="0" name="Instance variable">tipoBoton</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="5818172441613127" type="System">
+                                    <param id="0" name="Layout">Capitulos</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5247682569788814" type="fade">
+                                    <param id="0" name="Instance variable">fadeOUT</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <comment>Animacion del focus del botón</comment>
+                        <event-block sid="6401934090791164">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="7161368815500095" type="Mouse">
+                                    <param id="0" name="Object">btnNuevaPartida</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="3478822344131579" type="btnNuevaPartida">
+                                    <param id="0" name="Animation">&quot;clicked&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="4056287047808182" type="btnNuevaPartida">
+                                    <param id="0" name="Animation">&quot;focused&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2106531610724464">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="8459076851888396" type="Mouse">
+                                    <param id="0" name="Object">btnNuevaPartida</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Is playing" sid="7083769277735982" type="btnNuevaPartida">
+                                    <param id="0" name="Animation">&quot;clicked&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="9214867507808994" type="btnNuevaPartida">
+                                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="6576732935380875" title="Cargar partida">
+                    <sub-events>
+                        <event-block sid="1597504735310301">
+                            <conditions>
+                                <condition id="6" name="On object clicked" sid="947960237341521" type="Mouse">
+                                    <param id="0" name="Mouse button">0</param>
+                                    <param id="1" name="Click type">0</param>
+                                    <param id="2" name="Object clicked">btnCargarPartida</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="3098935761174306" type="fade">
+                                    <param id="0" name="Instance variable">fadeOUT</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="4052275817680658" type="fade">
+                                    <param id="0" name="Instance variable">tipoBoton</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1055831384874633">
+                            <conditions>
+                                <condition behavior="Fade" id="1" name="On fade-in finished" sid="674448368295191" type="fade" />
+                                <condition id="-7" name="Compare instance variable" sid="4301119027252275" type="fade">
+                                    <param id="0" name="Instance variable">tipoBoton</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="6354774469208641" type="fade">
+                                    <param id="0" name="Instance variable">fadeOUT</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="4837739213578197" title="Salir">
+                    <sub-events>
+                        <event-block sid="1597504735310301">
+                            <conditions>
+                                <condition id="6" name="On object clicked" sid="947960237341521" type="Mouse">
+                                    <param id="0" name="Mouse button">0</param>
+                                    <param id="1" name="Click type">0</param>
+                                    <param id="2" name="Object clicked">btnSalir</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="3098935761174306" type="fade">
+                                    <param id="0" name="Instance variable">fadeOUT</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="5465770140420932" type="fade">
+                                    <param id="0" name="Instance variable">tipoBoton</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6983706469340734">
+                            <conditions>
+                                <condition behavior="Fade" id="1" name="On fade-in finished" sid="9218072690563854" type="fade" />
+                                <condition id="-7" name="Compare instance variable" sid="8008247092641875" type="fade">
+                                    <param id="0" name="Instance variable">tipoBoton</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="1" name="Close" sid="5980908393218898" type="Browser" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="4199895881617018" title="Botones - Fade">
+                    <sub-events>
+                        <event-block sid="707254880096296">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="2226978906046291" type="fade">
+                                    <param id="0" name="Instance variable">fadeOUT</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Fade" id="4" name="Set fade-out time" sid="1004123480947158" type="fade">
+                                    <param id="0" name="Fade-out time">0</param>
+                                </action>
+                                <action behavior="Fade" id="2" name="Set fade-in time" sid="7029448026633203" type="fade">
+                                    <param id="0" name="Fade-in time">1</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="9002322975655808" type="fade" />
+                                <action id="-7" name="Set size" sid="2718861967567871" type="fade">
+                                    <param id="0" name="Width">WindowWidth</param>
+                                    <param id="1" name="Height">WindowHeight</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="9458081504991963" type="fade">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="9026427802978878" title="Background">
+            <sub-events>
+                <event-group description="" sid="1713573877230474" title="Background 01">
+                    <sub-events>
+                        <event-block sid="7104816041931536">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="1586341268851669" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-1" name="Set X" sid="174586982821319" type="menuBackground01">
+                                    <param id="0" name="X">menuBackground01.X-0.2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5873116804851485">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="2514656663127338" type="menuBackground01">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="X co-ordinate">-720</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-1" name="Set X" sid="995378764464959" type="menuBackground01">
+                                    <param id="0" name="X">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="5583333601952619" title="Background 02">
+                    <sub-events>
+                        <event-block sid="7951543399012429">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="3872001336378244" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-1" name="Set X" sid="1691129654943826" type="menuBackground02">
+                                    <param id="0" name="X">menuBackground02.X-0.5</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3450125649786924">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="1679552313074812" type="menuBackground02">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="X co-ordinate">-720</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-1" name="Set X" sid="635626092904182" type="menuBackground02">
+                                    <param id="0" name="X">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

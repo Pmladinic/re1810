@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ObjetosGlobales</name>
+    <events>
+        <event-group description="" sid="950615219503939" title="Plataformas">
+            <sub-events>
+                <event-group description="" sid="174582666841499" title="Palancas Verticales">
+                    <sub-events>
+                        <event-block sid="525666038935702">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="438418549360768" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="297482312532710">
+                                    <conditions>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="703252352024358" type="plataformaVertical">
+                                            <param id="0" name="Instance variable">activa</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="773839506597490">
+                                            <conditions>
+                                                <condition id="-8" name="Is boolean instance variable set" sid="436668947970229" type="plataformaVertical">
+                                                    <param id="0" name="Instance variable">arriba</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-2" name="Set Y" sid="848994833686024" type="plataformaVertical">
+                                                    <param id="0" name="Y">plataformaVertical.Y-1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="361522172289460">
+                                            <conditions>
+                                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="577466068477241" type="plataformaVertical">
+                                                    <param id="0" name="Instance variable">arriba</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-2" name="Set Y" sid="760554970559260" type="plataformaVertical">
+                                                    <param id="0" name="Y">plataformaVertical.Y+1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="909885876171844">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="121290501671425" type="plataformaVertical">
+                                    <param id="0" name="Object">limiteSuperior</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="278512750734786" type="plataformaVertical">
+                                    <param id="0" name="Instance variable">arriba</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="113167884641655">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="326928051856418" type="plataformaVertical">
+                                    <param id="0" name="Object">limiteInferior</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="909304887419109" type="plataformaVertical">
+                                    <param id="0" name="Instance variable">arriba</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
