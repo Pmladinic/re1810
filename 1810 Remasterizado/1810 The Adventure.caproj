@@ -1191,6 +1191,109 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Decreto_Escuela" sid="357612978170980">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="369926937288824" speed="5">
+                        <frame duration="1" hotspotX="0.504505" hotspotY="0.5" original-source="C:\Users\Pedro\Desktop\Proyecto 1810\trunk\1810 The Adventure\Animations\Decreto_Escuela\Default\000.png">
+                            <collision-poly>
+                                <point x="0.0720721" y="0.0588235" />
+                                <point x="0.495495" y="0.00735294" />
+                                <point x="0.927928" y="0.0588235" />
+                                <point x="0.855856" y="0.5" />
+                                <point x="0.918919" y="0.933824" />
+                                <point x="0.495495" y="0.970588" />
+                                <point x="0.0720721" y="0.941176" />
+                                <point x="0.126126" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PuenteActivable" sid="192582154084572">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901543940246768" speed="5">
+                        <frame duration="1" hotspotX="0.428571" hotspotY="0.911765" original-source="C:\Users\Pedro\Desktop\images.jpg">
+                            <collision-poly>
+                                <point x="0.140074" y="0.798841" />
+                                <point x="0.789425" y="0.79884" />
+                                <point x="0.789425" y="0.932804" />
+                                <point x="0.136364" y="0.943109" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="AuroraImprenta" sid="314886362721123">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="174260546070244" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Pedro\Desktop\Proyecto 1810\trunk\1810 The Adventure\Animations\OBJ_Aurora\Default\000.png">
+                            <collision-poly>
+                                <point x="0.125" y="0.25" />
+                                <point x="0.5" y="0.15625" />
+                                <point x="0.875" y="0.25" />
+                                <point x="0.96875" y="0.5" />
+                                <point x="0.875" y="0.75" />
+                                <point x="0.5" y="0.9375" />
+                                <point x="0.171875" y="0.65625" />
+                                <point x="0.0625" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BanderaCarrera" sid="857568189452623">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="182075178857630" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Pedro\Desktop\Proyecto 1810\trunk\1810 The Adventure\Animations\OBJ_Bandera\Default\000.png">
+                            <collision-poly>
+                                <point x="0.16036" y="0.194748" />
+                                <point x="0.499099" y="0.0612691" />
+                                <point x="0.798198" y="0.245077" />
+                                <point x="0.989189" y="0.498906" />
+                                <point x="0.940541" y="0.92779" />
+                                <point x="0.499099" y="0.770241" />
+                                <point x="0.230631" y="0.719912" />
+                                <point x="0.0846847" y="0.498906" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Escuela" sid="119865925485753">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="440268745428313" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Pedro\Desktop\Proyecto 1810\trunk\1810 The Adventure\Animations\TX_Escuela\Default\000.png">
+                            <collision-poly>
+                                <point x="0.00390625" y="0.00390625" />
+                                <point x="0.996094" y="0.00390625" />
+                                <point x="0.996094" y="0.996094" />
+                                <point x="0.00390625" y="0.996094" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Imprenta" sid="370649843765734">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="903354660538480" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Pedro\Desktop\Proyecto 1810\trunk\1810 The Adventure\Animations\TX_Imprenta\Default\000.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Enemy2hits" sid="963522324981900">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635198371422120" speed="5">
+                        <frame duration="1" hotspotX="-0.03125" hotspotY="-0.015625" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Mouse" sid="8941637800240169">
             <plugin id="Mouse" />
@@ -1227,21 +1330,6 @@
         <object-type name="descripcionNivel" sid="3300207423104104">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Sprite" sid="192582154084572">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901543940246768" speed="5">
-                    <frame duration="1" hotspotX="0.428571" hotspotY="0.911765" original-source="C:\Users\Pedro\Desktop\images.jpg">
-                        <collision-poly>
-                            <point x="0.140074" y="0.798841" />
-                            <point x="0.789425" y="0.79884" />
-                            <point x="0.789425" y="0.932804" />
-                            <point x="0.136364" y="0.943109" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1250,8 +1338,10 @@
         <layout>Mundo 01 - Nivel 01.xml</layout>
         <layout>Mundo 01 - Nivel 02.xml</layout>
         <layout>Mundo 01 - Nivel 03.xml</layout>
-        <layout>Mundo 01 - Nivel 04.xml</layout>
-        <layout>Mundo 01 - Nivel 05.xml</layout>
+        <layout>Mundo 01 - Nivel 04 (Motin de Figueroa 1 abril 1811).xml</layout>
+        <layout>Mundo 01 - Nivel 05 (Golpe de estado Carrera 4 sep 1811).xml</layout>
+        <layout>Mundo 01 - Nivel 06 ( 2 Golpe de estado Carrera 15 nov 1811).xml</layout>
+        <layout>Mundo 01 - Nivel 07 (  Gobierno Carrera 1811-1812).xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Globales">
@@ -1265,6 +1355,8 @@
         <event-sheet>Mundo 01 - Nivel 03.xml</event-sheet>
         <event-sheet>Mundo 01 - Nivel 04.xml</event-sheet>
         <event-sheet>Mundo 01 - Nivel 05.xml</event-sheet>
+        <event-sheet>Mundo 01 - Nivel 06.xml</event-sheet>
+        <event-sheet>Mundo 01 - Nivel 07.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="3" />
