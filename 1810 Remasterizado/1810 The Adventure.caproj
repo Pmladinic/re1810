@@ -1294,6 +1294,22 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="NPC_Soldado" sid="887524117181142">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953990393288215" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="NPC_Ohiggins" sid="358113947988306">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699961651169070" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="-0.015625" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Mouse" sid="8941637800240169">
             <plugin id="Mouse" />
@@ -1342,6 +1358,7 @@
         <layout>Mundo 01 - Nivel 05 (Golpe de estado Carrera 4 sep 1811).xml</layout>
         <layout>Mundo 01 - Nivel 06 ( 2 Golpe de estado Carrera 15 nov 1811).xml</layout>
         <layout>Mundo 01 - Nivel 07 (  Gobierno Carrera 1811-1812).xml</layout>
+        <layout>Mundo 02 - Nivel 01 ( Batalla de rancagua 1 OCT 1814).xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Globales">
@@ -1357,6 +1374,7 @@
         <event-sheet>Mundo 01 - Nivel 05.xml</event-sheet>
         <event-sheet>Mundo 01 - Nivel 06.xml</event-sheet>
         <event-sheet>Mundo 01 - Nivel 07.xml</event-sheet>
+        <event-sheet>Mundo 02 - Nivel 01.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="3" />
