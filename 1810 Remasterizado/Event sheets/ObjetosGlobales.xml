@@ -77,6 +77,78 @@
                         </event-block>
                     </sub-events>
                 </event-group>
+                <event-group description="" sid="287576866519001" title="Palancas Horizontales">
+                    <sub-events>
+                        <event-block sid="650491261727251">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="296669491777670" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="678878164581352">
+                                    <conditions>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="224712984485565" type="plataformaHorizontal">
+                                            <param id="0" name="Instance variable">activa</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="898614203256241">
+                                            <conditions>
+                                                <condition id="-8" name="Is boolean instance variable set" sid="320543273071523" type="plataformaHorizontal">
+                                                    <param id="0" name="Instance variable">derecha</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-1" name="Set X" sid="663591754277026" type="plataformaHorizontal">
+                                                    <param id="0" name="X">plataformaHorizontal.X+1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="587160843242303">
+                                            <conditions>
+                                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="730706294668178" type="plataformaHorizontal">
+                                                    <param id="0" name="Instance variable">derecha</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-1" name="Set X" sid="690698256754874" type="plataformaHorizontal">
+                                                    <param id="0" name="X">plataformaHorizontal.X-1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="950098337447672">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="450852110632567" type="plataformaHorizontal">
+                                    <param id="0" name="Object">limiteDerecho</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="492566232848774" type="plataformaHorizontal">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="883019104824066">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="616655714563099" type="plataformaHorizontal">
+                                    <param id="0" name="Object">limiteIzquierdo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="882611321729954" type="plataformaHorizontal">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
     </events>
