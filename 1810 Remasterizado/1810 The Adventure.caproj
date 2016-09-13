@@ -19,6 +19,7 @@
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
@@ -171,6 +172,8 @@
                     <instance-variable name="estaEnSuelo" sid="174510224333781" type="boolean" />
                     <instance-variable name="sePuedeMover" sid="653158762930914" type="boolean" />
                     <instance-variable name="seEstaMoviendo" sid="317644638764857" type="boolean" />
+                    <instance-variable name="sobreEscalera" sid="343426720418835" type="boolean" />
+                    <instance-variable name="puedeSubirEscalera" sid="849885925214957" type="boolean" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="Platform" sid="2012222831438161">
@@ -178,6 +181,9 @@
                     </behavior-type>
                     <behavior-type name="ScrollTo" sid="2734350094298795">
                         <behavior id="scrollto" />
+                    </behavior-type>
+                    <behavior-type name="8Direction" sid="125824644034735">
+                        <behavior id="EightDir" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
@@ -1091,7 +1097,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Stair" sid="898545176790948">
+            <object-type name="Escalera" sid="898545176790948">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780748790559829" speed="5">

@@ -557,7 +557,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="279">
+                <instance type="Escalera" uid="279">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -579,7 +579,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="280">
+                <instance type="Escalera" uid="280">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -601,7 +601,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="275">
+                <instance type="Escalera" uid="275">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -623,7 +623,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="273">
+                <instance type="Escalera" uid="273">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -645,7 +645,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="274">
+                <instance type="Escalera" uid="274">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -689,7 +689,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="216">
+                <instance type="Escalera" uid="216">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -801,7 +801,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="226">
+                <instance type="Escalera" uid="226">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -823,7 +823,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="227">
+                <instance type="Escalera" uid="227">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -845,7 +845,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="228">
+                <instance type="Escalera" uid="228">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1408,7 +1408,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="253">
+                <instance type="Escalera" uid="253">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1430,7 +1430,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="254">
+                <instance type="Escalera" uid="254">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1452,7 +1452,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="255">
+                <instance type="Escalera" uid="255">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1474,7 +1474,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="256">
+                <instance type="Escalera" uid="256">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1496,7 +1496,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="257">
+                <instance type="Escalera" uid="257">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1518,7 +1518,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="258">
+                <instance type="Escalera" uid="258">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1540,7 +1540,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="259">
+                <instance type="Escalera" uid="259">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1562,7 +1562,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stair" uid="260">
+                <instance type="Escalera" uid="260">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2086,6 +2086,8 @@
                         <estaEnSuelo>false</estaEnSuelo>
                         <sePuedeMover>true</sePuedeMover>
                         <seEstaMoviendo>false</seEstaMoviendo>
+                        <sobreEscalera>false</sobreEscalera>
+                        <puedeSubirEscalera>true</puedeSubirEscalera>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -2104,6 +2106,17 @@
                         </behavior-instance>
                         <behavior-instance type="ScrollTo">
                             <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>Up &amp; down</directions>
+                                <set-angle>360 degree (smooth)</set-angle>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>

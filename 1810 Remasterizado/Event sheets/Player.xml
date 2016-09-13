@@ -361,7 +361,7 @@
                                 <event-block sid="216967216025658">
                                     <conditions>
                                         <condition id="2" name="Key is down" sid="993015151099976" type="Keyboard">
-                                            <param id="0" name="Key">38 (Up arrow)</param>
+                                            <param id="0" name="Key">32 (Barra Espaciadora)</param>
                                         </condition>
                                     </conditions>
                                     <actions>
