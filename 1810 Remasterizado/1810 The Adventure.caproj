@@ -1329,6 +1329,19 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="CollisonEscalera" sid="757449037781350">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Jumpthru" sid="903944555885341">
+                        <behavior id="jumpthru" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="221962731771663" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Mouse" sid="8941637800240169">
             <plugin id="Mouse" />

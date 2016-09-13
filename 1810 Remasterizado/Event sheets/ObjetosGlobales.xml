@@ -215,14 +215,14 @@
                                 <condition id="-8" name="Is boolean instance variable set" sid="547911060570257" type="player">
                                     <param id="0" name="Instance variable">puedeSubirEscalera</param>
                                 </condition>
-                                <condition id="9" inverted="1" name="Is overlapping at offset" sid="511928886911623" type="player">
+                                <condition id="9" name="Is overlapping at offset" sid="511928886911623" type="player">
                                     <param id="0" name="Object">Escalera</param>
                                     <param id="1" name="Offset X">0</param>
                                     <param id="2" name="Offset Y">32</param>
                                 </condition>
                                 <condition id="-2" name="Compare Y" sid="513617019856341" type="player">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">colSolidos.Y</param>
+                                    <param id="1" name="Y co-ordinate">Escalera.Y+16</param>
                                 </condition>
                                 <condition id="2" name="Key is down" sid="885842789165502" type="Keyboard">
                                     <param id="0" name="Key">40 (Down arrow)</param>
@@ -234,7 +234,11 @@
                                     <param id="1" name="Value">0</param>
                                 </action>
                                 <action id="-2" name="Set Y" sid="696619455986731" type="player">
-                                    <param id="0" name="Y">player.Y+16</param>
+                                    <param id="0" name="Y">player.Y+2</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="533992463079157" type="player">
+                                    <param id="0" name="Instance variable">estaEnSuelo</param>
+                                    <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -256,17 +260,15 @@
                         <comment>Salir de la escalera si toca el suelo inferior</comment>
                         <event-block sid="952605462319470">
                             <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="670465599735766" type="player">
-                                    <param id="0" name="Instance variable">sobreEscalera</param>
-                                </condition>
-                                <condition id="9" inverted="1" name="Is overlapping at offset" sid="998735182148698" type="player">
-                                    <param id="0" name="Object">colSolidos</param>
+                                <condition id="-22" name="Else" sid="670465599735766" type="System" />
+                                <condition id="9" name="Is overlapping at offset" sid="998735182148698" type="player">
+                                    <param id="0" name="Object">Escalera</param>
                                     <param id="1" name="Offset X">0</param>
                                     <param id="2" name="Offset Y">32</param>
                                 </condition>
                                 <condition id="-2" name="Compare Y" sid="294624626580808" type="player">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">colSolidos.Y</param>
+                                    <param id="1" name="Y co-ordinate">Escalera.Y+16</param>
                                 </condition>
                                 <condition id="2" name="Key is down" sid="754098023411315" type="Keyboard">
                                     <param id="0" name="Key">40 (Down arrow)</param>
@@ -317,8 +319,8 @@
                                 <action behavior="8Direction" id="2" name="Set ignoring input" sid="730191290963140" type="player">
                                     <param id="0" name="Input">0</param>
                                 </action>
-                                <action behavior="Solid" id="0" name="Set enabled" sid="148961537808772" type="colSolidos">
-                                    <param id="0" name="State">0</param>
+                                <action id="-1" name="Set X" sid="148961537808772" type="player">
+                                    <param id="0" name="X">Escalera.X+16</param>
                                 </action>
                                 <action behavior="Platform" id="8" name="Set vector X" sid="550246727785703" type="player">
                                     <param id="0" name="Vector X">0</param>
@@ -343,7 +345,7 @@
                             <sub-events>
                                 <event-block sid="694564882257544">
                                     <conditions>
-                                        <condition id="1" inverted="1" name="Is overlapping another object" sid="650309348527242" type="player">
+                                        <condition id="1" name="Is overlapping another object" sid="650309348527242" type="player">
                                             <param id="0" name="Object">colSolidos</param>
                                         </condition>
                                     </conditions>
