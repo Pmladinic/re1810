@@ -865,6 +865,33 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="NPC_General" sid="641628542992005">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212586230309572" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TX_Celda" sid="358333539772982">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332547052094668" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Proyecto 1810\trunk\1810 The Adventure\Animations\TX_Celda\Default\000.png">
+                            <collision-poly>
+                                <point x="0.177885" y="0.154812" />
+                                <point x="0.5" y="0" />
+                                <point x="0.826923" y="0.150628" />
+                                <point x="1" y="0.497908" />
+                                <point x="0.980769" y="0.983264" />
+                                <point x="0.5" y="0.832636" />
+                                <point x="0.0240385" y="0.979079" />
+                                <point x="0" y="0.497908" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Objetos Globales">
             <object-type name="Escalera" sid="176369045358701">
@@ -1374,6 +1401,9 @@
         <layout>Mundo 01 - Nivel 06 ( 2 Golpe de estado Carrera 15 nov 1811).xml</layout>
         <layout>Mundo 01 - Nivel 07 (  Gobierno Carrera 1811-1812).xml</layout>
         <layout>Mundo 02 - Nivel 01 ( Batalla de rancagua 1 OCT 1814).xml</layout>
+        <layout>Mundo 02 - Nivel 02 (Destierro de patriotas chilenos 7,8,9 OCT 1814).xml</layout>
+        <layout>Mundo 02 - Nivel 03 (Llegada manuel rodriguez 3 ENERO 1816).xml</layout>
+        <layout>Mundo 02 - Nivel 04 (Santiago-Llegada manuel rodriguez 3 ENERO 1816).xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Globales">
@@ -1390,6 +1420,9 @@
         <event-sheet>Mundo 01 - Nivel 06.xml</event-sheet>
         <event-sheet>Mundo 01 - Nivel 07.xml</event-sheet>
         <event-sheet>Mundo 02 - Nivel 01.xml</event-sheet>
+        <event-sheet>Mundo 02 - Nivel 02.xml</event-sheet>
+        <event-sheet>Mundo 02 - Nivel 03.xml</event-sheet>
+        <event-sheet>Mundo 02 - Nivel 04.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="3" />
