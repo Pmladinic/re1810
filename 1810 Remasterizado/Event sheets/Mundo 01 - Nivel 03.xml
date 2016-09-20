@@ -2,5 +2,53 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Mundo 01 - Nivel 03</name>
-    <events />
+    <events>
+        <include>ObjetosGlobales</include>
+        <include>Player</include>
+        <event-group description="" sid="475227881796345" title="Palanca Activable - Mundo 3">
+            <sub-events>
+                <event-block sid="640678876335999">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="654081607652332" type="Keyboard">
+                            <param id="0" name="Key">88 (X)</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="500218768976256" type="palancaActivable">
+                            <param id="0" name="Object">player</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="970914089761545" type="palancaActivable">
+                            <param id="0" name="Instance variable">activada</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="100142005157202" type="palancaActivable">
+                            <param id="0" name="Instance variable">activada</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="400521110734869" type="palancaActivable">
+                            <param id="0" name="Animation">&quot;activada&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="736093788854848">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="836505009862791" type="palancaActivable">
+                                    <param id="0" name="Unique ID">203</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="648824340833080" type="reja">
+                                    <param id="0" name="Unique ID">175</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="821108578958655" type="reja">
+                                    <param id="0" name="Animation">&quot;open&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
 </c2eventsheet>
