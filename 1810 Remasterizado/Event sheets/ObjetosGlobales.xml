@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ObjetosGlobales</name>
     <events>
+        <variable constant="1" name="VEL_ESCALERA" sid="519323432525074" static="0" type="number">50</variable>
+        <variable constant="0" name="ESCALERA" sid="296036650511071" static="0" type="number">0</variable>
         <event-group description="" sid="950615219503939" title="Plataformas">
             <sub-events>
                 <event-group description="" sid="174582666841499" title="Palancas Verticales">
@@ -151,214 +153,136 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="" sid="829195628583687" title="Escaleras">
+        <event-group description="" sid="123772804004235" title="Escaleras">
             <sub-events>
-                <event-block sid="470329629570595">
+                <event-block sid="927912846946067">
                     <conditions>
-                        <condition id="-2" name="On start of layout" sid="627824263668814" type="System" />
+                        <condition id="-14" name="Compare variable" sid="212181521786466" type="System">
+                            <param id="0" name="Variable">ESCALERA</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action behavior="8Direction" id="2" name="Set ignoring input" sid="752375008186059" type="player">
-                            <param id="0" name="Input">1</param>
+                        <action behavior="Platform" id="5" name="Set gravity" sid="530060273861721" type="player">
+                            <param id="0" name="Gravity">1500</param>
+                        </action>
+                        <action behavior="Jumpthru" id="0" name="Set enabled" sid="650001388812323" type="Escalera">
+                            <param id="0" name="State">1</param>
                         </action>
                     </actions>
-                </event-block>
-                <event-group description="" sid="359853182946754" title="Verificar si está sobre escalera">
                     <sub-events>
-                        <comment>Verificar si el jugador está sobre una escalera</comment>
-                        <event-block sid="136815900200088">
+                        <event-block sid="336798160838226">
                             <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="139644448688771" type="player">
-                                    <param id="0" name="Instance variable">puedeSubirEscalera</param>
-                                </condition>
-                                <condition id="1" name="Is overlapping another object" sid="103663258412489" type="player">
+                                <condition id="9" name="Is overlapping at offset" sid="811554776256218" type="player">
                                     <param id="0" name="Object">Escalera</param>
+                                    <param id="1" name="Offset X">0</param>
+                                    <param id="2" name="Offset Y">2</param>
                                 </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="670767561362092">
+                                <event-block sid="789827129249131">
                                     <conditions>
-                                        <condition id="2" name="Key is down" sid="330679384286060" type="Keyboard">
+                                        <condition id="2" name="Key is down" sid="939131527654921" type="Keyboard">
                                             <param id="0" name="Key">38 (Up arrow)</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-13" name="Set boolean" sid="777997596610087" type="player">
-                                            <param id="0" name="Instance variable">sobreEscalera</param>
+                                        <action id="-9" name="Set value" sid="940712747055940" type="System">
+                                            <param id="0" name="Variable">ESCALERA</param>
                                             <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action behavior="Platform" id="9" name="Set vector Y" sid="922975868195062" type="player">
+                                            <param id="0" name="Vector Y">-VEL_ESCALERA</param>
+                                        </action>
+                                        <action id="-1" name="Set X" sid="866597704533716" type="player">
+                                            <param id="0" name="X">Escalera.X + Escalera.Width/2</param>
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="701035764496180">
+                                <event-block sid="891565607491328">
                                     <conditions>
-                                        <condition id="2" name="Key is down" sid="197814462867932" type="Keyboard">
+                                        <condition id="2" name="Key is down" sid="913729498002595" type="Keyboard">
                                             <param id="0" name="Key">40 (Down arrow)</param>
                                         </condition>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="211019325766386" type="player">
-                                            <param id="0" name="Instance variable">estaEnSuelo</param>
-                                        </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-13" name="Set boolean" sid="848317520921023" type="player">
-                                            <param id="0" name="Instance variable">sobreEscalera</param>
+                                        <action id="-9" name="Set value" sid="502358537448999" type="System">
+                                            <param id="0" name="Variable">ESCALERA</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
-                        </event-block>
-                        <comment>Salir de la escalera si está por sobre ésta presionando la tecla &quot;Abajo&quot;</comment>
-                        <event-block sid="536510869371029">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="319348819939629" type="System" />
-                                <condition id="-8" name="Is boolean instance variable set" sid="547911060570257" type="player">
-                                    <param id="0" name="Instance variable">puedeSubirEscalera</param>
-                                </condition>
-                                <condition id="9" name="Is overlapping at offset" sid="511928886911623" type="player">
-                                    <param id="0" name="Object">Escalera</param>
-                                    <param id="1" name="Offset X">0</param>
-                                    <param id="2" name="Offset Y">32</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="513617019856341" type="player">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">Escalera.Y+16</param>
-                                </condition>
-                                <condition id="2" name="Key is down" sid="885842789165502" type="Keyboard">
-                                    <param id="0" name="Key">40 (Down arrow)</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-13" name="Set boolean" sid="964879093023328" type="player">
-                                    <param id="0" name="Instance variable">sobreEscalera</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="-2" name="Set Y" sid="696619455986731" type="player">
-                                    <param id="0" name="Y">player.Y+2</param>
-                                </action>
-                                <action id="-13" name="Set boolean" sid="533992463079157" type="player">
-                                    <param id="0" name="Instance variable">estaEnSuelo</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <comment>Salir cuando no esté sobre una escalera</comment>
-                        <event-block sid="287845778881046">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="788209110886672" type="System" />
-                                <condition id="1" inverted="1" name="Is overlapping another object" sid="436953719678264" type="player">
-                                    <param id="0" name="Object">Escalera</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-13" name="Set boolean" sid="424841763684304" type="player">
-                                    <param id="0" name="Instance variable">sobreEscalera</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <comment>Salir de la escalera si toca el suelo inferior</comment>
-                        <event-block sid="952605462319470">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="670465599735766" type="System" />
-                                <condition id="9" name="Is overlapping at offset" sid="998735182148698" type="player">
-                                    <param id="0" name="Object">Escalera</param>
-                                    <param id="1" name="Offset X">0</param>
-                                    <param id="2" name="Offset Y">32</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="294624626580808" type="player">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">Escalera.Y+16</param>
-                                </condition>
-                                <condition id="2" name="Key is down" sid="754098023411315" type="Keyboard">
-                                    <param id="0" name="Key">40 (Down arrow)</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-13" name="Set boolean" sid="138946632226089" type="player">
-                                    <param id="0" name="Instance variable">sobreEscalera</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <comment>Salir de la escalera cuando &quot;salte&quot;</comment>
-                        <event-block sid="658965073899749">
-                            <conditions>
-                                <condition id="0" name="On key pressed" sid="675381927427964" type="Keyboard">
-                                    <param id="0" name="Key">32 (Barra Espaciadora)</param>
-                                </condition>
-                                <condition id="-8" name="Is boolean instance variable set" sid="683405060409152" type="player">
-                                    <param id="0" name="Instance variable">sobreEscalera</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-13" name="Set boolean" sid="681156861937197" type="player">
-                                    <param id="0" name="Instance variable">sobreEscalera</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-group>
-                <comment>Implementación de la escalera</comment>
-                <event-group description="" sid="771514961301052" title="Implementación escaleras">
-                    <sub-events>
-                        <event-block sid="485376021105420">
-                            <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="865381112481921" type="player">
-                                    <param id="0" name="Instance variable">sobreEscalera</param>
-                                </condition>
-                                <condition id="1" name="Is overlapping another object" sid="516967197092255" type="player">
-                                    <param id="0" name="Object">Escalera</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="Platform" id="11" name="Set enabled" sid="715174644545552" type="player">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                                <action behavior="8Direction" id="2" name="Set ignoring input" sid="730191290963140" type="player">
-                                    <param id="0" name="Input">0</param>
-                                </action>
-                                <action id="-1" name="Set X" sid="148961537808772" type="player">
-                                    <param id="0" name="X">Escalera.X+16</param>
-                                </action>
-                                <action behavior="Platform" id="8" name="Set vector X" sid="550246727785703" type="player">
-                                    <param id="0" name="Vector X">0</param>
-                                </action>
-                                <action behavior="Platform" id="9" name="Set vector Y" sid="285822868872644" type="player">
-                                    <param id="0" name="Vector Y">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="955355776827740">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="986692922676823" type="System" />
-                            </conditions>
-                            <actions>
-                                <action behavior="Platform" id="11" name="Set enabled" sid="338943459789623" type="player">
-                                    <param id="0" name="State">1</param>
-                                </action>
-                                <action behavior="8Direction" id="2" name="Set ignoring input" sid="707119565562391" type="player">
-                                    <param id="0" name="Input">1</param>
-                                </action>
-                            </actions>
-                            <sub-events>
-                                <event-block sid="694564882257544">
-                                    <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="650309348527242" type="player">
-                                            <param id="0" name="Object">colSolidos</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action behavior="Solid" id="0" name="Set enabled" sid="157313908762983" type="colSolidos">
-                                            <param id="0" name="State">1</param>
+                                        <action behavior="Platform" id="9" name="Set vector Y" sid="226762650595821" type="player">
+                                            <param id="0" name="Vector Y">VEL_ESCALERA</param>
+                                        </action>
+                                        <action id="-1" name="Set X" sid="753167836741583" type="player">
+                                            <param id="0" name="X">Escalera.X + Escalera.Width/2</param>
                                         </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
                         </event-block>
                     </sub-events>
-                </event-group>
+                </event-block>
+                <event-block sid="165573996107543">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="178779929834200" type="System">
+                            <param id="0" name="Variable">ESCALERA</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="5" name="Set gravity" sid="671839784790427" type="player">
+                            <param id="0" name="Gravity">0</param>
+                        </action>
+                        <action behavior="Platform" id="9" name="Set vector Y" sid="471695974657717" type="player">
+                            <param id="0" name="Vector Y">0</param>
+                        </action>
+                        <action behavior="Jumpthru" id="0" name="Set enabled" sid="354072110250988" type="Escalera">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="563882764627868">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="115820998115048" type="Keyboard">
+                                    <param id="0" name="Key">38 (Up arrow)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="9" name="Set vector Y" sid="717126913674050" type="player">
+                                    <param id="0" name="Vector Y">-VEL_ESCALERA</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="430313719613452">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="863826524762023" type="Keyboard">
+                                    <param id="0" name="Key">40 (Down arrow)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="9" name="Set vector Y" sid="109682110082529" type="player">
+                                    <param id="0" name="Vector Y">50</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="685744044195306">
+                            <conditions>
+                                <condition id="1" inverted="1" name="Is overlapping another object" sid="358210987004324" type="player">
+                                    <param id="0" name="Object">Escalera</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="736485442055901" type="System">
+                                    <param id="0" name="Variable">ESCALERA</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
         </event-group>
     </events>
