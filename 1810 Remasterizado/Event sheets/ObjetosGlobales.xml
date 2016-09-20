@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ObjetosGlobales</name>
     <events>
-        <variable constant="0" name="VEL_ESCALERA" sid="519323432525074" static="0" type="number">5</variable>
+        <variable constant="0" name="VEL_ESCALERA" sid="519323432525074" static="0" type="number">50</variable>
         <variable constant="0" name="ESCALERA" sid="296036650511071" static="0" type="number">0</variable>
         <event-group description="" sid="950615219503939" title="Plataformas">
             <sub-events>
