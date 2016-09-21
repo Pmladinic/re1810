@@ -153,6 +153,21 @@
         </event-group>
         <event-group description="" sid="528642468297670" title="Escaleras">
             <sub-events>
+                <event-block sid="850156010208916">
+                    <conditions>
+                        <condition id="3" name="On key released" sid="889081745200130" type="Keyboard">
+                            <param id="0" name="Key">38 (Up arrow)</param>
+                        </condition>
+                        <condition id="-8" name="Is boolean instance variable set" sid="763631352717934" type="player">
+                            <param id="0" name="Instance variable">sobreEscalera</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Set speed" sid="342729382840639" type="player">
+                            <param id="0" name="Speed">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="990125884364787">
                     <conditions>
                         <condition id="-8" name="Is boolean instance variable set" sid="408651738036795" type="player">
@@ -182,9 +197,7 @@
                                 <condition id="2" name="Key is down" sid="463273539554356" type="Keyboard">
                                     <param id="0" name="Key">40 (Down arrow)</param>
                                 </condition>
-                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="520629163354982" type="player">
-                                    <param id="0" name="Instance variable">estaEnSuelo</param>
-                                </condition>
+                                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="520629163354982" type="player" />
                             </conditions>
                             <actions>
                                 <action id="-13" name="Set boolean" sid="212290235105512" type="player">
@@ -220,7 +233,11 @@
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-2" name="Set Y" sid="531942493216164" type="player">
-                            <param id="0" name="Y">player.Y + 16</param>
+                            <param id="0" name="Y">player.Y + 2</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="591896257240351" type="player">
+                            <param id="0" name="Instance variable">estaEnSuelo</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>

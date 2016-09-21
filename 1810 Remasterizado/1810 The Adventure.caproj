@@ -1425,10 +1425,10 @@
         <event-sheet>Mundo 02 - Nivel 04.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Mouse" uid="3" />
-        <global-instance type="Keyboard" uid="4" />
-        <global-instance type="Browser" uid="6" />
-        <global-instance type="Function" uid="14" />
+        <global-instance type="Mouse" uid="4" />
+        <global-instance type="Keyboard" uid="6" />
+        <global-instance type="Browser" uid="14" />
+        <global-instance type="Function" uid="690" />
     </global-instances>
     <sounds-folder />
     <music-folder />
