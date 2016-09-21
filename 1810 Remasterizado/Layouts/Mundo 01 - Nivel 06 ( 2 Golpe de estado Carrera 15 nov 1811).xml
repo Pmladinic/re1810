@@ -1507,7 +1507,7 @@
                         <opacity>1</opacity>
                     </world>
                     <tilemap-data>
-                        <width>88</width>
+                        <width>81</width>
                         <height>20</height>
                         <max-width>88</max-width>
                         <max-height>20</max-height>
@@ -2731,8 +2731,8 @@
                                 <acceleration>600</acceleration>
                                 <deceleration>500</deceleration>
                                 <directions>Up &amp; down</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
-                                <default-controls>No</default-controls>
+                                <set-angle>No</set-angle>
+                                <default-controls>Yes</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
