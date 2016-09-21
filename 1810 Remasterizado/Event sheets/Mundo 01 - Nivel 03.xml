@@ -5,9 +5,9 @@
     <events>
         <include>ObjetosGlobales</include>
         <include>Player</include>
-        <event-group description="" disabled="1" sid="475227881796345" title="Palanca Activable - Mundo 3">
+        <event-group description="" sid="475227881796345" title="Palanca Activable - Mundo 01 - Nivel 03">
             <sub-events>
-                <event-block disabled="1" sid="640678876335999">
+                <event-block sid="640678876335999">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="654081607652332" type="Keyboard">
                             <param id="0" name="Key">88 (X)</param>
@@ -30,7 +30,7 @@
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block disabled="1" sid="736093788854848">
+                        <event-block sid="736093788854848">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="836505009862791" type="palancaActivable">
                                     <param id="0" name="Unique ID">203</param>
@@ -46,9 +46,115 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="758553354335760">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="487332148367327" type="cajaColgante">
+                                    <param id="0" name="Instance variable">activa</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="932232432596223">
+                                    <conditions>
+                                        <condition id="-14" name="Pick by unique ID" sid="969901932286182" type="palancaActivable">
+                                            <param id="0" name="Unique ID">177</param>
+                                        </condition>
+                                        <condition id="-14" name="Pick by unique ID" sid="871453164063355" type="cajaColgante">
+                                            <param id="0" name="Unique ID">208</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Physics" id="21" name="Set immovable" sid="366351797751757" type="cajaColgante">
+                                            <param id="0" name="Setting">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="574529763082133" type="cajaColgante">
+                                            <param id="0" name="Instance variable">activa</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="268151297176674">
+                                    <conditions>
+                                        <condition id="-14" name="Pick by unique ID" sid="559616711911235" type="palancaActivable">
+                                            <param id="0" name="Unique ID">201</param>
+                                        </condition>
+                                        <condition id="-14" name="Pick by unique ID" sid="455513871152935" type="cajaColgante">
+                                            <param id="0" name="Unique ID">209</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Physics" id="21" name="Set immovable" sid="498169884169637" type="cajaColgante">
+                                            <param id="0" name="Setting">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="241130197973610" type="cajaColgante">
+                                            <param id="0" name="Instance variable">activa</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
                     </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="525878190148789">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="363229379856290" type="cajaColgante">
+                    <param id="0" name="Instance variable">activa</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="588262636885349">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="824230630318637" type="cajaColgante">
+                            <param id="0" name="Object">colSolidos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="248614352943730" type="cajaColgante">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="780230057709004">
+            <conditions>
+                <condition id="0" name="On function" sid="115795616436350" type="Function">
+                    <param id="0" name="Name">&quot;OnCajaInvisible&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="956922905844883">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="639512158461747" type="cajaColgante">
+                            <param id="0" name="Unique ID">208</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="226640549668496" type="cajaColgante">
+                            <param id="0" name="X">448</param>
+                            <param id="1" name="Y">192</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="225904514641199">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="499339351155467" type="cajaColgante">
+                            <param id="0" name="Unique ID">209</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="411559168599402" type="cajaColgante">
+                            <param id="0" name="X">736</param>
+                            <param id="1" name="Y">192</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

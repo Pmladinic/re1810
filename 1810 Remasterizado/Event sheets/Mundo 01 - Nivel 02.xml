@@ -5,9 +5,9 @@
     <events>
         <include>ObjetosGlobales</include>
         <include>Player</include>
-        <event-group description="" disabled="1" sid="908704574158545" title="Palanca Activable - Mundo 2">
+        <event-group description="" sid="908704574158545" title="Palanca Activable - Mundo 2">
             <sub-events>
-                <event-block disabled="1" sid="598494248019536">
+                <event-block sid="598494248019536">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="143155987777665" type="Keyboard">
                             <param id="0" name="Key">88 (X)</param>
@@ -30,7 +30,7 @@
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block disabled="1" sid="237956308919051">
+                        <event-block sid="237956308919051">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="975937885970235" type="palancaActivable">
                                     <param id="0" name="Unique ID">122</param>
@@ -46,7 +46,7 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block disabled="1" sid="272568829425252">
+                        <event-block sid="272568829425252">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="387199366284693" type="palancaActivable">
                                     <param id="0" name="Unique ID">167</param>
@@ -66,9 +66,9 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" disabled="1" sid="361218098103302" title="Objetos - Mundo 2">
+        <event-group description="" sid="361218098103302" title="Objetos - Mundo 2">
             <sub-events>
-                <event-block disabled="1" sid="308751373324785">
+                <event-block sid="308751373324785">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="469703088855954" type="player">
                             <param id="0" name="Object">Objetos</param>
@@ -76,7 +76,7 @@
                     </conditions>
                     <actions />
                     <sub-events>
-                        <event-block disabled="1" sid="198597518542255">
+                        <event-block sid="198597518542255">
                             <conditions>
                                 <condition id="2" name="Is playing" sid="911058506046787" type="Objetos">
                                     <param id="0" name="Animation">&quot;Decreto&quot;</param>
@@ -100,9 +100,9 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" disabled="1" sid="559072412378769" title="Cambio a Mundo 01 - Nivel 03">
+        <event-group description="" sid="559072412378769" title="Cambio a Mundo 01 - Nivel 03">
             <sub-events>
-                <event-block disabled="1" sid="627503678729976">
+                <event-block sid="627503678729976">
                     <conditions>
                         <condition id="4" name="On finished" sid="844981244097752" type="player">
                             <param id="0" name="Animation">&quot;celebracion&quot;</param>
@@ -123,15 +123,15 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" disabled="1" sid="799630889870859" title="0102 - Victoria">
+        <event-group description="" sid="799630889870859" title="0102 - Victoria">
             <sub-events>
-                <event-block disabled="1" sid="465904381422664">
+                <event-block sid="465904381422664">
                     <conditions>
                         <condition id="-9" name="Is visible" sid="451062429105324" type="CartelVictoria" />
                     </conditions>
                     <actions />
                     <sub-events>
-                        <event-block disabled="1" sid="604717914308778">
+                        <event-block sid="604717914308778">
                             <conditions>
                                 <condition id="-7" name="Compare instance variable" sid="151656552215529" type="CartelVictoria">
                                     <param id="0" name="Instance variable">escala</param>
@@ -149,7 +149,7 @@
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block disabled="1" sid="253914554603251">
+                                <event-block sid="253914554603251">
                                     <conditions>
                                         <condition id="-6" name="Every X seconds" sid="958885225236691" type="System">
                                             <param id="0" name="Interval (seconds)">0.05</param>
@@ -168,7 +168,7 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block disabled="1" sid="322614256622429">
+                        <event-block sid="322614256622429">
                             <conditions>
                                 <condition id="-7" name="Compare instance variable" sid="401327281566249" type="CartelVictoria">
                                     <param id="0" name="Instance variable">escala</param>
