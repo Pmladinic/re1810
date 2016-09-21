@@ -892,6 +892,14 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="NPC_ManuelRodriguez" sid="910697258629562">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="296959984834789" speed="5">
+                        <frame duration="1" hotspotX="-0.03125" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Objetos Globales">
             <object-type name="Escalera" sid="176369045358701">
