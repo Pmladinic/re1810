@@ -133,11 +133,35 @@
                         <condition id="-14" name="Pick by unique ID" sid="639512158461747" type="cajaColgante">
                             <param id="0" name="Unique ID">208</param>
                         </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="840266093967520" type="palancaActivable">
+                            <param id="0" name="Unique ID">177</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-3" name="Set position" sid="226640549668496" type="cajaColgante">
                             <param id="0" name="X">448</param>
                             <param id="1" name="Y">192</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="345284424136754" type="cajaColgante">
+                            <param id="0" name="Instance variable">activa</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="759101493702275" type="palancaActivable">
+                            <param id="0" name="Instance variable">activada</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="552000376617528" type="palancaActivable">
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="706057917046405" type="cajaColgante">
+                            <param id="0" name="Setting">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="274775315730546" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="383970420105868" type="cajaColgante">
+                            <param id="0" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -146,15 +170,50 @@
                         <condition id="-14" name="Pick by unique ID" sid="499339351155467" type="cajaColgante">
                             <param id="0" name="Unique ID">209</param>
                         </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="737690032296407" type="palancaActivable">
+                            <param id="0" name="Unique ID">201</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-3" name="Set position" sid="411559168599402" type="cajaColgante">
                             <param id="0" name="X">736</param>
                             <param id="1" name="Y">192</param>
                         </action>
+                        <action id="-13" name="Set boolean" sid="799659111597472" type="palancaActivable">
+                            <param id="0" name="Instance variable">activada</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="497779696632374" type="palancaActivable">
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="925133423923142" type="cajaColgante">
+                            <param id="0" name="Setting">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="615086286650248" type="cajaColgante">
+                            <param id="0" name="Instance variable">activa</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="522156963401146" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="931133038874394" type="cajaColgante">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="318337409146589">
+            <conditions>
+                <condition id="-9" inverted="1" name="Is visible" sid="544661717406933" type="cajaColgante" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="787936164628632" type="Function">
+                    <param id="0" name="Name">&quot;onCajaInvisible&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
