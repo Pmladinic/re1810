@@ -5,9 +5,9 @@
     <events>
         <include>ObjetosGlobales</include>
         <include>Player</include>
-        <event-group description="" sid="475227881796345" title="Palanca Activable - Mundo 3">
+        <event-group description="" disabled="1" sid="475227881796345" title="Palanca Activable - Mundo 3">
             <sub-events>
-                <event-block sid="640678876335999">
+                <event-block disabled="1" sid="640678876335999">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="654081607652332" type="Keyboard">
                             <param id="0" name="Key">88 (X)</param>
@@ -30,7 +30,7 @@
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="736093788854848">
+                        <event-block disabled="1" sid="736093788854848">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="836505009862791" type="palancaActivable">
                                     <param id="0" name="Unique ID">203</param>
