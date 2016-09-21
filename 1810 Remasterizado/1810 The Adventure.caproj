@@ -1417,7 +1417,6 @@
         <event-folder name="Globales">
             <event-sheet>Player.xml</event-sheet>
             <event-sheet>ObjetosGlobales.xml</event-sheet>
-            <event-sheet>Escalera.xml</event-sheet>
         </event-folder>
         <event-sheet>Menu.xml</event-sheet>
         <event-sheet>Capitulos.xml</event-sheet>

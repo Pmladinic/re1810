@@ -4,7 +4,6 @@
     <name>Mundo 01 - Nivel 02</name>
     <events>
         <include>ObjetosGlobales</include>
-        <include>Escalera</include>
         <include>Player</include>
         <event-group description="" disabled="1" sid="908704574158545" title="Palanca Activable - Mundo 2">
             <sub-events>
