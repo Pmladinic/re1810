@@ -893,8 +893,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <spawnX>0</spawnX>
-                        <spawnY>0</spawnY>
+                        <spawnX>448</spawnX>
+                        <spawnY>192</spawnY>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -919,8 +919,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <spawnX>0</spawnX>
-                        <spawnY>0</spawnY>
+                        <spawnX>736</spawnX>
+                        <spawnY>192</spawnY>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
