@@ -163,8 +163,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="248614352943730" type="cajaColgante">
-                            <param id="0" name="Visibility">0</param>
+                        <action id="4" name="Set animation" sid="248614352943730" type="cajaColgante">
+                            <param id="0" name="Animation">&quot;destroy&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -244,9 +245,14 @@
         </event-block>
         <event-block sid="318337409146589">
             <conditions>
-                <condition id="-9" inverted="1" name="Is visible" sid="544661717406933" type="cajaColgante" />
+                <condition id="4" name="On finished" sid="544661717406933" type="cajaColgante">
+                    <param id="0" name="Animation">&quot;destroy&quot;</param>
+                </condition>
             </conditions>
             <actions>
+                <action id="-15" name="Set visible" sid="684127743686961" type="cajaColgante">
+                    <param id="0" name="Visibility">0</param>
+                </action>
                 <action id="0" name="Call function" sid="787936164628632" type="Function">
                     <param id="0" name="Name">&quot;onCajaInvisible&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
