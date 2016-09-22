@@ -46,6 +46,56 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="441580605195560">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="465450242008248" type="palancaActivable">
+                                    <param id="0" name="Unique ID">177</param>
+                                </condition>
+                                <condition id="-8" name="Is boolean instance variable set" sid="455860969064931" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="182120479885501">
+                                    <conditions>
+                                        <condition id="-14" name="Pick by unique ID" sid="999921064276480" type="cajaColgante">
+                                            <param id="0" name="Unique ID">209</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="127175284757844" type="cajaColgante">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="652765594635079">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="680003840645450" type="palancaActivable">
+                                    <param id="0" name="Unique ID">201</param>
+                                </condition>
+                                <condition id="-8" name="Is boolean instance variable set" sid="264303679225403" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="619958687420429">
+                                    <conditions>
+                                        <condition id="-14" name="Pick by unique ID" sid="760646806006322" type="cajaColgante">
+                                            <param id="0" name="Unique ID">208</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="859533315107377" type="cajaColgante">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
                         <event-block sid="758553354335760">
                             <conditions>
                                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="487332148367327" type="cajaColgante">
@@ -70,30 +120,6 @@
                                         <action id="-13" name="Set boolean" sid="574529763082133" type="cajaColgante">
                                             <param id="0" name="Instance variable">activa</param>
                                             <param id="1" name="Value">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="182120479885501">
-                                    <conditions>
-                                        <condition id="-14" name="Pick by unique ID" sid="999921064276480" type="cajaColgante">
-                                            <param id="0" name="Unique ID">209</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-15" name="Set visible" sid="127175284757844" type="cajaColgante">
-                                            <param id="0" name="Visibility">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="686391957786194">
-                                    <conditions>
-                                        <condition id="-14" name="Pick by unique ID" sid="542596962403586" type="cajaColgante">
-                                            <param id="0" name="Unique ID">208</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-15" name="Set visible" sid="960506132105903" type="cajaColgante">
-                                            <param id="0" name="Visibility">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
