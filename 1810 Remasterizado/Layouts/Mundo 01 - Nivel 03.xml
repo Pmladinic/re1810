@@ -946,6 +946,9 @@
                     </properties>
                     <instance-variables>
                         <activa>false</activa>
+                        <destruir>false</destruir>
+                        <posX>448</posX>
+                        <posY>192</posY>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Physics">
@@ -987,6 +990,9 @@
                     </properties>
                     <instance-variables>
                         <activa>false</activa>
+                        <destruir>false</destruir>
+                        <posX>736</posX>
+                        <posY>192</posY>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Physics">

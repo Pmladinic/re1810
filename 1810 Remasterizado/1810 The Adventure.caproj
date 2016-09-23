@@ -945,6 +945,9 @@
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="activa" sid="723806213477902" type="boolean" />
+                    <instance-variable name="destruir" sid="751537001242999" type="boolean" />
+                    <instance-variable name="posX" sid="179494720810824" type="number" />
+                    <instance-variable name="posY" sid="515192009069385" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="Physics" sid="925674432495653">

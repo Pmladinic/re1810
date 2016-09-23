@@ -641,7 +641,7 @@
                     <param id="0" name="Instance variable">HP</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="4" name="Set animation" sid="559008770622852" type="cajaColgante">
+                <action disabled="1" id="4" name="Set animation" sid="559008770622852" type="cajaColgante">
                     <param id="0" name="Animation">&quot;destroy&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -655,10 +655,6 @@
                 </action>
                 <action id="-16" name="Wait" sid="139485753988297" type="System">
                     <param id="0" name="Seconds">2</param>
-                </action>
-                <action id="4" name="Set animation" sid="813110008416651" type="cajaColgante">
-                    <param id="0" name="Animation">&quot;default&quot;</param>
-                    <param id="1" name="From">1</param>
                 </action>
                 <action id="-12" name="Set group active" sid="538287088594968" type="System">
                     <param id="0" name="Group name">&quot;Enemigo 02 - Jefe Español&quot;</param>

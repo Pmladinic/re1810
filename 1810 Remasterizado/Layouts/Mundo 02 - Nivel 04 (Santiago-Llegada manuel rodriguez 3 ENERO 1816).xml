@@ -2074,6 +2074,9 @@
                     </properties>
                     <instance-variables>
                         <activa>false</activa>
+                        <destruir>false</destruir>
+                        <posX>0</posX>
+                        <posY>0</posY>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Physics">
@@ -2811,6 +2814,9 @@
                     </properties>
                     <instance-variables>
                         <activa>false</activa>
+                        <destruir>false</destruir>
+                        <posX>0</posX>
+                        <posY>0</posY>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Physics">
@@ -2852,6 +2858,9 @@
                     </properties>
                     <instance-variables>
                         <activa>false</activa>
+                        <destruir>false</destruir>
+                        <posX>0</posX>
+                        <posY>0</posY>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Physics">
