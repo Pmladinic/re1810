@@ -953,6 +953,9 @@
                     <behavior-type name="Physics" sid="925674432495653">
                         <behavior id="Physics" />
                     </behavior-type>
+                    <behavior-type name="Solid" sid="894525859602816">
+                        <behavior id="solid" />
+                    </behavior-type>
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858256696653718" speed="5">
@@ -1372,6 +1375,9 @@
                 <behaviors>
                     <behavior-type name="Solid" sid="9647077771396501">
                         <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="Physics" sid="825212514991608">
+                        <behavior id="Physics" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>

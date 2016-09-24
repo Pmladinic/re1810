@@ -21,7 +21,7 @@
         </event-block>
         <event-group description="" sid="2568565003471595" title="Mundo 01 - Nivel 01">
             <sub-events>
-                <event-group description="" sid="7740644863656295" title="Cambio a Mundo 01 - Nivel 02">
+                <event-group description="" sid="7740644863656295" title="Cambio de Nivel 01 a Nivel 02">
                     <sub-events>
                         <event-block sid="2676887355681346">
                             <conditions>

@@ -66,7 +66,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="361218098103302" title="Objetos - Mundo 2">
+        <event-group description="" sid="361218098103302" title="Objetos - Mundo 01 - Nivel 02">
             <sub-events>
                 <event-block sid="308751373324785">
                     <conditions>
@@ -100,7 +100,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="559072412378769" title="Cambio a Mundo 01 - Nivel 03">
+        <event-group description="" sid="559072412378769" title="Cambio de Nivel 02 a Nivel 03">
             <sub-events>
                 <event-block sid="627503678729976">
                     <conditions>
