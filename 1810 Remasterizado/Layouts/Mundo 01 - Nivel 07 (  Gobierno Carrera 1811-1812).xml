@@ -2,7 +2,7 @@
 <c2layout>
     <name>Mundo 01 - Nivel 07 (  Gobierno Carrera 1811-1812)</name>
     <sid>219691012884534</sid>
-    <event-sheet>Mundo 01 - Nivel 06</event-sheet>
+    <event-sheet>Mundo 01 - Nivel 07</event-sheet>
     <size>
         <width>3900</width>
         <height>544</height>
@@ -3023,6 +3023,25 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <mover>false</mover>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>330</max-speed>
+                                <acceleration>1500</acceleration>
+                                <deceleration>1500</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>

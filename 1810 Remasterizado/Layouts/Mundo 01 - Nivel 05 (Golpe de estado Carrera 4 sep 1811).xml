@@ -311,7 +311,7 @@
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Physics">
@@ -440,7 +440,7 @@
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
-                                <initial-state>Enabled</initial-state>
+                                <initial-state>Disabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Physics">
@@ -990,8 +990,8 @@
                         <opacity>1</opacity>
                     </world>
                     <tilemap-data>
-                        <width>69</width>
-                        <height>15</height>
+                        <width>88</width>
+                        <height>20</height>
                         <max-width>88</max-width>
                         <max-height>20</max-height>
                         <data>-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,280,308,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,310,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,310,15,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,280,308,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,282,310,15,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,308,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,310,15,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,-1,-1,281,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,-1,-1,281,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,308,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,-1,-1,-1,281,308,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,310,-1,-1,281,309,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,310,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,310,15,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,308,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,281,308,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,281,309,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,310,-1,-1,281,309,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,310,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,308,231,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,309,232,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,70,70,70,70,70,70,70,294,232,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,232,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,232,-1,-1,-1,281,309,129,-1,-1,-1,-1,-1,15,15,15,15,15,15,15,15,233,-1,-1,-1,281,310,15,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,224,252,40,62,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,225,253,129,129,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,226,254,41,69,229,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,68,68,68,68,68,68,68,68,68,227,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,1073741886,68,68,68,68,68,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,-1,-1,-1,-1,-1</data>
@@ -1034,7 +1034,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TX_Cuerda" uid="325">
+                <instance type="cuerda" uid="325">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1089,7 +1089,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TX_Cuerda" uid="288">
+                <instance type="cuerda" uid="288">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1153,56 +1153,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>992</x>
-                        <y>224</y>
+                        <y>256</y>
                         <z>0</z>
                         <width>64</width>
                         <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="plataformaHorizontal" uid="290">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <activa>false</activa>
-                        <derecha>false</derecha>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Jumpthru">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1312</x>
-                        <y>160</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -1319,7 +1273,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>256</x>
-                        <y>224</y>
+                        <y>228</y>
                         <z>0</z>
                         <width>46</width>
                         <height>55</height>
@@ -1337,6 +1291,25 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <mover>false</mover>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>150</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1500</deceleration>
+                                <jump-strength>450</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1359,6 +1332,30 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <mover>false</mover>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>150</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1500</deceleration>
+                                <jump-strength>450</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="ScrollTo">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1381,6 +1378,25 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <mover>false</mover>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>150</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1500</deceleration>
+                                <jump-strength>450</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1434,7 +1450,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>672</x>
-                        <y>224</y>
+                        <y>256</y>
                         <z>0</z>
                         <width>64</width>
                         <height>64</height>
@@ -1579,7 +1595,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>704</x>
-                        <y>128</y>
+                        <y>132</y>
                         <z>0</z>
                         <width>46</width>
                         <height>55</height>
@@ -1630,7 +1646,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1024</x>
-                        <y>128</y>
+                        <y>132</y>
                         <z>0</z>
                         <width>46</width>
                         <height>55</height>
@@ -1769,7 +1785,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>864</x>
-                        <y>384</y>
+                        <y>388</y>
                         <z>0</z>
                         <width>46</width>
                         <height>55</height>
@@ -1820,7 +1836,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1664</x>
-                        <y>384</y>
+                        <y>388</y>
                         <z>0</z>
                         <width>46</width>
                         <height>55</height>
@@ -1846,50 +1862,6 @@
                     <world>
                         <x>2016</x>
                         <y>192</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="limiteDerecho" uid="342">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1440</x>
-                        <y>160</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="limiteIzquierdo" uid="343">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1216</x>
-                        <y>160</y>
                         <z>0</z>
                         <width>32</width>
                         <height>32</height>
@@ -2028,7 +2000,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1952</x>
-                        <y>384</y>
+                        <y>388</y>
                         <z>0</z>
                         <width>46</width>
                         <height>55</height>
@@ -2053,7 +2025,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1568</x>
-                        <y>384</y>
+                        <y>128</y>
                         <z>0</z>
                         <width>32</width>
                         <height>32</height>
@@ -2332,6 +2304,115 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="tabla" uid="296">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1381</x>
+                        <y>309</y>
+                        <z>0</z>
+                        <width>20</width>
+                        <height>108</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0.01</hotspotY>
+                        <angle>0.261799395</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="SaltoNPC" uid="290">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>384</x>
+                        <y>384</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="SaltoNPC" uid="342">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1344</x>
+                        <y>384</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="paradaNPC" uid="343">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2144</x>
+                        <y>384</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -2401,8 +2482,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>32</x>
-                        <y>384</y>
+                        <x>192</x>
+                        <y>224</y>
                         <z>0</z>
                         <width>36</width>
                         <height>48</height>
@@ -2439,8 +2520,8 @@
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
-                <x>1</x>
-                <y>1</y>
+                <x>0</x>
+                <y>0</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
@@ -2449,7 +2530,34 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="CartelVictoria" uid="959">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <escala>1</escala>
+                        <activado>false</activado>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>360</x>
+                        <y>240</y>
+                        <z>0</z>
+                        <width>300</width>
+                        <height>150</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
     </layers>

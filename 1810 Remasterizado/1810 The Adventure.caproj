@@ -659,27 +659,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="TX_Cuerda" sid="530312734721881">
-                <plugin id="Sprite" />
-                <instance-variables>
-                    <instance-variable name="spawnX" sid="264341008833958" type="number" />
-                    <instance-variable name="spawnY" sid="743052760889740" type="number" />
-                </instance-variables>
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="929071532884977" speed="5">
-                        <frame duration="1" hotspotX="0.625" hotspotY="0.5" original-source="C:\Users\Pedro\Desktop\cuerda.png">
-                            <collision-poly>
-                                <point x="0.21875" y="0.0676423" />
-                                <point x="0.625" y="0.0151515" />
-                                <point x="1" y="0.0151515" />
-                                <point x="1" y="0.984848" />
-                                <point x="0" y="0.984848" />
-                                <point x="0.15625" y="0.498619" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
             <object-type name="Enemy_Boss" sid="334053963390277">
                 <plugin id="Sprite" />
                 <instance-variables>
@@ -734,30 +713,6 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="296231918504370" speed="5">
                         <frame duration="1" hotspotX="0" hotspotY="0.015625" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="JoseMiguelCarrera" sid="160290266262052">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="123270499806109" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="JuanJoseCarrera" sid="414042467758464">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="563462786834754" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="LuisCarrera" sid="913495432477042">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953440021885831" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -944,7 +899,14 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858256696653718" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\caja1.png" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\caja1.png">
+                            <collision-poly>
+                                <point x="0.0136719" y="0" />
+                                <point x="0.984375" y="0" />
+                                <point x="0.984375" y="1" />
+                                <point x="0.0117188" y="1" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="2" loop="0" name="destroy" pingpong="0" repeatcount="1" repeatto="0" sid="773593621943119" speed="5">
                         <frame duration="3" hotspotX="0" hotspotY="0" />
@@ -1419,6 +1381,105 @@
                                 <point x="0" y="0" />
                             </collision-poly>
                         </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="cuerda" sid="530312734721881">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="spawnX" sid="264341008833958" type="number" />
+                    <instance-variable name="spawnY" sid="743052760889740" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="929071532884977" speed="5">
+                        <frame duration="1" hotspotX="0.625" hotspotY="0.5" original-source="C:\Users\Pedro\Desktop\cuerda.png">
+                            <collision-poly>
+                                <point x="0.21875" y="0.0676423" />
+                                <point x="0.625" y="0.0151515" />
+                                <point x="1" y="0.0151515" />
+                                <point x="1" y="0.984848" />
+                                <point x="0" y="0.984848" />
+                                <point x="0.15625" y="0.498619" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Mundo 01 - Nivel 05">
+            <object-type name="JoseMiguelCarrera" sid="160290266262052">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="mover" sid="278652501784237" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="837723480988778">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="123270499806109" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="912816346205640" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="JuanJoseCarrera" sid="414042467758464">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="mover" sid="506541485011143" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="973537530116982">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                    <behavior-type name="ScrollTo" sid="794301458236857">
+                        <behavior id="scrollto" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="563462786834754" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="402067023992709" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LuisCarrera" sid="913495432477042">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="mover" sid="744695049145164" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="412033694568836">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953440021885831" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="416434495391887" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SaltoNPC" sid="601166979111756">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="915820365391408" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="paradaNPC" sid="633246815853440">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="837795358587477" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
                     </animation>
                 </animation-folder>
             </object-type>

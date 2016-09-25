@@ -885,7 +885,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TX_Cuerda" uid="206">
+                <instance type="cuerda" uid="206">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -911,7 +911,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TX_Cuerda" uid="207">
+                <instance type="cuerda" uid="207">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

@@ -1970,7 +1970,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TX_Cuerda" uid="676">
+                <instance type="cuerda" uid="676">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1996,7 +1996,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TX_Cuerda" uid="675">
+                <instance type="cuerda" uid="675">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2237,7 +2237,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TX_Cuerda" uid="624">
+                <instance type="cuerda" uid="624">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2892,7 +2892,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TX_Cuerda" uid="670">
+                <instance type="cuerda" uid="670">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
