@@ -167,189 +167,189 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="314485989434545" title="Nivel 05 - Hermanos Carrera">
+        <event-group description="" sid="668166792926754" title="Nivel 05 - Hermanos Carreras">
             <sub-events>
-                <event-block sid="142476724099119">
+                <event-block sid="580555768964407">
                     <conditions>
-                        <condition id="4" name="On finished" sid="337632348095390" type="reja">
+                        <condition id="4" name="On finished" sid="314185169594989" type="reja">
                             <param id="0" name="Animation">&quot;open&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="204239414691781" type="player">
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="441902775867577" type="player">
                             <param id="0" name="State">0</param>
                         </action>
-                        <action id="-16" name="Wait" sid="505678900206643" type="System">
+                        <action id="-16" name="Wait" sid="356914175479377" type="System">
                             <param id="0" name="Seconds">1</param>
                         </action>
-                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="615805493951688" type="JuanJoseCarrera">
+                        <action behavior="ScrollTo" id="1" name="Set enabled" sid="948958203382129" type="JuanJoseCarrera">
                             <param id="0" name="State">1</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="472882509259083" type="JoseMiguelCarrera">
+                        <action id="-13" name="Set boolean" sid="543534484500229" type="JoseMiguelCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="809593089796036" type="JuanJoseCarrera">
+                        <action id="-13" name="Set boolean" sid="794235435422812" type="JuanJoseCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="877206981275506" type="LuisCarrera">
+                        <action id="-13" name="Set boolean" sid="132945470091929" type="LuisCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="357766311101257">
+                <event-block sid="249608817379706">
                     <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="198945808734263" type="JoseMiguelCarrera">
+                        <condition id="-8" name="Is boolean instance variable set" sid="926784814589263" type="JoseMiguelCarrera">
                             <param id="0" name="Instance variable">mover</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="605822031209739" type="JoseMiguelCarrera">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="623078262647427" type="JoseMiguelCarrera">
                             <param id="0" name="Control">1</param>
                         </action>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="245118314800833" type="JuanJoseCarrera">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="589508206957764" type="JuanJoseCarrera">
                             <param id="0" name="Control">1</param>
                         </action>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="737074564325125" type="LuisCarrera">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="959814514842068" type="LuisCarrera">
                             <param id="0" name="Control">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="251911548360388">
+                <event-block sid="918587292259514">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="955464171489257" type="JoseMiguelCarrera">
+                        <condition id="0" name="On collision with another object" sid="957059741159024" type="JoseMiguelCarrera">
                             <param id="0" name="Object">SaltoNPC</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="597440635729970" type="JoseMiguelCarrera">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="367335788302772" type="JoseMiguelCarrera">
                             <param id="0" name="Control">2</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="513063697763985">
+                <event-block sid="352265276721114">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="292789141490378" type="JuanJoseCarrera">
+                        <condition id="0" name="On collision with another object" sid="359638038505630" type="JuanJoseCarrera">
                             <param id="0" name="Object">SaltoNPC</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="242813931374764" type="JuanJoseCarrera">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="298324503246019" type="JuanJoseCarrera">
                             <param id="0" name="Control">2</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="136385980481846">
+                <event-block sid="387142546100354">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="726553001367422" type="LuisCarrera">
+                        <condition id="0" name="On collision with another object" sid="533465223107628" type="LuisCarrera">
                             <param id="0" name="Object">SaltoNPC</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="953941816944773" type="LuisCarrera">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="811447272948790" type="LuisCarrera">
                             <param id="0" name="Control">2</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="507447755669134">
+                <event-block any="1" sid="621228142770827">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="461767286073139" type="JoseMiguelCarrera">
+                        <condition id="0" name="On collision with another object" sid="812585754901607" type="JoseMiguelCarrera">
                             <param id="0" name="Object">enemigo01</param>
                         </condition>
-                        <condition id="0" name="On collision with another object" sid="619705315352981" type="JuanJoseCarrera">
+                        <condition id="0" name="On collision with another object" sid="879805850404721" type="JuanJoseCarrera">
                             <param id="0" name="Object">enemigo01</param>
                         </condition>
-                        <condition id="0" name="On collision with another object" sid="697951033231139" type="LuisCarrera">
+                        <condition id="0" name="On collision with another object" sid="347805609939690" type="LuisCarrera">
                             <param id="0" name="Object">enemigo01</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-13" name="Set boolean" sid="407709959584110" type="JoseMiguelCarrera">
+                        <action id="-13" name="Set boolean" sid="719485964359958" type="JoseMiguelCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="788819608183971" type="JuanJoseCarrera">
+                        <action id="-13" name="Set boolean" sid="895132724310096" type="JuanJoseCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="964925639135997" type="LuisCarrera">
+                        <action id="-13" name="Set boolean" sid="402405705295657" type="LuisCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="4" name="Set animation" sid="857645608750450" type="JoseMiguelCarrera">
+                        <action id="4" name="Set animation" sid="850155271672935" type="JoseMiguelCarrera">
                             <param id="0" name="Animation">&quot;muerte&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="467702832268161" type="JuanJoseCarrera">
+                        <action id="4" name="Set animation" sid="812591508813013" type="JuanJoseCarrera">
                             <param id="0" name="Animation">&quot;muerte&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="627190954267710" type="LuisCarrera">
+                        <action id="4" name="Set animation" sid="766065132111499" type="LuisCarrera">
                             <param id="0" name="Animation">&quot;muerte&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="360898768545094">
+                <event-block sid="496854421153657">
                     <conditions>
-                        <condition id="4" name="On finished" sid="141772127568775" type="JoseMiguelCarrera">
+                        <condition id="4" name="On finished" sid="635947733672132" type="JoseMiguelCarrera">
                             <param id="0" name="Animation">&quot;muerte&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-26" name="Restart layout" sid="420250553357425" type="System" />
+                        <action id="-26" name="Restart layout" sid="816936361491696" type="System" />
                     </actions>
                 </event-block>
-                <event-block sid="577986677839717">
+                <event-block sid="874620493169972">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="472144019601894" type="LuisCarrera">
+                        <condition id="0" name="On collision with another object" sid="519205883855430" type="LuisCarrera">
                             <param id="0" name="Object">paradaNPC</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-13" name="Set boolean" sid="383878829726626" type="JoseMiguelCarrera">
+                        <action id="-13" name="Set boolean" sid="298666057465825" type="JoseMiguelCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="359369616718777" type="JuanJoseCarrera">
+                        <action id="-13" name="Set boolean" sid="790086502711042" type="JuanJoseCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="686786327313487" type="LuisCarrera">
+                        <action id="-13" name="Set boolean" sid="871689877046653" type="LuisCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="929346080483481" type="System">
+                        <action id="-9" name="Set value" sid="570148496226066" type="System">
                             <param id="0" name="Variable">nivelTerminado</param>
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="781767139251419">
+                <event-block any="1" sid="255039347924534">
                     <conditions>
-                        <condition id="-4" name="Is outside layout" sid="845432083102215" type="JoseMiguelCarrera" />
-                        <condition id="-4" name="Is outside layout" sid="167901088076134" type="JuanJoseCarrera" />
-                        <condition id="-4" name="Is outside layout" sid="137320615880228" type="LuisCarrera" />
+                        <condition id="-4" name="Is outside layout" sid="437597489866084" type="JoseMiguelCarrera" />
+                        <condition id="-4" name="Is outside layout" sid="273764447505753" type="JuanJoseCarrera" />
+                        <condition id="-4" name="Is outside layout" sid="204893073279154" type="LuisCarrera" />
                     </conditions>
                     <actions>
-                        <action id="-13" name="Set boolean" sid="230891303534090" type="JoseMiguelCarrera">
+                        <action id="-13" name="Set boolean" sid="604217073943202" type="JoseMiguelCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="564276294758026" type="JuanJoseCarrera">
+                        <action id="-13" name="Set boolean" sid="626008972632477" type="JuanJoseCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="766480800964574" type="LuisCarrera">
+                        <action id="-13" name="Set boolean" sid="212583787148432" type="LuisCarrera">
                             <param id="0" name="Instance variable">mover</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-16" name="Wait" sid="156259296456536" type="System">
+                        <action id="-16" name="Wait" sid="267620875019667" type="System">
                             <param id="0" name="Seconds">2</param>
                         </action>
-                        <action id="-26" name="Restart layout" sid="721866566804538" type="System" />
+                        <action id="-26" name="Restart layout" sid="149156341704173" type="System" />
                     </actions>
                 </event-block>
             </sub-events>
