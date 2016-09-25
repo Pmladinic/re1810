@@ -737,21 +737,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="OBJ_Tabla" sid="120408142434830">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="237023623829047" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0.01" original-source="C:\Users\Pedro\Desktop\asdasdasd.png">
-                            <collision-poly>
-                                <point x="1" y="0" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                                <point x="0" y="0" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
             <object-type name="JoseMiguelCarrera" sid="160290266262052">
                 <plugin id="Sprite" />
                 <animation-folder>
@@ -1411,6 +1396,29 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9806004447637498" speed="5">
                         <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="tabla" sid="120408142434830">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Physics" sid="315095353299250">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                    <behavior-type name="Solid" sid="278849572815403">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="237023623829047" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.01" original-source="C:\Users\Pedro\Desktop\asdasdasd.png">
+                            <collision-poly>
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>

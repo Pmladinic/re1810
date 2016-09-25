@@ -5,5 +5,48 @@
     <events>
         <include>ObjetosGlobales</include>
         <include>Player</include>
+        <event-group description="" sid="707167450483245" title="Palanca Activable - Mundo 01 - Nivel 05">
+            <sub-events>
+                <event-block sid="253716303598763">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="382522440779920" type="Keyboard">
+                            <param id="0" name="Key">88 (X)</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="368246376663715" type="palancaActivable">
+                            <param id="0" name="Object">player</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="317030894961618" type="palancaActivable">
+                            <param id="0" name="Instance variable">activada</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="303298086185713">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="485615316251089" type="palancaActivable">
+                                    <param id="0" name="Unique ID">304</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="430851952791791" type="tabla">
+                                    <param id="0" name="Unique ID">295</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="575014730377313" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;activada&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="128236547526195" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action behavior="Physics" id="21" name="Set immovable" sid="489180325837407" type="tabla">
+                                    <param id="0" name="Setting">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
