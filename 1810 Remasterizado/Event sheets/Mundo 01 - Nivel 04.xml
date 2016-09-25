@@ -44,7 +44,95 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="986989028210072">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="781783806648255" type="palancaActivable">
+                                    <param id="0" name="Unique ID">269</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="603280016224012" type="plataformaVertical">
+                                    <param id="0" name="Unique ID">219</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="686575766195966" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;activada&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="160449525683974" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="148641097824101" type="plataformaVertical">
+                                    <param id="0" name="Instance variable">activa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="166076763876310" title="Edificio">
+            <sub-events>
+                <event-block sid="231521947173264">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="649960985159836" type="player">
+                            <param id="0" name="Object">colSolidos</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="295596536933259" type="colSolidos">
+                            <param id="0" name="Unique ID">277</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="556046817090025" type="TX_Edificio">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="443987409411182">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="563460730563477" type="player">
+                            <param id="0" name="Object">colSolidos</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="714773977609360" type="colSolidos">
+                            <param id="0" name="Unique ID">272</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="398521469149907" type="TX_Edificio">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="503941354472285">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="408833877402278" type="player">
+                            <param id="0" name="Object">colSolidos</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="565746174966313" type="colSolidos">
+                            <param id="0" name="Unique ID">271</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="680544004471939" type="TX_Edificio">
+                            <param id="0" name="Opacity">30</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="356556772590592">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="262847293738102" type="player">
+                            <param id="0" name="Object">colSolidos</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="636536084241602" type="colSolidos">
+                            <param id="0" name="Unique ID">213</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="380578784526921" type="TX_Edificio">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>

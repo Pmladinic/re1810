@@ -57,7 +57,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-0.043055534</x>
+                        <x>0</x>
                         <y>0</y>
                         <z>0</z>
                         <width>1696</width>
@@ -266,53 +266,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1536</x>
+                        <x>1568</x>
                         <y>160</y>
                         <z>0</z>
                         <width>32</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="colSolidos" uid="267">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1216</x>
-                        <y>96</y>
-                        <z>0</z>
-                        <width>64</width>
                         <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -399,49 +356,6 @@
                         <y>256</y>
                         <z>0</z>
                         <width>197</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="colSolidos" uid="276">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1184</x>
-                        <y>96</y>
-                        <z>0</z>
-                        <width>96</width>
                         <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -610,7 +524,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1440</x>
+                        <x>1472</x>
                         <y>160</y>
                         <z>0</z>
                         <width>64</width>
@@ -680,7 +594,7 @@
                         </behavior-instance>
                         <behavior-instance type="Physics">
                             <properties>
-                                <immovable>No</immovable>
+                                <immovable>Yes</immovable>
                                 <collision-mask>Use collision polygon</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
@@ -696,11 +610,98 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1568</x>
+                        <x>1600</x>
                         <y>160</y>
                         <z>0</z>
-                        <width>32</width>
+                        <width>64</width>
                         <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="limiteInferior" uid="978">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1344</x>
+                        <y>384</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="limiteSuperior" uid="979">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1344</x>
+                        <y>192</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="colSolidos" uid="982">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1472</x>
+                        <y>192</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -752,11 +753,11 @@
                         <opacity>1</opacity>
                     </world>
                     <tilemap-data>
-                        <width>88</width>
-                        <height>20</height>
+                        <width>53</width>
+                        <height>15</height>
                         <max-width>88</max-width>
                         <max-height>20</max-height>
-                        <data>-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,112,196,231,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,56,84,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,57,86,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,84,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,85,-1,-1,57,84,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,85,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,85,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,86,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,86,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,114,198,233,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,226,254,229,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,224,252,40,62,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,225,253,129,129,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,226,254,41,69,229,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,68,68,68,68,68,68,68,68,68,227,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,1073741886,68,68,68,68,68,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,-1,-1,-1,-1,-1</data>
+                        <data>-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,112,196,231,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,56,84,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,57,86,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,308,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,310,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,308,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,309,-1,-1,-1,281,309,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,281,310,-1,-1,-1,281,310,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,169,84,98,98,98,231,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,85,99,99,99,233,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,85,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,197,-1,-1,57,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,169,197,-1,-1,1,85,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,169,198,-1,-1,2,86,-1,-1,116,197,232,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,114,198,233,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,226,254,229,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,224,252,40,62,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,225,253,129,129,228,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,226,254,41,69,229,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,68,68,68,68,68,68,68,68,68,227,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,228,-1,-1,-1,225,253,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,1073741886,68,68,68,68,68,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,-1,-1,-1,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,-1,-1,-1,-1,-1</data>
                     </tilemap-data>
                 </instance>
             </instances>
@@ -796,6 +797,157 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="enemigo01" uid="981">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <moverDerecha>false</moverDerecha>
+                        <estaVivo>true</estaVivo>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Fade">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>0</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>0</fade-out-time>
+                                <destroy>After fade out</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1056</x>
+                        <y>64</y>
+                        <z>0</z>
+                        <width>46</width>
+                        <height>55</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5090909</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="enemigo01" uid="980">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <moverDerecha>false</moverDerecha>
+                        <estaVivo>true</estaVivo>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Platform">
+                            <properties>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
+                                <jump-strength>650</jump-strength>
+                                <gravity>1500</gravity>
+                                <max-fall-speed>1000</max-fall-speed>
+                                <double-jump>Disabled</double-jump>
+                                <jump-sustain>0</jump-sustain>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Fade">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>0</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>0</fade-out-time>
+                                <destroy>After fade out</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>800</x>
+                        <y>64</y>
+                        <z>0</z>
+                        <width>46</width>
+                        <height>55</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5090909</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="NPC_Figueroa" uid="221">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1215</x>
+                        <y>26</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0.015625</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Escalera" uid="956">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Jumpthru">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>768</x>
+                        <y>96</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>160</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="enemigo01" uid="218">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -835,8 +987,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1120</x>
-                        <y>224</y>
+                        <x>1165</x>
+                        <y>225</y>
                         <z>0</z>
                         <width>46</width>
                         <height>55</height>
@@ -886,8 +1038,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>864</x>
-                        <y>224</y>
+                        <x>845</x>
+                        <y>225</y>
                         <z>0</z>
                         <width>46</width>
                         <height>55</height>
@@ -908,8 +1060,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1000</x>
-                        <y>241</y>
+                        <x>993</x>
+                        <y>243</y>
                         <z>0</z>
                         <width>640</width>
                         <height>352</height>
@@ -981,7 +1133,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1344</x>
-                        <y>384</y>
+                        <y>352</y>
                         <z>0</z>
                         <width>64</width>
                         <height>32</height>
@@ -1796,7 +1948,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1408</x>
+                        <x>1440</x>
                         <y>128</y>
                         <z>0</z>
                         <width>32</width>
@@ -1847,7 +1999,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1504</x>
+                        <x>1536</x>
                         <y>128</y>
                         <z>0</z>
                         <width>46</width>
@@ -1967,7 +2119,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1440</x>
+                        <x>1472</x>
                         <y>128</y>
                         <z>0</z>
                         <width>32</width>
@@ -1989,7 +2141,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1024</x>
+                        <x>1280</x>
                         <y>224</y>
                         <z>0</z>
                         <width>32</width>
@@ -2011,7 +2163,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1280</x>
+                        <x>1024</x>
                         <y>224</y>
                         <z>0</z>
                         <width>32</width>
@@ -2033,7 +2185,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>928</x>
+                        <x>704</x>
                         <y>224</y>
                         <z>0</z>
                         <width>32</width>
@@ -2055,7 +2207,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>704</x>
+                        <x>928</x>
                         <y>224</y>
                         <z>0</z>
                         <width>32</width>
@@ -2063,28 +2215,6 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="NPC_Figueroa" uid="221">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1215</x>
-                        <y>12</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.015625</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2277,7 +2407,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1504</x>
+                        <x>1536</x>
                         <y>160</y>
                         <z>0</z>
                         <width>32</width>
@@ -2316,26 +2446,43 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Escalera" uid="956">
+                <instance type="limiteIzquierdo" uid="267">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Jumpthru">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>768</x>
-                        <y>96</y>
+                        <x>704</x>
+                        <y>64</y>
                         <z>0</z>
                         <width>32</width>
-                        <height>160</height>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="limiteDerecho" uid="276">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1120</x>
+                        <y>64</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -2412,7 +2559,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>64</x>
+                        <x>1088</x>
                         <y>384</y>
                         <z>0</z>
                         <width>36</width>
