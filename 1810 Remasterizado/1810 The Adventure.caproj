@@ -870,6 +870,30 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="EnemyShooter" sid="361789485847375">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579457213626190" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.015625" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="NPC_EnemyVigia" sid="974538114448641">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760345190473138" speed="5">
+                        <frame duration="1" hotspotX="-0.03125" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BossRafaelMaroto" sid="968664764443120">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385875104492971" speed="5">
+                        <frame duration="1" hotspotX="-0.015625" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Objetos Globales">
             <object-type name="Escalera" sid="176369045358701">
@@ -1538,6 +1562,8 @@
         <layout>Mundo 02 - Nivel 02 (Destierro de patriotas chilenos 7,8,9 OCT 1814).xml</layout>
         <layout>Mundo 02 - Nivel 03 (Llegada manuel rodriguez 3 ENERO 1816).xml</layout>
         <layout>Mundo 02 - Nivel 04 (Santiago-Llegada manuel rodriguez 3 ENERO 1816).xml</layout>
+        <layout>Mundo 02 - Nivel 05 (Informacion Falsa en Chacabuco 10 febrero 1817).xml</layout>
+        <layout>Mundo 02 - Nivel 06 (Batalla de Chacabuco 12 febrero 1817).xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Globales">
@@ -1557,6 +1583,8 @@
         <event-sheet>Mundo 02 - Nivel 02.xml</event-sheet>
         <event-sheet>Mundo 02 - Nivel 03.xml</event-sheet>
         <event-sheet>Mundo 02 - Nivel 04.xml</event-sheet>
+        <event-sheet>Mundo 02 - Nivel 05.xml</event-sheet>
+        <event-sheet>Mundo 02 - Nivel 06.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="4" />
