@@ -124,6 +124,12 @@
                         <condition id="-4" name="Trigger once while true" sid="631840765152059" type="System" />
                     </conditions>
                     <actions>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="325660278190619" type="player">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action behavior="Platform" id="8" name="Set vector X" sid="485059260995279" type="player">
+                            <param id="0" name="Vector X">0</param>
+                        </action>
                         <action id="-12" name="Set group active" sid="115510814802252" type="System">
                             <param id="0" name="Group name">&quot;Animaciones Player&quot;</param>
                             <param id="1" name="State">0</param>
