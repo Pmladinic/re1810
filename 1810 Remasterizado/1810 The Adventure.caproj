@@ -1546,6 +1546,46 @@
         <object-type name="descripcionNivel" sid="3300207423104104">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite" sid="738769245508429">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="919319617781271" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Default\000.png">
+                        <collision-poly>
+                            <point x="0.4375" y="0.4375" />
+                            <point x="0.5" y="0.46875" />
+                            <point x="0.53125" y="0.46875" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Default\001.png">
+                        <collision-poly>
+                            <point x="0.53125" y="0.53125" />
+                            <point x="0.5" y="0.53125" />
+                            <point x="0.4375" y="0.5625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Default\002.png">
+                        <collision-poly>
+                            <point x="0.40625" y="0.40625" />
+                            <point x="0.5" y="0.46875" />
+                            <point x="0.53125" y="0.46875" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1564,6 +1604,8 @@
         <layout>Mundo 02 - Nivel 04 (Santiago-Llegada manuel rodriguez 3 ENERO 1816).xml</layout>
         <layout>Mundo 02 - Nivel 05 (Informacion Falsa en Chacabuco 10 febrero 1817).xml</layout>
         <layout>Mundo 02 - Nivel 06 (Batalla de Chacabuco 12 febrero 1817).xml</layout>
+        <layout>Mundo 03 - Nivel 01 (Rescate a Patriotas Isla Juan Fernandez).xml</layout>
+        <layout>Mundo 03 - Nivel 02 (Batalla cancha Rayada 18 Marzo 1818).xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Globales">
@@ -1585,6 +1627,8 @@
         <event-sheet>Mundo 02 - Nivel 04.xml</event-sheet>
         <event-sheet>Mundo 02 - Nivel 05.xml</event-sheet>
         <event-sheet>Mundo 02 - Nivel 06.xml</event-sheet>
+        <event-sheet>Mundo 03 - Nivel 01.xml</event-sheet>
+        <event-sheet>Mundo 03 - Nivel 02.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="4" />
