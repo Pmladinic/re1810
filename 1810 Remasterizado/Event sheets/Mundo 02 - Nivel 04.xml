@@ -2,5 +2,8 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Mundo 02 - Nivel 04</name>
-    <events />
+    <events>
+        <include>ObjetosGlobales</include>
+        <include>Player</include>
+    </events>
 </c2eventsheet>

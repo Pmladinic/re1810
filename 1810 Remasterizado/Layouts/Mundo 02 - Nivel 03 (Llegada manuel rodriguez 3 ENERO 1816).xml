@@ -332,7 +332,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>448</x>
+                        <x>384</x>
                         <y>256</y>
                         <z>0</z>
                         <width>32</width>
@@ -1376,7 +1376,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2880</x>
+                        <x>2912</x>
                         <y>288</y>
                         <z>0</z>
                         <width>64</width>
@@ -1398,8 +1398,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2880</x>
-                        <y>64</y>
+                        <x>2912</x>
+                        <y>96</y>
                         <z>0</z>
                         <width>64</width>
                         <height>32</height>
@@ -2481,49 +2481,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tabla" uid="801">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1311.99987793</x>
-                        <y>416</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>128</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.01</hotspotY>
-                        <angle>2.972725868</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Escalera" uid="810">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -2676,7 +2633,7 @@
                         </behavior-instance>
                         <behavior-instance type="Jumpthru">
                             <properties>
-                                <initial-state>Disabled</initial-state>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2684,7 +2641,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1792</x>
-                        <y>352</y>
+                        <y>384</y>
                         <z>0</z>
                         <width>64</width>
                         <height>32</height>
@@ -2981,7 +2938,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>2272</x>
-                        <y>256</y>
+                        <y>128</y>
                         <z>0</z>
                         <width>64</width>
                         <height>32</height>
@@ -3100,7 +3057,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <activa>false</activa>
+                        <activa>true</activa>
                         <arriba>false</arriba>
                     </instance-variables>
                     <behavior-instances>
@@ -3126,8 +3083,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2880</x>
-                        <y>192</y>
+                        <x>2912</x>
+                        <y>128</y>
                         <z>0</z>
                         <width>64</width>
                         <height>32</height>
@@ -3361,8 +3318,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>32</x>
-                        <y>384</y>
+                        <x>3424</x>
+                        <y>96</y>
                         <z>0</z>
                         <width>36</width>
                         <height>48</height>
