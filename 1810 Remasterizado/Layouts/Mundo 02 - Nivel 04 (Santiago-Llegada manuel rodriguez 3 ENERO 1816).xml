@@ -2490,7 +2490,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>2240</x>
-                        <y>256</y>
+                        <y>320</y>
                         <z>0</z>
                         <width>64</width>
                         <height>32</height>
@@ -2746,8 +2746,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2080</x>
-                        <y>416</y>
+                        <x>1920</x>
+                        <y>224</y>
                         <z>0</z>
                         <width>32</width>
                         <height>32</height>
@@ -3118,7 +3118,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3968</x>
-                        <y>324</y>
+                        <y>320</y>
                         <z>0</z>
                         <width>32</width>
                         <height>128</height>
@@ -3238,40 +3238,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3936</x>
-                        <y>416</y>
+                        <x>3904</x>
+                        <y>224</y>
                         <z>0</z>
                         <width>32</width>
                         <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="reja" uid="940">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3872</x>
-                        <y>320</y>
-                        <z>0</z>
-                        <width>32</width>
-                        <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
