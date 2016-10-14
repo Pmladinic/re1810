@@ -440,7 +440,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>480</x>
-                        <y>160</y>
+                        <y>96</y>
                         <z>0</z>
                         <width>64</width>
                         <height>32</height>
@@ -1768,7 +1768,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3456</x>
-                        <y>128</y>
+                        <y>96</y>
                         <z>0</z>
                         <width>64</width>
                         <height>32</height>
@@ -3708,7 +3708,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3616</x>
-                        <y>160</y>
+                        <y>192</y>
                         <z>0</z>
                         <width>64</width>
                         <height>64</height>
