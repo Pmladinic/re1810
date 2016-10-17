@@ -1594,6 +1594,14 @@
         <object-type name="descripcionNivel" sid="3300207423104104">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite" sid="510643518676986">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154241434300354" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\juan fernandez.PNG" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
