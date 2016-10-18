@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Mundo 02 - Nivel 04</name>
     <events>
+        <include>dialogos</include>
         <include>ObjetosGlobales</include>
         <include>Player</include>
         <event-group description="" sid="833105003764105" title="Palanca Activable - Mundo 02 - Nivel 4">
@@ -234,7 +235,7 @@
                                     <param id="1" name="State">1</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="316667420256165" type="System">
-                                    <param id="0" name="Layout">Mundo 02 - Nivel 02 (Destierro de patriotas chilenos 7,8,9 OCT 1814)</param>
+                                    <param id="0" name="Layout">Mundo 02 - Nivel 05 (Informacion Falsa en Chacabuco 10 febrero 1817)</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="227761628691960" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>
@@ -243,6 +244,76 @@
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="347804278189392" title="Mundo 2 - Nivel 04 - Dialogos">
+            <sub-events>
+                <event-block sid="571996011685447">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="536222336321601" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="963651957024553" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="405634397837741" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="732450295567996" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="666758841235829" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Necesito tu ayuda para llegar a Santiago lo antes posible.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="694589295597845" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="326408921808154" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Despeja el camino de soldados para poder ir en ayuda del pueblo chileno.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="414857421851977" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="544091484401649" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="556637771630970" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="411785590385175">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="685256503610966" type="player">
+                            <param id="0" name="Object">puntoDialogoNPC</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="822263694042284" type="puntoDialogoNPC">
+                            <param id="0" name="Unique ID">1547</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="833019605706186" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="702858247532773" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Gracias por ayudarme! ¡Lo hemos logrado!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="977753828470254" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="657501622740062" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="837799547366926" type="System">
+                            <param id="0" name="Variable">nivelTerminado</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>

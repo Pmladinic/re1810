@@ -1951,6 +1951,31 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="puntoDialogoNPC" uid="1547">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <activo>false</activo>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>4000</x>
+                        <y>320</y>
+                        <z>0</z>
+                        <width>32</width>
+                        <height>128</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -2081,7 +2106,7 @@
                     <behavior-instances>
                         <behavior-instance type="Physics">
                             <properties>
-                                <immovable>No</immovable>
+                                <immovable>Yes</immovable>
                                 <collision-mask>Use collision polygon</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
@@ -2826,7 +2851,7 @@
                     <behavior-instances>
                         <behavior-instance type="Physics">
                             <properties>
-                                <immovable>No</immovable>
+                                <immovable>Yes</immovable>
                                 <collision-mask>Use collision polygon</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
@@ -2875,7 +2900,7 @@
                     <behavior-instances>
                         <behavior-instance type="Physics">
                             <properties>
-                                <immovable>No</immovable>
+                                <immovable>Yes</immovable>
                                 <collision-mask>Use collision polygon</collision-mask>
                                 <prevent-rotation>No</prevent-rotation>
                                 <density>1</density>
@@ -3339,8 +3364,8 @@
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
-                <x>1</x>
-                <y>1</y>
+                <x>0</x>
+                <y>0</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
@@ -3349,7 +3374,40 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="dialogosNPC" uid="1578">
+                    <properties>
+                        <character-width>18</character-width>
+                        <character-height>26</character-height>
+                        <character-set>ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789.,;:?!¡-_~#&quot;&apos;&amp;()[]|`\/@°+=*$£€&lt;&gt;%</character-set>
+                        <text>Text</text>
+                        <scale>1</scale>
+                        <initial-visibility>Visible</initial-visibility>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Center</hotspot>
+                        <wrapping>Word</wrapping>
+                        <character-spacing>0</character-spacing>
+                        <line-height>0</line-height>
+                        <char-width-json>{&quot;&quot;c2array&quot;&quot;:true,&quot;&quot;size&quot;&quot;:[2,10,1],&quot;&quot;data&quot;&quot;:[[[4],[5],[6],[7],[8],[9],[11],[12],[14],[16]],[[&quot;&quot;¡&quot;&quot;],[&quot;&quot;i!|&quot;&quot;],[&quot;&quot;l.,;:&apos;()&quot;&quot;],[&quot;&quot;\&quot;&quot;[]`&quot;&quot;],[&quot;&quot;1&quot;&quot;],[&quot;&quot;fjknrst\\°&quot;&quot;],[&quot;&quot;ABCDEFGHIJKLMNOPRSTUVWXYZabcdeghmopquvwxyz023456789?-_&amp;/+=*$£€&lt;&gt;&quot;&quot;],[&quot;&quot;ÑQñ~&quot;&quot;],[&quot;&quot;@%&quot;&quot;],[&quot;&quot;#&quot;&quot;]]]}</char-width-json>
+                        <space-char-width>-1</space-char-width>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>360</x>
+                        <y>448</y>
+                        <z>0</z>
+                        <width>576</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="cartel" sid="875847416391544">
@@ -3367,7 +3425,34 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="CartelVictoria" uid="1579">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <escala>1</escala>
+                        <activado>false</activado>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>360</x>
+                        <y>220</y>
+                        <z>0</z>
+                        <width>300</width>
+                        <height>150</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
     </layers>
