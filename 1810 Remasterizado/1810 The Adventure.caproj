@@ -828,6 +828,9 @@
             </object-type>
             <object-type name="NPC_EnemyVigia" sid="974538114448641">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="misionLista" sid="531944179720035" type="boolean" />
+                </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760345190473138" speed="5">
                         <frame duration="1" hotspotX="-0.03125" hotspotY="0" />
