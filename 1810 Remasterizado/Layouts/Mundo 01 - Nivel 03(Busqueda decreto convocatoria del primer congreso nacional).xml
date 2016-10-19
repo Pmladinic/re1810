@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Mundo 01 - Nivel 03</name>
+    <name>Mundo 01 - Nivel 03(Busqueda decreto convocatoria del primer congreso nacional)</name>
     <sid>914520908659669</sid>
     <event-sheet>Mundo 01 - Nivel 03</event-sheet>
     <size>
@@ -724,6 +724,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="backgroundCordilleraVerano" uid="1736">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3.82220459</x>
+                        <y>4.199999809</y>
+                        <z>0</z>
+                        <width>1312</width>
+                        <height>576</height>
+                        <depth>0</depth>
+                        <hotspotX>0.001388889</hotspotX>
+                        <hotspotY>0.002083333</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

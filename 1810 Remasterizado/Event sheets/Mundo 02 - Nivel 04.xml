@@ -156,7 +156,7 @@
                     </conditions>
                     <actions>
                         <action disabled="1" id="-2" name="Go to layout" sid="565187956536201" type="System">
-                            <param id="0" name="Layout">Mundo 01 - Nivel 03</param>
+                            <param id="0" name="Layout">Mundo 01 - Nivel 03(Busqueda decreto convocatoria del primer congreso nacional)</param>
                         </action>
                         <action id="-15" name="Set visible" sid="944224322886056" type="CartelVictoria">
                             <param id="0" name="Visibility">1</param>

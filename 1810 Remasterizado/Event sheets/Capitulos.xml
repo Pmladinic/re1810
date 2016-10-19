@@ -333,7 +333,7 @@
                                     <param id="0" name="Tag">&quot;finCapitulo&quot;</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="7703863412721749" type="System">
-                                    <param id="0" name="Layout">Mundo 01 - Nivel 01</param>
+                                    <param id="0" name="Layout">Mundo 01 - Nivel 01 (Busqueda decreto libertad de comercio)</param>
                                 </action>
                             </actions>
                         </event-block>

@@ -110,7 +110,7 @@
                     </conditions>
                     <actions>
                         <action disabled="1" id="-2" name="Go to layout" sid="604076675173056" type="System">
-                            <param id="0" name="Layout">Mundo 01 - Nivel 03</param>
+                            <param id="0" name="Layout">Mundo 01 - Nivel 03(Busqueda decreto convocatoria del primer congreso nacional)</param>
                         </action>
                         <action id="-15" name="Set visible" sid="798492347812962" type="CartelVictoria">
                             <param id="0" name="Visibility">1</param>
@@ -189,7 +189,7 @@
                                     <param id="1" name="State">1</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="235217342081141" type="System">
-                                    <param id="0" name="Layout">Mundo 01 - Nivel 03</param>
+                                    <param id="0" name="Layout">Mundo 01 - Nivel 03(Busqueda decreto convocatoria del primer congreso nacional)</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="615756409537271" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>

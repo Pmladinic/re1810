@@ -553,11 +553,11 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="background01" sid="1354823826626232">
+            <object-type name="backgroundCordilleraVerano" sid="1354823826626232">
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8616831833049038" speed="5">
-                        <frame duration="1" hotspotX="0.00138889" hotspotY="0.00208333" original-source="C:\Users\korN\Desktop\background0.png">
+                        <frame duration="1" hotspotX="0.00138889" hotspotY="0.00208333" original-source="C:\Users\Pedro\Desktop\Backgrounds\Cordillera verano.png">
                             <collision-poly>
                                 <point x="0" y="0" />
                                 <point x="0.25" y="0" />
@@ -852,6 +852,14 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385875104492971" speed="5">
                         <frame duration="1" hotspotX="-0.015625" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BackgroundJuanFernandez" sid="510643518676986">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154241434300354" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\juan fernandez.PNG" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1623,22 +1631,14 @@
         <object-type name="descripcionNivel" sid="3300207423104104">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Sprite" sid="510643518676986">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154241434300354" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\juan fernandez.PNG" />
-                </animation>
-            </animation-folder>
-        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Menu.xml</layout>
         <layout>Capitulos.xml</layout>
-        <layout>Mundo 01 - Nivel 01.xml</layout>
-        <layout>Mundo 01 - Nivel 02.xml</layout>
-        <layout>Mundo 01 - Nivel 03.xml</layout>
+        <layout>Mundo 01 - Nivel 01 (Busqueda decreto libertad de comercio).xml</layout>
+        <layout>Mundo 01 - Nivel 02 (Busqueda Decreto formacion de cuerpos armados).xml</layout>
+        <layout>Mundo 01 - Nivel 03(Busqueda decreto convocatoria del primer congreso nacional).xml</layout>
         <layout>Mundo 01 - Nivel 04 (Motin de Figueroa 1 abril 1811).xml</layout>
         <layout>Mundo 01 - Nivel 05 (Golpe de estado Carrera 4 sep 1811).xml</layout>
         <layout>Mundo 01 - Nivel 06 ( 2 Golpe de estado Carrera 15 nov 1811).xml</layout>
@@ -1651,7 +1651,7 @@
         <layout>Mundo 02 - Nivel 06 (Batalla de Chacabuco 12 febrero 1817).xml</layout>
         <layout>Mundo 03 - Nivel 01 (Rescate a Patriotas Isla Juan Fernandez).xml</layout>
         <layout>Mundo 03 - Nivel 02 (Batalla cancha Rayada 18 Marzo 1818).xml</layout>
-        <layout>Mundo 03 - Nivel 03 (Batalla de Rancagua 5 abril 1818).xml</layout>
+        <layout>Mundo 03 - Nivel 03 (Batalla de Maipu 5 abril 1818).xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Globales">
