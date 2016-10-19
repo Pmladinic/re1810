@@ -22,6 +22,74 @@
                     </conditions>
                     <actions />
                     <sub-events>
+                        <event-group description="Palanca UID: 1237    |     Caja UID: 1233" sid="365443209038178" title="Caja 2">
+                            <sub-events>
+                                <comment>Se activa la palanca uno (UID: 177) -&gt; Cae la caja</comment>
+                                <event-block sid="110475810017497">
+                                    <conditions>
+                                        <condition id="-14" name="Pick by unique ID" sid="895127375257882" type="palancaActivable">
+                                            <param id="0" name="Unique ID">1237</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="519966276439243" type="palancaActivable">
+                                            <param id="0" name="Animation">&quot;activada&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="623090055762904" type="palancaActivable">
+                                            <param id="0" name="Instance variable">activada</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="589670239653253" type="System">
+                                            <param id="0" name="Variable">caja</param>
+                                            <param id="1" name="Value">1233</param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="580115672175144" type="Function">
+                                            <param id="0" name="Name">&quot;soltarCaja&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="768592249678938" type="Function">
+                                            <param id="0" name="Name">&quot;revelarCajaOpuesta&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
+                        <event-group description="Palanca UID: 1238    |     Caja UID: 1234" sid="531859332926776" title="Caja 3">
+                            <sub-events>
+                                <comment>Se activa la palanca uno (UID: 177) -&gt; Cae la caja</comment>
+                                <event-block sid="781886573589367">
+                                    <conditions>
+                                        <condition id="-14" name="Pick by unique ID" sid="267243906542430" type="palancaActivable">
+                                            <param id="0" name="Unique ID">1238</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="163613448585748" type="palancaActivable">
+                                            <param id="0" name="Animation">&quot;activada&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="295410761295846" type="palancaActivable">
+                                            <param id="0" name="Instance variable">activada</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="149925261030463" type="System">
+                                            <param id="0" name="Variable">caja</param>
+                                            <param id="1" name="Value">1234</param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="812513115656539" type="Function">
+                                            <param id="0" name="Name">&quot;soltarCaja&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="170568761837338" type="Function">
+                                            <param id="0" name="Name">&quot;revelarCajaOpuesta&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-group>
                         <event-block sid="145588249364669">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="260817066690176" type="palancaActivable">
@@ -247,7 +315,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" disabled="1" sid="986480678916396" title="Mundo 2 - Nivel 06 - Dialogos">
+        <event-group description="" sid="986480678916396" title="Mundo 2 - Nivel 06 - Dialogos">
             <sub-events>
                 <event-block disabled="1" sid="488826921840750">
                     <conditions>
@@ -291,153 +359,13 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block disabled="1" sid="701796273048670">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="301798653622661" type="player">
-                            <param id="0" name="Object">NPC_EnemyVigia</param>
-                        </condition>
-                        <condition id="-14" name="Pick by unique ID" sid="950400623669926" type="NPC_EnemyVigia">
-                            <param id="0" name="Unique ID">1077</param>
-                        </condition>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="402788636038658" type="NPC_EnemyVigia">
-                            <param id="0" name="Instance variable">misionLista</param>
-                        </condition>
-                        <condition id="-14" name="Pick by unique ID" sid="324131589397674" type="reja">
-                            <param id="0" name="Unique ID">1062</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="779274566235171" type="System">
-                            <param id="0" name="Variable">mostrandoTexto</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="983923225316455" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Quien eres tu?!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="200585604920650" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="950196126956480" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¿Un informante?&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="736555362953195" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="770094079777146" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Entonces informame!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="983063494833650" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="580540582549382" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;...&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="779382626035310" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="818351253898452" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Es eso cierto?! ¡No puedo creer que vengan por otro lado!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="404042563896593" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="227278043898986" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Gracias por la informacion!&quot; &amp;newline&amp; &quot; ¡Ahora si venceremos a esos chilenitos!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="437479424700474" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="591579546466440" type="System">
-                            <param id="0" name="Variable">mostrandoTexto</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="797764385288601" type="NPC_EnemyVigia">
-                            <param id="0" name="Instance variable">misionLista</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="398104827220281" type="reja">
-                            <param id="0" name="Animation">&quot;open&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block disabled="1" sid="138260717006037">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="678643810646771" type="player">
-                            <param id="0" name="Object">NPC_EnemyVigia</param>
-                        </condition>
-                        <condition id="-14" name="Pick by unique ID" sid="744751368425033" type="NPC_EnemyVigia">
-                            <param id="0" name="Unique ID">1044</param>
-                        </condition>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="279784039502625" type="NPC_EnemyVigia">
-                            <param id="0" name="Instance variable">misionLista</param>
-                        </condition>
-                        <condition id="-14" name="Pick by unique ID" sid="631056377791373" type="reja">
-                            <param id="0" name="Unique ID">996</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="198390162909790" type="System">
-                            <param id="0" name="Variable">mostrandoTexto</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="777796637618414" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Hey tu! ¡Ya conozco tu secreto!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="799076510601214" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="820077474804464" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Eres nuestro informante, ¿cierto?!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="911923729821246" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="569771969556118" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Lo sabía! ¡Ahora dame las buenas nuevas!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="513311732416261" type="System">
-                            <param id="0" name="Seconds">4</param>
-                        </action>
-                        <action id="0" name="Set text" sid="713534917993767" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Oh! ¡¿Como es eso de que los chilenos vienen por otro camino?!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="779986445445061" type="System">
-                            <param id="0" name="Seconds">5</param>
-                        </action>
-                        <action id="0" name="Set text" sid="702542952852830" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡¿Y que hacemos nosotros aqui perdiendo el tiempo?!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="929246987514407" type="System">
-                            <param id="0" name="Seconds">4</param>
-                        </action>
-                        <action id="0" name="Set text" sid="718969177899901" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡A por ellos!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="654441381299658" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="239030128126105" type="System">
-                            <param id="0" name="Variable">mostrandoTexto</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="797624977421011" type="NPC_EnemyVigia">
-                            <param id="0" name="Instance variable">misionLista</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="700435299807253" type="reja">
-                            <param id="0" name="Animation">&quot;open&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block disabled="1" sid="368219084816968">
+                <event-block sid="368219084816968">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="243859100762023" type="player">
                             <param id="0" name="Object">puntoDialogoNPC</param>
                         </condition>
                         <condition id="-14" name="Pick by unique ID" sid="764996925348990" type="puntoDialogoNPC">
-                            <param id="0" name="Unique ID">1733</param>
+                            <param id="0" name="Unique ID">1242</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -446,33 +374,302 @@
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="0" name="Set text" sid="447576845400150" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Bien hecho!&quot;</param>
+                            <param id="0" name="Text">&quot;¡Chileno!&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="843028338856178" type="System">
                             <param id="0" name="Seconds">3</param>
                         </action>
                         <action id="0" name="Set text" sid="500020105808020" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Ahora si que tenemos via libre para seguir avanzando!&quot;</param>
+                            <param id="0" name="Text">&quot;¡Ahora sabras lo que te espera!&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="972512743819187" type="System">
-                            <param id="0" name="Seconds">5</param>
+                            <param id="0" name="Seconds">4</param>
                         </action>
                         <action id="0" name="Set text" sid="845803553715763" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Haz cumplido con tu deber con creces!&quot;</param>
+                            <param id="0" name="Text">&quot;¡Viva el rey de España!&quot; &amp; newline&amp; &quot;¡El virreinato nunca caerá!&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="500612207639409" type="System">
-                            <param id="0" name="Seconds">4</param>
+                            <param id="0" name="Seconds">5</param>
                         </action>
                         <action id="-9" name="Set value" sid="322628552582338" type="System">
                             <param id="0" name="Variable">mostrandoTexto</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="447178688940594" type="System">
-                            <param id="0" name="Variable">nivelTerminado</param>
-                            <param id="1" name="Value">1</param>
+                        <action id="-12" name="Set group active" sid="895932513975941" type="System">
+                            <param id="0" name="Group name">&quot;Rafael Maroto&quot;</param>
+                            <param id="1" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="863558571605006" title="Mundo 02 - Nivel 06 - Eventos Cajas ">
+            <sub-events>
+                <comment>Al colisionar con el suelo la caja se destruye</comment>
+                <event-block sid="997222506052223">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="615882172965511" type="cajaColgante">
+                            <param id="0" name="Object">colSolidos</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="729751683501328" type="cajaColgante">
+                            <param id="0" name="Unique ID">caja</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="796874306528702" type="cajaColgante">
+                            <param id="0" name="Animation">&quot;destroy&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="415671205731346" type="cajaColgante">
+                            <param id="0" name="Setting">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>FUNCION: Suelta la caja asociada a la palanca</comment>
+                <event-block sid="992984066403976">
+                    <conditions>
+                        <condition id="0" name="On function" sid="561800890306549" type="Function">
+                            <param id="0" name="Name">&quot;soltarCaja&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="571889236603657" type="cajaColgante">
+                            <param id="0" name="Unique ID">caja</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="665667078846791" type="cajaColgante">
+                            <param id="0" name="Setting">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Una vez que la animación de &quot;Destruir&quot; se termina, reposicionar la caja en su lugar original, pero esta vez &quot;invisible&quot; (se hará visible al activar la otra palanca)</comment>
+                <event-block sid="609988097473262">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="316679467999362" type="cajaColgante">
+                            <param id="0" name="Animation">&quot;destroy&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="811940989753010" type="cajaColgante">
+                            <param id="0" name="Unique ID">caja</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="199692069715197" type="cajaColgante">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="531892064866575" type="cajaColgante">
+                            <param id="0" name="X">cajaColgante.posX</param>
+                            <param id="1" name="Y">cajaColgante.posY</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="887152623689513" type="cajaColgante">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>FUNCION: Revelar la caja opuesta y dejar la palanca correspondiente desactivada para volver a reutilizarla</comment>
+                <event-block sid="459389382363088">
+                    <conditions>
+                        <condition id="0" name="On function" sid="961030002572623" type="Function">
+                            <param id="0" name="Name">&quot;revelarCajaOpuesta&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="648664660246362">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="811054287983729" type="System">
+                                    <param id="0" name="Variable">caja</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1233</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="551195572554524" type="cajaColgante">
+                                    <param id="0" name="Unique ID">1234</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="361388142463635" type="palancaActivable">
+                                    <param id="0" name="Unique ID">1238</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="276148058701933" type="cajaColgante">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="503229094030298" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="525551457893495" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="751894552700596">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="547046260442441" type="System" />
+                                <condition id="-14" name="Compare variable" sid="445382645997011" type="System">
+                                    <param id="0" name="Variable">caja</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1234</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="575550934834353" type="cajaColgante">
+                                    <param id="0" name="Unique ID">1233</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="866814314339775" type="palancaActivable">
+                                    <param id="0" name="Unique ID">1237</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="727667073581906" type="cajaColgante">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="233851182196083" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="498752760371919" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="545810683780992" title="Rafael Maroto">
+            <sub-events>
+                <event-group description="" sid="142582467549035" title="Movimientos Rafael Maroto">
+                    <sub-events>
+                        <event-block sid="923176001058169">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="292414768037010" type="BossRafaelMaroto">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="871784157867760" type="BossRafaelMaroto">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="685037747855710">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="154561511989426" type="System" />
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="265535972200851" type="BossRafaelMaroto">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="918557270154886" type="BossRafaelMaroto">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="617904658246553">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="556742444000189" type="BossRafaelMaroto">
+                                    <param id="0" name="Object">limiteIzquierdo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="405398409793541" type="BossRafaelMaroto">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="838227019740274">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="606754523503630" type="BossRafaelMaroto">
+                                    <param id="0" name="Object">limiteDerecho</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="147610342051537" type="BossRafaelMaroto">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="951765054723280" title="Velocidades Rafael Maroto">
+                    <sub-events>
+                        <event-block sid="367449819461556">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="150833533400546" type="BossRafaelMaroto">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="584718327701259" type="BossRafaelMaroto">
+                                    <param id="0" name="Max Speed">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="838099787573539">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="103468207486171" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="295936942829287" type="BossRafaelMaroto">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="971574654548062" type="BossRafaelMaroto">
+                                    <param id="0" name="Max Speed">125</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="872403136949128">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="690489539686406" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="160781109710554" type="BossRafaelMaroto">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="830040786683391" type="BossRafaelMaroto">
+                                    <param id="0" name="Max Speed">150</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="179750897067397">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="423118084092932" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="480223308687686" type="BossRafaelMaroto">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="305169341801974" type="BossRafaelMaroto">
+                                    <param id="0" name="Max Speed">175</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="809740188670761">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="787216066962460" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="348927704339794" type="BossRafaelMaroto">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="579285395194957" type="BossRafaelMaroto">
+                                    <param id="0" name="Max Speed">200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
     </events>
