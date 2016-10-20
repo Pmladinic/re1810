@@ -339,6 +339,17 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="350727565582796">
+                            <conditions>
+                                <condition id="-4" name="Is outside layout" sid="854942875492519" type="player" />
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="891001045536318" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="-26" name="Restart layout" sid="499513868977348" type="System" />
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-group>
             </sub-events>
