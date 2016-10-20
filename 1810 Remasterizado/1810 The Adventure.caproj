@@ -557,7 +557,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8616831833049038" speed="5">
-                        <frame duration="1" hotspotX="0.00138889" hotspotY="0.00208333" original-source="C:\Users\Pedro\Desktop\Backgrounds\Cordillera verano.png">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Backgrounds\Cordillera verano.png">
                             <collision-poly>
                                 <point x="0" y="0" />
                                 <point x="0.25" y="0" />
@@ -1630,6 +1630,22 @@
         </object-type>
         <object-type name="descripcionNivel" sid="3300207423104104">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite" sid="113304544688821">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="823775833668176" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="155507629237241">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="101344946146094" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Backgrounds\Cordillera invierno.png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
