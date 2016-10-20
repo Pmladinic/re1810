@@ -223,6 +223,12 @@
                                 <condition id="0" name="On collision with another object" sid="796378751727026" type="player">
                                     <param id="0" name="Object">plataformaVertical</param>
                                 </condition>
+                                <condition id="0" name="On collision with another object" sid="632535922188512" type="player">
+                                    <param id="0" name="Object">cajaColgante</param>
+                                </condition>
+                                <condition id="0" name="On collision with another object" sid="690756640307060" type="player">
+                                    <param id="0" name="Object">plataformaHorizontal</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-13" name="Set boolean" sid="863526249800744" type="player">
@@ -720,6 +726,98 @@
                         <action behavior="Platform" id="1" name="Set max speed" sid="563872138147795" type="Enemy_Boss">
                             <param id="0" name="Max Speed">100</param>
                         </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="[Jefe Mundo 01 - Nivel 03]" disabled="1" sid="907495761830857" title="Enemigo 03 - Rafael Maroto">
+            <sub-events>
+                <event-block disabled="1" sid="876242340230625">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="768364851578230" type="cajaColgante">
+                            <param id="0" name="Object">BossRafaelMaroto</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="554244381426629" type="BossRafaelMaroto">
+                            <param id="0" name="Instance variable">HP</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="388938180320009" type="cajaColgante">
+                            <param id="0" name="Animation">&quot;destroy&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="495218157481561" type="cajaColgante">
+                            <param id="0" name="Setting">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="370309278370028" type="System">
+                            <param id="0" name="Group name">&quot;Enemigo 02 - Jefe Español&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="328026316995271" type="BossRafaelMaroto">
+                            <param id="0" name="Animation">&quot;dañado&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="684790347630068" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="946374172113450" type="System">
+                            <param id="0" name="Group name">&quot;Enemigo 02 - Jefe Español&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="994391005046243" type="cajaColgante">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="938129263453331" type="cajaColgante">
+                            <param id="0" name="X">cajaColgante.posX</param>
+                            <param id="1" name="Y">cajaColgante.posY</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="633135890063279" type="cajaColgante">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="608686465244557">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="368050498651070" type="BossRafaelMaroto">
+                            <param id="0" name="Animation">&quot;dañado&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="434708515967961" type="BossRafaelMaroto">
+                            <param id="0" name="Animation">&quot;default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="472373356467845">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="205108447130185" type="BossRafaelMaroto">
+                            <param id="0" name="Instance variable">HP</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="647542922018201" type="System">
+                            <param id="0" name="Group name">&quot;Enemigo 03 - Rafael Maroto&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="452427475389162" type="BossRafaelMaroto">
+                            <param id="0" name="Animation">&quot;vencido&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="391901512721127">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="750790053633492" type="BossRafaelMaroto">
+                            <param id="0" name="Animation">&quot;vencido&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="148456883888193" type="BossRafaelMaroto" />
                     </actions>
                 </event-block>
             </sub-events>
