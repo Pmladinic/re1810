@@ -564,5 +564,18 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="847791093805494">
+            <conditions>
+                <condition id="4" name="On finished" sid="629775533476882" type="Enemy_Boss">
+                    <param id="0" name="Animation">&quot;vencido&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="312655710124518" type="System">
+                    <param id="0" name="Variable">nivelTerminado</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -3333,7 +3333,7 @@
                     <instance-variables>
                         <right>false</right>
                         <playerEnVision>false</playerEnVision>
-                        <HP>3</HP>
+                        <HP>5</HP>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
