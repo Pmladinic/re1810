@@ -93,6 +93,157 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="614298744642491">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="297711933868776" type="palancaActivable">
+                                    <param id="0" name="Unique ID">1513</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="472522354803603" type="plataformaVertical">
+                                    <param id="0" name="Unique ID">1519</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="315461772981829" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;activada&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="815174549305721" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="286070716891853" type="plataformaVertical">
+                                    <param id="0" name="Instance variable">activa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="499467194997770">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="706936423905950" type="palancaActivable">
+                                    <param id="0" name="Unique ID">1548</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="950535640197711" type="plataformaVertical">
+                                    <param id="0" name="Unique ID">1452</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="571346782343997" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;activada&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="250137506303158" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="883878475049651" type="plataformaVertical">
+                                    <param id="0" name="Instance variable">activa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="328254875972907">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="746276016298599" type="palancaActivable">
+                                    <param id="0" name="Unique ID">1558</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="905151264778197" type="plataformaVertical">
+                                    <param id="0" name="Unique ID">1542</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="727320595687670" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;activada&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="325538680260290" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="136218830944240" type="plataformaVertical">
+                                    <param id="0" name="Instance variable">activa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="595927149439481">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="743591312492647" type="palancaActivable">
+                                    <param id="0" name="Unique ID">1557</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="117016257792024" type="plataformaVertical">
+                                    <param id="0" name="Unique ID">1541</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="258056694017437" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;activada&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="581232055899494" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="355115303179183" type="plataformaVertical">
+                                    <param id="0" name="Instance variable">activa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="679819664256308">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="601670710027003" type="palancaActivable">
+                                    <param id="0" name="Unique ID">1556</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="888209607645717" type="plataformaVertical">
+                                    <param id="0" name="Unique ID">1536</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="256176356356281" type="reja">
+                                    <param id="0" name="Unique ID">1559</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="771413755292628" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;activada&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="432068299251040" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="101814685165411" type="plataformaVertical">
+                                    <param id="0" name="Instance variable">activa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="635383761673291" type="reja">
+                                    <param id="0" name="Animation">&quot;open&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="888375362758155">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="122858262588980" type="palancaActivable">
+                                    <param id="0" name="Unique ID">1570</param>
+                                </condition>
+                                <condition id="-14" name="Pick by unique ID" sid="584894471325652" type="plataformaVertical">
+                                    <param id="0" name="Unique ID">1567</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="441115992281147" type="palancaActivable">
+                                    <param id="0" name="Animation">&quot;activada&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="264411122669515" type="palancaActivable">
+                                    <param id="0" name="Instance variable">activada</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="896954301127687" type="plataformaVertical">
+                                    <param id="0" name="Instance variable">activa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
             </sub-events>
@@ -255,7 +406,7 @@
                             <param id="0" name="Object">puntoDialogoNPC</param>
                         </condition>
                         <condition id="-14" name="Pick by unique ID" sid="499412307150528" type="puntoDialogoNPC">
-                            <param id="0" name="Unique ID">1242</param>
+                            <param id="0" name="Unique ID">1737</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -263,28 +414,37 @@
                             <param id="0" name="Variable">mostrandoTexto</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="0" name="Set text" sid="642357025087962" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="854436951701571" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
                         <action id="0" name="Set text" sid="158278594713326" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Chileno!&quot;</param>
+                            <param id="0" name="Text">&quot;Gracias por ayudarnos, hemos salido bien parados de esta...&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="600133091585027" type="System">
+                            <param id="0" name="Seconds">5</param>
+                        </action>
+                        <action id="0" name="Set text" sid="739571845321778" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Mas no asi yo, estoy herido.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="138981391918095" type="System">
                             <param id="0" name="Seconds">3</param>
                         </action>
-                        <action id="0" name="Set text" sid="838259509876160" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Ahora sabras lo que te espera!&quot;</param>
+                        <action id="0" name="Set text" sid="331654496789140" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Todo sea por Chile!&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="286415454364718" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Viva el rey de España!&quot; &amp; newline&amp; &quot;¡El virreinato nunca caerá!&quot;</param>
+                        <action id="-16" name="Wait" sid="680291761500831" type="System">
+                            <param id="0" name="Seconds">3</param>
                         </action>
-                        <action id="-16" name="Wait" sid="154838395393251" type="System">
-                            <param id="0" name="Seconds">5</param>
+                        <action id="-9" name="Set value" sid="285427270072585" type="System">
+                            <param id="0" name="Variable">nivelTerminado</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                         <action id="-9" name="Set value" sid="631621830687302" type="System">
                             <param id="0" name="Variable">mostrandoTexto</param>
                             <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-12" name="Set group active" sid="773982557108783" type="System">
-                            <param id="0" name="Group name">&quot;Rafael Maroto&quot;</param>
-                            <param id="1" name="State">1</param>
                         </action>
                         <action id="-9" name="Destroy" sid="224161388362829" type="puntoDialogoNPC" />
                     </actions>
