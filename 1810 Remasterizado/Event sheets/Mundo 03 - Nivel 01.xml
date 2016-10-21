@@ -6,6 +6,21 @@
         <include>Player</include>
         <include>ObjetosGlobales</include>
         <include>dialogos</include>
+        <event-block sid="121195988196260">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="725997142089865" type="System">
+                    <param id="0" name="Variable">nivelTerminado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="935901780646256" type="player">
+                    <param id="0" name="Instance variable">sePuedeMover</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="972430989912156" title="Palanca Activable - Mundo 03 - Nivel 1">
             <sub-events>
                 <event-block sid="301176286898021">
@@ -361,7 +376,7 @@
                                     <param id="1" name="State">1</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="669332281954854" type="System">
-                                    <param id="0" name="Layout">Mundo 03 - Nivel 01 (Rescate a Patriotas Isla Juan Fernandez)</param>
+                                    <param id="0" name="Layout">Mundo 03 - Nivel 02 (Batalla cancha Rayada 18 Marzo 1818)</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="405145335549261" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>

@@ -6,6 +6,21 @@
         <include>Player</include>
         <include>ObjetosGlobales</include>
         <include>dialogos</include>
+        <event-block sid="976539862320440">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="123289642527328" type="System">
+                    <param id="0" name="Variable">nivelTerminado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="337528471820870" type="player">
+                    <param id="0" name="Instance variable">sePuedeMover</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="999017961070315" title="Palanca Activable - Mundo 03 - Nivel 2">
             <sub-events>
                 <event-block sid="500560087555260">
@@ -337,7 +352,7 @@
                                     <param id="1" name="State">1</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="965912213453027" type="System">
-                                    <param id="0" name="Layout">Mundo 03 - Nivel 01 (Rescate a Patriotas Isla Juan Fernandez)</param>
+                                    <param id="0" name="Layout">Mundo 03 - Nivel 03 (Batalla de Maipu 5 abril 1818)</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="477810356297269" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>

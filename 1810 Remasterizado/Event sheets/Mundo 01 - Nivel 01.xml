@@ -19,6 +19,21 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="286334638875935">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="572575941275181" type="System">
+                    <param id="0" name="Variable">nivelTerminado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="278723263180502" type="player">
+                    <param id="0" name="Instance variable">sePuedeMover</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="2568565003471595" title="Mundo 01 - Nivel 01">
             <sub-events>
                 <event-group description="" sid="7740644863656295" title="Cambio de Nivel 01 a Nivel 02">
@@ -316,6 +331,10 @@
                                 <action id="-9" name="Set value" sid="889373874554573" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="129079683650324" type="player">
+                                    <param id="0" name="Instance variable">sePuedeMover</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
                         </event-block>

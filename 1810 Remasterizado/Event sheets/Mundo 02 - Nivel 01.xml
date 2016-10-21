@@ -5,6 +5,21 @@
     <events>
         <include>Player</include>
         <include>ObjetosGlobales</include>
+        <event-block sid="946927783729593">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="903489616810775" type="System">
+                    <param id="0" name="Variable">nivelTerminado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="752552440291295" type="player">
+                    <param id="0" name="Instance variable">sePuedeMover</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="429071558708983" title="Palanca Activable - Mundo 02 - Nivel 1">
             <sub-events>
                 <event-block sid="355049489736643">
@@ -191,6 +206,10 @@
                                 <action id="-9" name="Set value" sid="401559297573752" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="318356150882601" type="player">
+                                    <param id="0" name="Instance variable">sePuedeMover</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
                         </event-block>

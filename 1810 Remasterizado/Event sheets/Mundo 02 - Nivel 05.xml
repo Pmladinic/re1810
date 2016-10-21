@@ -6,6 +6,21 @@
         <include>Player</include>
         <include>ObjetosGlobales</include>
         <include>dialogos</include>
+        <event-block sid="681267061761451">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="330268894019322" type="System">
+                    <param id="0" name="Variable">nivelTerminado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="474338451842064" type="player">
+                    <param id="0" name="Instance variable">sePuedeMover</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="940144053955820" title="Palanca Activable - Mundo 02 - Nivel 5">
             <sub-events>
                 <event-block sid="647525085693189">
@@ -166,84 +181,6 @@
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="483704007887383" title="0205 - Victoria">
-            <sub-events>
-                <event-block sid="376635324783907">
-                    <conditions>
-                        <condition id="-9" name="Is visible" sid="721149188368161" type="CartelVictoria" />
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="813287533442362">
-                            <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="706034275187840" type="CartelVictoria">
-                                    <param id="0" name="Instance variable">escala</param>
-                                    <param id="1" name="Comparison">3</param>
-                                    <param id="2" name="Value">1.5</param>
-                                </condition>
-                                <condition id="-7" name="Compare instance variable" sid="787697906359356" type="CartelVictoria">
-                                    <param id="0" name="Instance variable">escala</param>
-                                    <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">1</param>
-                                </condition>
-                                <condition id="-8" name="Is boolean instance variable set" sid="731974495846762" type="CartelVictoria">
-                                    <param id="0" name="Instance variable">activado</param>
-                                </condition>
-                            </conditions>
-                            <actions />
-                            <sub-events>
-                                <event-block sid="293594244935043">
-                                    <conditions>
-                                        <condition id="-6" name="Every X seconds" sid="975998403379657" type="System">
-                                            <param id="0" name="Interval (seconds)">0.05</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-17" name="Set layer scale" sid="173561518030481" type="System">
-                                            <param id="0" name="Layer">&quot;cartel&quot;</param>
-                                            <param id="1" name="Scale">LayerScale(&quot;cartel&quot;) + 0.2</param>
-                                        </action>
-                                        <action id="-11" name="Add to" sid="128150453865815" type="CartelVictoria">
-                                            <param id="0" name="Instance variable">escala</param>
-                                            <param id="1" name="Value">0.2</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
-                        </event-block>
-                        <event-block sid="364960197934469">
-                            <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="895884166934838" type="CartelVictoria">
-                                    <param id="0" name="Instance variable">escala</param>
-                                    <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">1.5</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-13" name="Set boolean" sid="365309721461369" type="CartelVictoria">
-                                    <param id="0" name="Instance variable">activado</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="660633341809699" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action id="-12" name="Set group active" sid="481722608544473" type="System">
-                                    <param id="0" name="Group name">&quot;Animaciones Player&quot;</param>
-                                    <param id="1" name="State">1</param>
-                                </action>
-                                <action id="-2" name="Go to layout" sid="971167418381997" type="System">
-                                    <param id="0" name="Layout">Mundo 02 - Nivel 06 (Batalla de Chacabuco 12 febrero 1817)</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="285601295895044" type="System">
-                                    <param id="0" name="Variable">nivelTerminado</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
@@ -472,6 +409,88 @@
                             <param id="1" name="Value">1</param>
                         </action>
                     </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="483704007887383" title="0205 - Victoria">
+            <sub-events>
+                <event-block sid="376635324783907">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="721149188368161" type="CartelVictoria" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="813287533442362">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="706034275187840" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">escala</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">1.5</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="787697906359356" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">escala</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-8" name="Is boolean instance variable set" sid="731974495846762" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">activado</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="293594244935043">
+                                    <conditions>
+                                        <condition id="-6" name="Every X seconds" sid="975998403379657" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-17" name="Set layer scale" sid="173561518030481" type="System">
+                                            <param id="0" name="Layer">&quot;cartel&quot;</param>
+                                            <param id="1" name="Scale">LayerScale(&quot;cartel&quot;) + 0.2</param>
+                                        </action>
+                                        <action id="-11" name="Add to" sid="128150453865815" type="CartelVictoria">
+                                            <param id="0" name="Instance variable">escala</param>
+                                            <param id="1" name="Value">0.2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="364960197934469">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="895884166934838" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">escala</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1.5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="365309721461369" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">activado</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="660633341809699" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="481722608544473" type="System">
+                                    <param id="0" name="Group name">&quot;Animaciones Player&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="971167418381997" type="System">
+                                    <param id="0" name="Layout">Mundo 02 - Nivel 06 (Batalla de Chacabuco 12 febrero 1817)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="285601295895044" type="System">
+                                    <param id="0" name="Variable">nivelTerminado</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="995113018771580" type="player">
+                                    <param id="0" name="Instance variable">sePuedeMover</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>

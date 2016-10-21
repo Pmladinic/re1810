@@ -22,6 +22,21 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="221643915107917">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="465448713852460" type="System">
+                    <param id="0" name="Variable">nivelTerminado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="445876729022534" type="player">
+                    <param id="0" name="Instance variable">sePuedeMover</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="475227881796345" title="Palanca Activable - Mundo 01 - Nivel 03">
             <sub-events>
                 <event-block sid="640678876335999">
@@ -390,6 +405,10 @@
                                 </action>
                                 <action id="-2" name="Go to layout" sid="779303229718355" type="System">
                                     <param id="0" name="Layout">Mundo 01 - Nivel 04 (Motin de Figueroa 1 abril 1811)</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="256583139748645" type="player">
+                                    <param id="0" name="Instance variable">sePuedeMover</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="300942577469571" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>
