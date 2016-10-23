@@ -211,101 +211,137 @@
                 </event-group>
                 <event-group description="" sid="126965408796995" title="Animaciones Player">
                     <sub-events>
-                        <comment>Comprobar &quot;estados&quot; del jugador</comment>
-                        <event-block any="1" sid="644875936484144">
+                        <event-block sid="107585818476953">
                             <conditions>
-                                <condition id="0" name="On collision with another object" sid="387277206585868" type="player">
-                                    <param id="0" name="Object">colSolidos</param>
-                                </condition>
-                                <condition id="0" name="On collision with another object" sid="230490688542616" type="player">
-                                    <param id="0" name="Object">caja</param>
-                                </condition>
-                                <condition id="0" name="On collision with another object" sid="796378751727026" type="player">
-                                    <param id="0" name="Object">plataformaVertical</param>
-                                </condition>
-                                <condition id="0" name="On collision with another object" sid="632535922188512" type="player">
-                                    <param id="0" name="Object">cajaColgante</param>
-                                </condition>
-                                <condition id="0" name="On collision with another object" sid="690756640307060" type="player">
-                                    <param id="0" name="Object">plataformaHorizontal</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-13" name="Set boolean" sid="863526249800744" type="player">
-                                    <param id="0" name="Instance variable">estaEnSuelo</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block any="1" sid="148582765602954">
-                            <conditions>
-                                <condition behavior="Platform" id="3" name="Is jumping" sid="683252951312661" type="player" />
-                                <condition behavior="Platform" id="4" name="Is falling" sid="724272089935238" type="player" />
-                            </conditions>
-                            <actions>
-                                <action id="-13" name="Set boolean" sid="197951139234515" type="player">
-                                    <param id="0" name="Instance variable">estaEnSuelo</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="341042093964341">
-                            <conditions>
-                                <condition behavior="Platform" id="1" name="Compare speed" sid="971252591101723" type="player">
-                                    <param id="0" name="Comparison">0</param>
-                                    <param id="1" name="Speed">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="4" name="Set animation" sid="497683539493520" type="player">
-                                    <param id="0" name="Animation">&quot;idle&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="-13" name="Set boolean" sid="751116751012689" type="player">
-                                    <param id="0" name="Instance variable">seEstaMoviendo</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="240103292915636">
-                            <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="971379409395406" type="player">
-                                    <param id="0" name="Instance variable">estaEnSuelo</param>
+                                <condition id="2" inverted="1" name="Is playing" sid="812454978915354" type="player">
+                                    <param id="0" name="Animation">&quot;dañado&quot;</param>
                                 </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="946179607502690">
+                                <event-block sid="240103292915636">
                                     <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="713805324889473" type="player">
-                                            <param id="0" name="Instance variable">seEstaMoviendo</param>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="971379409395406" type="player">
+                                            <param id="0" name="Instance variable">estaEnSuelo</param>
+                                        </condition>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="231358286059118" type="player">
+                                            <param id="0" name="Instance variable">sePuedeMover</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="946179607502690">
+                                            <conditions>
+                                                <condition id="-8" name="Is boolean instance variable set" sid="713805324889473" type="player">
+                                                    <param id="0" name="Instance variable">seEstaMoviendo</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="547132882990251" type="player">
+                                                    <param id="0" name="Animation">&quot;caminar&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="922442421237094">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="182520769928442" type="System" />
+                                                <condition id="2" inverted="1" name="Is playing" sid="922328428256508" type="player">
+                                                    <param id="0" name="Animation">&quot;celebracion&quot;</param>
+                                                </condition>
+                                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="170973661816502" type="player">
+                                                    <param id="0" name="Instance variable">seEstaMoviendo</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="970738409982244" type="player">
+                                                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <comment>Comprobar &quot;estados&quot; del jugador</comment>
+                                <event-block any="1" sid="644875936484144">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="387277206585868" type="player">
+                                            <param id="0" name="Object">colSolidos</param>
+                                        </condition>
+                                        <condition id="0" name="On collision with another object" sid="230490688542616" type="player">
+                                            <param id="0" name="Object">caja</param>
+                                        </condition>
+                                        <condition id="0" name="On collision with another object" sid="796378751727026" type="player">
+                                            <param id="0" name="Object">plataformaVertical</param>
+                                        </condition>
+                                        <condition id="0" name="On collision with another object" sid="632535922188512" type="player">
+                                            <param id="0" name="Object">cajaColgante</param>
+                                        </condition>
+                                        <condition id="0" name="On collision with another object" sid="690756640307060" type="player">
+                                            <param id="0" name="Object">plataformaHorizontal</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="547132882990251" type="player">
-                                            <param id="0" name="Animation">&quot;caminar&quot;</param>
-                                            <param id="1" name="From">1</param>
+                                        <action id="-13" name="Set boolean" sid="863526249800744" type="player">
+                                            <param id="0" name="Instance variable">estaEnSuelo</param>
+                                            <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="922442421237094">
+                                <event-block any="1" sid="148582765602954">
                                     <conditions>
-                                        <condition id="-22" name="Else" sid="182520769928442" type="System" />
-                                        <condition id="2" inverted="1" name="Is playing" sid="922328428256508" type="player">
-                                            <param id="0" name="Animation">&quot;celebracion&quot;</param>
-                                        </condition>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="170973661816502" type="player">
-                                            <param id="0" name="Instance variable">seEstaMoviendo</param>
+                                        <condition behavior="Platform" id="3" name="Is jumping" sid="683252951312661" type="player" />
+                                        <condition behavior="Platform" id="4" name="Is falling" sid="724272089935238" type="player" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="197951139234515" type="player">
+                                            <param id="0" name="Instance variable">estaEnSuelo</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="341042093964341">
+                                    <conditions>
+                                        <condition behavior="Platform" id="1" name="Compare speed" sid="971252591101723" type="player">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Speed">0</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="970738409982244" type="player">
+                                        <action id="4" name="Set animation" sid="497683539493520" type="player">
                                             <param id="0" name="Animation">&quot;idle&quot;</param>
                                             <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="751116751012689" type="player">
+                                            <param id="0" name="Instance variable">seEstaMoviendo</param>
+                                            <param id="1" name="Value">0</param>
                                         </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
+                        </event-block>
+                        <event-block sid="562069911473403">
+                            <conditions>
+                                <condition id="2" name="Is playing" sid="943654303112103" type="player">
+                                    <param id="0" name="Animation">&quot;dañado&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="289980559222133" type="player">
+                                    <param id="0" name="Instance variable">sePuedeMover</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="711063477204053">
+                            <conditions>
+                                <condition id="4" name="On finished" sid="374136715858155" type="player">
+                                    <param id="0" name="Animation">&quot;dañado&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-26" name="Restart layout" sid="689335901433857" type="System" />
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-group>
@@ -1031,6 +1067,90 @@
                         </event-block>
                     </sub-events>
                 </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="388256006050104" title="Enemigo 05 - Soldado Español Shooter">
+            <sub-events>
+                <event-block sid="224121377860921">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="261027729403619" type="System">
+                            <param id="0" name="Interval (seconds)">2</param>
+                        </condition>
+                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="574234580883929" type="EnemyShooter">
+                            <param id="0" name="Object">player</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="794967852019889">
+                            <conditions>
+                                <condition id="7" name="Is mirrored" sid="308423014165085" type="EnemyShooter" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="510220529761897" type="EnemyShooter">
+                                    <param id="0" name="Object">bala</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">&quot;spawnBullet&quot;</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="494194712511603" type="bala">
+                                    <param id="0" name="Angle">180</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="253341563336411">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Is mirrored" sid="937140927488442" type="EnemyShooter" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="536355218865586" type="EnemyShooter">
+                                    <param id="0" name="Object">bala</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">&quot;spawnBullet&quot;</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="126604048537754" type="bala">
+                                    <param id="0" name="Angle">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="464029962302462">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="684652442659748" type="bala">
+                            <param id="0" name="Object">player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="858602279340294" type="player">
+                            <param id="0" name="Animation">&quot;dañado&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="307499408924723">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="362307477767036" type="EnemyShooter">
+                            <param id="0" name="Instance variable">mirrored</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="727384063773009" type="EnemyShooter">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="484682784573902">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="951489998881364" type="EnemyShooter">
+                            <param id="0" name="Instance variable">mirrored</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="322244294964404" type="EnemyShooter">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
     </events>
