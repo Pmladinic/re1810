@@ -3890,11 +3890,11 @@
                         <x>576</x>
                         <y>96</y>
                         <z>0</z>
-                        <width>32</width>
-                        <height>64</height>
+                        <width>76</width>
+                        <height>52</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.015625</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -4095,11 +4095,11 @@
                         <x>1088</x>
                         <y>288</y>
                         <z>0</z>
-                        <width>32</width>
-                        <height>64</height>
+                        <width>76</width>
+                        <height>52</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.015625</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -4718,11 +4718,11 @@
                         <x>2656</x>
                         <y>288</y>
                         <z>0</z>
-                        <width>32</width>
-                        <height>64</height>
+                        <width>76</width>
+                        <height>52</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0.015625</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

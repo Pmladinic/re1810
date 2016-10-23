@@ -1087,6 +1087,10 @@
                                 <condition id="7" name="Is mirrored" sid="308423014165085" type="EnemyShooter" />
                             </conditions>
                             <actions>
+                                <action id="4" name="Set animation" sid="266257468100836" type="EnemyShooter">
+                                    <param id="0" name="Animation">&quot;disparo&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
                                 <action id="0" name="Spawn another object" sid="510220529761897" type="EnemyShooter">
                                     <param id="0" name="Object">bala</param>
                                     <param id="1" name="Layer">0</param>
@@ -1102,6 +1106,10 @@
                                 <condition id="7" inverted="1" name="Is mirrored" sid="937140927488442" type="EnemyShooter" />
                             </conditions>
                             <actions>
+                                <action id="4" name="Set animation" sid="486919946115148" type="EnemyShooter">
+                                    <param id="0" name="Animation">&quot;disparo&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
                                 <action id="0" name="Spawn another object" sid="536355218865586" type="EnemyShooter">
                                     <param id="0" name="Object">bala</param>
                                     <param id="1" name="Layer">0</param>
@@ -1148,6 +1156,19 @@
                     <actions>
                         <action id="7" name="Set mirrored" sid="322244294964404" type="EnemyShooter">
                             <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="990781701020870">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="493389750377764" type="EnemyShooter">
+                            <param id="0" name="Animation">&quot;disparo&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="359117374532676" type="EnemyShooter">
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
