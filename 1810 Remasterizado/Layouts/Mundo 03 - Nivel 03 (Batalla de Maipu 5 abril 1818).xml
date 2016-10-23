@@ -3209,7 +3209,7 @@
                         <opacity>1</opacity>
                     </world>
                     <tilemap-data>
-                        <width>161</width>
+                        <width>146</width>
                         <height>23</height>
                         <max-width>161</max-width>
                         <max-height>23</max-height>
@@ -3294,9 +3294,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3308,7 +3308,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -3642,9 +3642,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3656,7 +3656,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -3838,9 +3838,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3852,7 +3852,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4007,9 +4007,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4021,7 +4021,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4059,9 +4059,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4073,7 +4073,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4211,9 +4211,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4225,7 +4225,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4344,9 +4344,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4358,7 +4358,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4548,9 +4548,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4562,7 +4562,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4712,9 +4712,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4726,7 +4726,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4864,9 +4864,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4878,7 +4878,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4916,9 +4916,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4930,7 +4930,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -5076,9 +5076,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -5090,7 +5090,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -5128,9 +5128,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -5142,7 +5142,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -5322,9 +5322,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -5336,7 +5336,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>

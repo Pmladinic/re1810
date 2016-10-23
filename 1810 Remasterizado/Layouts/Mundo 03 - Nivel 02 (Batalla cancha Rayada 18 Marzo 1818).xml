@@ -2837,8 +2837,8 @@
                         <opacity>1</opacity>
                     </world>
                     <tilemap-data>
-                        <width>161</width>
-                        <height>20</height>
+                        <width>146</width>
+                        <height>18</height>
                         <max-width>161</max-width>
                         <max-height>20</max-height>
                         <data>-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,224,252,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,224,252,227,-1,-1,225,253,228,-1,-1,-1,-1,-1,226,254,-1,-1,-1,-1,-1,225,253,228,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,225,253,228,-1,-1,-1,-1,-1,224,252,-1,-1,-1,-1,-1,225,253,228,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,225,253,285,96,96,96,292,228,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,225,253,286,97,97,97,293,228,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,225,253,228,-1,-1,225,253,228,-1,-1,-1,-1,-1,226,254,-1,-1,-1,-1,-1,226,254,229,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,226,254,229,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,226,254,229,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,68,68,68,68,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,224,252,68,68,68,68,253,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,226,254,41,41,41,41,253,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,96,96,96,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,40,40,40,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,41,41,41,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,224,252,68,68,68,68,68,68,68,68,253,-1,-1,225,253,228,-1,-1,-1,-1,226,254,41,41,41,41,41,41,41,69,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,40,40,40,40,292,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,41,41,41,41,41,229,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,224,252,-1,-1,225,253,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,226,254,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,226,254,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,226,254,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,225,253,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,226,254,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,-1,-1,-1,-1,-1,226,254,229,-1,-1,-1,-1,224,252,227,-1,-1,-1,225,253,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,226,254,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,226,254,229,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,226,254,229,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,224,252,227,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,224,252,227,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,225,253,228,-1,-1,225,253,228,-1,-1,-1,-1,-1,226,253,228,-1,-1,-1,-1,225,253,228,-1,-1,226,253,228,-1,-1,68,68,68,68,292,285,227,-1,-1,-1,225,253,285,68,68,68,292,228,-1,-1,129,129,129,129,129,129,228,-1,-1,-1,225,253,129,129,129,129,129,228,-1,-1,97,97,97,97,293,286,229,-1,-1,-1,225,253,286,69,69,69,293,228,-1,-1,-1,-1,-1,224,253,228,-1,-1,-1,-1,225,253,228,-1,-1,224,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,225,253,228,-1,-1,225,253,228,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,226,254,229,-1,-1,225,253,228,-1,-1,-1,-1,-1,226,254,229,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,225,253,228,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,226,253,228,-1,-1,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,292,228,-1,-1,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,228,-1,-1,69,69,69,69,69,69,69,69,69,69,69,69,69,69,69,69,69,229,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1</data>
@@ -3115,9 +3115,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3129,7 +3129,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -3202,9 +3202,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3216,7 +3216,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -3327,9 +3327,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3341,7 +3341,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -3466,9 +3466,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3480,7 +3480,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -3518,9 +3518,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3532,7 +3532,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -3678,9 +3678,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3692,7 +3692,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -3730,9 +3730,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -3744,7 +3744,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4465,9 +4465,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4479,7 +4479,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4517,9 +4517,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4531,7 +4531,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4642,9 +4642,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4656,7 +4656,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4789,9 +4789,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4803,7 +4803,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4901,9 +4901,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4915,7 +4915,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -4953,9 +4953,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -4967,7 +4967,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -5128,9 +5128,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -5142,7 +5142,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
@@ -5315,9 +5315,9 @@
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
-                                <max-speed>330</max-speed>
-                                <acceleration>1500</acceleration>
-                                <deceleration>1500</deceleration>
+                                <max-speed>64</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>1000</deceleration>
                                 <jump-strength>650</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
@@ -5329,7 +5329,7 @@
                         </behavior-instance>
                         <behavior-instance type="Fade">
                             <properties>
-                                <active-at-start>Yes</active-at-start>
+                                <active-at-start>No</active-at-start>
                                 <fade-in-time>0</fade-in-time>
                                 <wait-time>0</wait-time>
                                 <fade-out-time>1</fade-out-time>
