@@ -11,6 +11,21 @@
         <variable constant="0" name="velocidadTexto" sid="7374504380464236" static="0" type="number">1</variable>
         <event-group description="" sid="791094343440449" title="Seleccion de capitulos">
             <sub-events>
+                <event-block sid="139288704422614">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="552126920906703" type="System">
+                            <param id="0" name="Variable">capituloActual</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="455142267203384" type="backgroundCapitulos">
+                            <param id="0" name="Animation">&quot;Capitulo Final&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-group description="" sid="445701507731827" title="seleccion capitulos - mundo 1">
                     <sub-events>
                         <event-block sid="392900740671217">
@@ -43,6 +58,81 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="795482146270811">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="633341891388238" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">13</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="590192488916850" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo13&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="299631248116388">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="321268722694976" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">14</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="660590822939212" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo14&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="417946790125328">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="792340706729619" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="235134370035895" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo15&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="211987397452849">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="510421733482452" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">16</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="944568830674961" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo16&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="393716718623640">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="146789348002371" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">17</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="743669201237360" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo17&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-group>
                 <event-group description="" sid="525490747682472" title="seleccion capitulos - mundo 2">
@@ -62,6 +152,81 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="963767937830977">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="798868908262081" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">22</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="784523190651806" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo22&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="606269295489134">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="859188046542533" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">23</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="222367515938177" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo23&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="757662005762085">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="744210639778711" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">24</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="652070382372688" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo24&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="461709401581052">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="264210601453520" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">25</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="280930291132510" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo25&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="443177124698901">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="115764711406208" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">26</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="170332398294274" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo26&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-group>
                 <event-group description="" sid="442123697231020" title="seleccion capitulos - mundo 3">
@@ -77,6 +242,36 @@
                             <actions>
                                 <action id="4" name="Set animation" sid="962555819150432" type="backgroundCapitulos">
                                     <param id="0" name="Animation">&quot;Capitulo31&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="583881071329767">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="629824584937373" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">32</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="213948070555115" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo32&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="942125023229559">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="788261430697676" type="System">
+                                    <param id="0" name="Variable">capituloActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">33</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="153853056857728" type="backgroundCapitulos">
+                                    <param id="0" name="Animation">&quot;Capitulo33&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
                             </actions>
@@ -129,6 +324,20 @@
                     <sub-events>
                         <event-group description="" sid="479563869145644" title="redireccion a niveles">
                             <sub-events>
+                                <event-block sid="353346172542455">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="228513921089043" type="System">
+                                            <param id="0" name="Variable">nivelActual</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="194728863925461" type="System">
+                                            <param id="0" name="Layout">Menu</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
                                 <event-group description="" sid="707829641486621" title="redireccion a niveles - mundo 1">
                                     <sub-events>
                                         <event-block sid="700114427284350">

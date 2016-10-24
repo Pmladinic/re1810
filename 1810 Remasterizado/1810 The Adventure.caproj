@@ -164,9 +164,59 @@
                             <frame duration="1" hotspotX="0" hotspotY="0" />
                             <frame duration="1" hotspotX="0" hotspotY="0" />
                         </animation>
+                        <animation framecount="3" loop="0" name="Capitulo13" pingpong="0" repeatcount="1" repeatto="0" sid="503007783984757" speed="0">
+                            <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo14" pingpong="0" repeatcount="1" repeatto="0" sid="948565555384972" speed="0">
+                            <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo15" pingpong="0" repeatcount="1" repeatto="0" sid="148399286581213" speed="0">
+                            <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo16" pingpong="0" repeatcount="1" repeatto="0" sid="830017768973294" speed="0">
+                            <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo17" pingpong="0" repeatcount="1" repeatto="0" sid="167538660399682" speed="0">
+                            <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
                     </animation-folder>
                     <animation-folder name="Mundo 2">
                         <animation framecount="3" loop="0" name="Capitulo21" pingpong="0" repeatcount="1" repeatto="0" sid="927449746828079" speed="0">
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo22" pingpong="0" repeatcount="1" repeatto="0" sid="713418327864638" speed="0">
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo23" pingpong="0" repeatcount="1" repeatto="0" sid="493627091628843" speed="0">
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo24" pingpong="0" repeatcount="1" repeatto="0" sid="864561297392022" speed="0">
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo25" pingpong="0" repeatcount="1" repeatto="0" sid="283863514193557" speed="0">
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo26" pingpong="0" repeatcount="1" repeatto="0" sid="945831427106442" speed="0">
                             <frame duration="1" hotspotX="0" hotspotY="0" />
                             <frame duration="1" hotspotX="0" hotspotY="0" />
                             <frame duration="1" hotspotX="0" hotspotY="0" />
@@ -178,7 +228,22 @@
                             <frame duration="1" hotspotX="0" hotspotY="0" />
                             <frame duration="1" hotspotX="0" hotspotY="0" />
                         </animation>
+                        <animation framecount="3" loop="0" name="Capitulo32" pingpong="0" repeatcount="1" repeatto="0" sid="913042496795981" speed="0">
+                            <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo33" pingpong="0" repeatcount="1" repeatto="0" sid="929091221810317" speed="0">
+                            <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
                     </animation-folder>
+                    <animation framecount="3" loop="0" name="CapituloFinal" pingpong="0" repeatcount="1" repeatto="0" sid="562082866665943" speed="0">
+                        <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
                 </animation-folder>
             </object-type>
         </object-folder>
