@@ -154,7 +154,7 @@
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="3" loop="0" name="Capitulo01" pingpong="0" repeatcount="1" repeatto="0" sid="1247019137232652" speed="0">
-                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\korN\Pictures\Fondos de pantalla\kLUBoDd.jpg" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\korN\Desktop\14795909_10210463369319098_320577040_o.jpg" />
                         <frame duration="1" hotspotX="0" hotspotY="0" />
                         <frame duration="1" hotspotX="0" hotspotY="0" />
                     </animation>
