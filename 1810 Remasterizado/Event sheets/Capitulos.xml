@@ -3,9 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Capitulos</name>
     <events>
-        <variable constant="0" name="nivelActual" sid="241367456526119" static="0" type="number">21</variable>
+        <variable constant="0" name="nivelActual" sid="241367456526119" static="0" type="number">11</variable>
         <variable constant="0" name="framePaginaActual" sid="416411456248818" static="0" type="number">0</variable>
-        <variable constant="0" name="capituloActual" sid="1031546871313147" static="0" type="number">21</variable>
+        <variable constant="0" name="capituloActual" sid="1031546871313147" static="0" type="number">11</variable>
         <variable constant="0" name="lineaCapitulo" sid="5252187546123002" static="0" type="number">1</variable>
         <variable constant="0" name="personajeActual" sid="9827349691219599" static="0" type="text"></variable>
         <variable constant="0" name="velocidadTexto" sid="7374504380464236" static="0" type="number">1</variable>
