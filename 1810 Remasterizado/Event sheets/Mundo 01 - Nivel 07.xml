@@ -335,7 +335,7 @@
                                     <param id="1" name="State">1</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="640692238787293" type="System">
-                                    <param id="0" name="Layout">Mundo 02 - Nivel 01 ( Batalla de rancagua 1 OCT 1814)</param>
+                                    <param id="0" name="Layout">Capitulos</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="216366536826482" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>
@@ -346,6 +346,26 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <comment>Establecer capitulo al que se redirige | Establecer parametros y reiniciar frame de pagina actual a 0</comment>
+                                <event-block sid="743249710966991">
+                                    <conditions />
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="715857765911942" type="System">
+                                            <param id="0" name="Variable">capituloActual</param>
+                                            <param id="1" name="Value">21</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="185853459401807" type="System">
+                                            <param id="0" name="Variable">nivelActual</param>
+                                            <param id="1" name="Value">21</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="711613743869072" type="System">
+                                            <param id="0" name="Variable">framePaginaActual</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-block>

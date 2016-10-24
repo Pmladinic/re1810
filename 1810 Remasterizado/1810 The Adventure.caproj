@@ -153,16 +153,32 @@
                     <instance-variable name="ctdPaginasCapitulo" sid="486623799906733" type="number" />
                 </instance-variables>
                 <animation-folder>
-                    <animation framecount="3" loop="0" name="Capitulo01" pingpong="0" repeatcount="1" repeatto="0" sid="1247019137232652" speed="0">
-                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\korN\Desktop\14795909_10210463369319098_320577040_o.jpg" />
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
-                    </animation>
-                    <animation framecount="3" loop="0" name="Capitulo02" pingpong="0" repeatcount="1" repeatto="0" sid="203783615572314" speed="0">
-                        <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" original-source="D:\Imagenes\Especial_de_Mr._Satán1.png" />
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
-                    </animation>
+                    <animation-folder name="Mundo 1">
+                        <animation framecount="3" loop="0" name="Capitulo11" pingpong="0" repeatcount="1" repeatto="0" sid="1247019137232652" speed="0">
+                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\korN\Desktop\14795909_10210463369319098_320577040_o.jpg" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                        <animation framecount="3" loop="0" name="Capitulo12" pingpong="0" repeatcount="1" repeatto="0" sid="203783615572314" speed="0">
+                            <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" original-source="D:\Imagenes\Especial_de_Mr._Satán1.png" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                    </animation-folder>
+                    <animation-folder name="Mundo 2">
+                        <animation framecount="3" loop="0" name="Capitulo21" pingpong="0" repeatcount="1" repeatto="0" sid="927449746828079" speed="0">
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                    </animation-folder>
+                    <animation-folder name="Mundo 3">
+                        <animation framecount="3" loop="0" name="Capitulo31" pingpong="0" repeatcount="1" repeatto="0" sid="664467928711876" speed="0">
+                            <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                        </animation>
+                    </animation-folder>
                 </animation-folder>
             </object-type>
         </object-folder>

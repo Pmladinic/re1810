@@ -204,7 +204,7 @@
                                     <param id="1" name="State">1</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="235217342081141" type="System">
-                                    <param id="0" name="Layout">Mundo 01 - Nivel 03(Busqueda decreto convocatoria del primer congreso nacional)</param>
+                                    <param id="0" name="Layout">Capitulos</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="615756409537271" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>
@@ -215,6 +215,26 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <comment>Establecer capitulo al que se redirige | Establecer parametros y reiniciar frame de pagina actual a 0</comment>
+                                <event-block sid="653499806835743">
+                                    <conditions />
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="690851933703248" type="System">
+                                            <param id="0" name="Variable">capituloActual</param>
+                                            <param id="1" name="Value">13</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="282425472657276" type="System">
+                                            <param id="0" name="Variable">nivelActual</param>
+                                            <param id="1" name="Value">13</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="579096658398327" type="System">
+                                            <param id="0" name="Variable">framePaginaActual</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-block>
