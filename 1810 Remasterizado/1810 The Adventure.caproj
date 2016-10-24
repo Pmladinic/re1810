@@ -148,9 +148,18 @@
             </object-type>
             <object-type name="backgroundCapitulos" sid="9992739965675015">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="largoImagen" sid="649732681052485" type="number" />
+                    <instance-variable name="ctdPaginasCapitulo" sid="486623799906733" type="number" />
+                </instance-variables>
                 <animation-folder>
-                    <animation framecount="3" loop="0" name="Capitulos" pingpong="0" repeatcount="1" repeatto="0" sid="1247019137232652" speed="0">
+                    <animation framecount="3" loop="0" name="Capitulo01" pingpong="0" repeatcount="1" repeatto="0" sid="1247019137232652" speed="0">
                         <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\korN\Pictures\Fondos de pantalla\kLUBoDd.jpg" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="3" loop="0" name="Capitulo02" pingpong="0" repeatcount="1" repeatto="0" sid="203783615572314" speed="0">
+                        <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" original-source="D:\Imagenes\Especial_de_Mr._Satán1.png" />
                         <frame duration="1" hotspotX="0" hotspotY="0" />
                         <frame duration="1" hotspotX="0" hotspotY="0" />
                     </animation>
