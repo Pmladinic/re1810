@@ -478,6 +478,38 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="BackgroundAfueradeSantiago" sid="218887987827638">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="575634862113053" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Backgrounds\Afueras de Santiago.PNG" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BackgroundChacabuco" sid="631033282540832">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="502847036333068" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Backgrounds\Chacabuco.PNG" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BackgroundCanchaRayada" sid="423336675931352">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="705304821411134" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Backgrounds\Cancha Rayada.PNG" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BackgroundMaipu" sid="692774985955262">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="433348610477800" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Backgrounds\maipu.PNG" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Objetos Globales">
             <object-type name="Escalera" sid="176369045358701">
