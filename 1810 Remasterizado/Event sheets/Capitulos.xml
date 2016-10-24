@@ -675,7 +675,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Set Y" sid="536683394103789" type="backgroundCapitulos">
-                    <param id="0" name="Y">backgroundCapitulos.Y - 0.25</param>
+                    <param id="0" name="Y">backgroundCapitulos.Y - 0.50</param>
                 </action>
                 <action id="-10" name="Set value" sid="642251615727653" type="backgroundCapitulos">
                     <param id="0" name="Instance variable">largoImagen</param>
