@@ -328,14 +328,6 @@
                                 <action id="-2" name="Go to layout" sid="751604846474677" type="System">
                                     <param id="0" name="Layout">Capitulos</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="658075532331069" type="System">
-                                    <param id="0" name="Variable">capituloActual</param>
-                                    <param id="1" name="Value">2</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="290498907697822" type="System">
-                                    <param id="0" name="Variable">nivelActual</param>
-                                    <param id="1" name="Value">2</param>
-                                </action>
                                 <action id="-9" name="Set value" sid="889373874554573" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">0</param>
@@ -345,6 +337,26 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <comment>Establecer capitulo al que se redirige | Establecer parametros y reiniciar frame de pagina actual a 0</comment>
+                                <event-block sid="309794491452399">
+                                    <conditions />
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="658075532331069" type="System">
+                                            <param id="0" name="Variable">capituloActual</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="290498907697822" type="System">
+                                            <param id="0" name="Variable">nivelActual</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="773404254405107" type="System">
+                                            <param id="0" name="Variable">framePaginaActual</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-block>

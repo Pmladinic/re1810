@@ -669,24 +669,80 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="672896298912975">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="103543643282394" type="System" />
-            </conditions>
-            <actions>
-                <action id="-2" name="Set Y" sid="536683394103789" type="backgroundCapitulos">
-                    <param id="0" name="Y">backgroundCapitulos.Y - 0.50</param>
-                </action>
-                <action id="-10" name="Set value" sid="642251615727653" type="backgroundCapitulos">
-                    <param id="0" name="Instance variable">largoImagen</param>
-                    <param id="1" name="Value">backgroundCapitulos.Height</param>
-                </action>
-                <action id="-10" name="Set value" sid="468185251597608" type="backgroundCapitulos">
-                    <param id="0" name="Instance variable">ctdPaginasCapitulo</param>
-                    <param id="1" name="Value">backgroundCapitulos.AnimationFrameCount</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" inactive="1" sid="965059310592657" title="Avanzar imagen">
+            <sub-events>
+                <event-block sid="672896298912975">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="103543643282394" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="536683394103789" type="backgroundCapitulos">
+                            <param id="0" name="Y">backgroundCapitulos.Y - 1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="642251615727653" type="backgroundCapitulos">
+                            <param id="0" name="Instance variable">largoImagen</param>
+                            <param id="1" name="Value">backgroundCapitulos.Height</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="468185251597608" type="backgroundCapitulos">
+                            <param id="0" name="Instance variable">ctdPaginasCapitulo</param>
+                            <param id="1" name="Value">backgroundCapitulos.AnimationFrameCount</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="913148927175921">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="767391504991821" type="backgroundCapitulos">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Y co-ordinate">-(backgroundCapitulos.largoImagen - 480)</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="784941925310126" type="System">
+                            <param id="0" name="Variable">framePaginaActual</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">backgroundCapitulos.ctdPaginasCapitulo - 1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="652515239399549" type="System">
+                            <param id="0" name="Group name">&quot;Avanzar imagen&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="864044633645765" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="700114427284350">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="656267699132959" type="System">
+                                    <param id="0" name="Variable">nivelActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="848722114018841" type="System">
+                                    <param id="0" name="Layout">Mundo 01 - Nivel 01 (Busqueda decreto libertad de comercio)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="145548618229450">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="842637614451511" type="System">
+                                    <param id="0" name="Variable">nivelActual</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="745596578827951" type="System">
+                                    <param id="0" name="Layout">Mundo 01 - Nivel 02 (Busqueda Decreto formacion de cuerpos armados)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-block sid="207363277342320">
             <conditions>
                 <condition id="-2" name="Compare Y" sid="127455381207763" type="backgroundCapitulos">
@@ -698,8 +754,16 @@
                     <param id="1" name="Comparison">2</param>
                     <param id="2" name="Value">backgroundCapitulos.ctdPaginasCapitulo - 1</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="616357614865624" type="System" />
             </conditions>
             <actions>
+                <action id="-12" name="Set group active" sid="662467882984962" type="System">
+                    <param id="0" name="Group name">&quot;Avanzar imagen&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="959418320241330" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
                 <action id="-2" name="Set Y" sid="180896955787356" type="backgroundCapitulos">
                     <param id="0" name="Y">0</param>
                 </action>
@@ -710,51 +774,28 @@
                     <param id="0" name="Variable">framePaginaActual</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="-16" name="Wait" sid="231941970824563" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-12" name="Set group active" sid="152239562087577" type="System">
+                    <param id="0" name="Group name">&quot;Avanzar imagen&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
             </actions>
         </event-block>
-        <event-block sid="913148927175921">
+        <event-block sid="205019737330718">
             <conditions>
-                <condition id="-2" name="Compare Y" sid="767391504991821" type="backgroundCapitulos">
-                    <param id="0" name="Comparison">3</param>
-                    <param id="1" name="Y co-ordinate">-(backgroundCapitulos.largoImagen - 480)</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="784941925310126" type="System">
-                    <param id="0" name="Variable">framePaginaActual</param>
-                    <param id="1" name="Comparison">5</param>
-                    <param id="2" name="Value">backgroundCapitulos.ctdPaginasCapitulo - 1</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="458375250874094" type="System" />
             </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="700114427284350">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="656267699132959" type="System">
-                            <param id="0" name="Variable">nivelActual</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="848722114018841" type="System">
-                            <param id="0" name="Layout">Mundo 01 - Nivel 01 (Busqueda decreto libertad de comercio)</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="145548618229450">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="842637614451511" type="System">
-                            <param id="0" name="Variable">nivelActual</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="745596578827951" type="System">
-                            <param id="0" name="Layout">Mundo 01 - Nivel 02 (Busqueda Decreto formacion de cuerpos armados)</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
+            <actions>
+                <action id="-16" name="Wait" sid="385519222727371" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-12" name="Set group active" sid="182283034283749" type="System">
+                    <param id="0" name="Group name">&quot;Avanzar imagen&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
