@@ -1801,8 +1801,18 @@
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="caminar" pingpong="0" repeatcount="1" repeatto="0" sid="635198371422120" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.407407" />
+                    <animation framecount="11" loop="1" name="caminar" pingpong="0" repeatcount="1" repeatto="0" sid="635198371422120" speed="24">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                     <animation framecount="1" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="802807940738479" speed="5">
                         <frame duration="3" hotspotX="0.5" hotspotY="0.407407" />
