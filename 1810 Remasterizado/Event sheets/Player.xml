@@ -621,7 +621,7 @@
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" sid="376931286062872" type="Enemy_Boss">
-                            <param id="0" name="Animation">&quot;default&quot;</param>
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>
