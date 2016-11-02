@@ -190,6 +190,10 @@
                                     <param id="0" name="Instance variable">sobreEscalera</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
+                                <action id="-13" name="Set boolean" sid="207882021532078" type="player">
+                                    <param id="0" name="Instance variable">estaEnSuelo</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="879049352840987">
@@ -203,6 +207,10 @@
                                 <action id="-13" name="Set boolean" sid="212290235105512" type="player">
                                     <param id="0" name="Instance variable">sobreEscalera</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="954703418813732" type="player">
+                                    <param id="0" name="Instance variable">estaEnSuelo</param>
+                                    <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>

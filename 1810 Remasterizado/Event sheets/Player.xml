@@ -203,6 +203,10 @@
                                             <param id="0" name="Instance variable">seEstaMoviendo</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
+                                        <action id="-13" name="Set boolean" sid="989895199149639" type="player">
+                                            <param id="0" name="Instance variable">estaEnSuelo</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -306,6 +310,9 @@
                                             <param id="0" name="Comparison">0</param>
                                             <param id="1" name="Speed">0</param>
                                         </condition>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="135868227234138" type="player">
+                                            <param id="0" name="Instance variable">sobreEscalera</param>
+                                        </condition>
                                     </conditions>
                                     <actions>
                                         <action id="4" name="Set animation" sid="497683539493520" type="player">
@@ -315,6 +322,18 @@
                                         <action id="-13" name="Set boolean" sid="751116751012689" type="player">
                                             <param id="0" name="Instance variable">seEstaMoviendo</param>
                                             <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="174443587811449">
+                                    <conditions>
+                                        <condition behavior="Platform" id="3" name="Is jumping" sid="264760011447715" type="player" />
+                                        <condition id="-4" name="Trigger once while true" sid="498152584234651" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="187388962841015" type="player">
+                                            <param id="0" name="Animation">&quot;salto&quot;</param>
+                                            <param id="1" name="From">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -341,6 +360,54 @@
                             </conditions>
                             <actions>
                                 <action id="-26" name="Restart layout" sid="689335901433857" type="System" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="313212202649565">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="272003119513251" type="player">
+                                    <param id="0" name="Instance variable">sobreEscalera</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Key is down" sid="204116612969777" type="Keyboard">
+                                    <param id="0" name="Key">38 (Up arrow)</param>
+                                </condition>
+                                <condition id="2" inverted="1" name="Key is down" sid="375188999773360" type="Keyboard">
+                                    <param id="0" name="Key">40 (Down arrow)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Stop" sid="451164731598238" type="player" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="220810656387647">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="220139831288794" type="player">
+                                    <param id="0" name="Instance variable">sobreEscalera</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="214021493821847" type="Keyboard">
+                                    <param id="0" name="Key">40 (Down arrow)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="769524715908360" type="player">
+                                    <param id="0" name="Animation">&quot;escalera&quot;</param>
+                                    <param id="1" name="From">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="587683566022398">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="718890973972915" type="player">
+                                    <param id="0" name="Instance variable">sobreEscalera</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="626433777309801" type="Keyboard">
+                                    <param id="0" name="Key">38 (Up arrow)</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="324462951622160" type="player">
+                                    <param id="0" name="Animation">&quot;escalera&quot;</param>
+                                    <param id="1" name="From">0</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
