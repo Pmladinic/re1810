@@ -155,8 +155,8 @@
                 <animation-folder>
                     <animation-folder name="Mundo 1">
                         <animation framecount="3" loop="0" name="Capitulo11" pingpong="0" repeatcount="1" repeatto="0" sid="1247019137232652" speed="0">
-                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\korN\Desktop\14795909_10210463369319098_320577040_o.jpg" />
-                            <frame duration="1" hotspotX="0" hotspotY="0" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 1 OK.jpg" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 2 OK.jpg" />
                             <frame duration="1" hotspotX="0" hotspotY="0" />
                         </animation>
                         <animation framecount="3" loop="0" name="Capitulo12" pingpong="0" repeatcount="1" repeatto="0" sid="203783615572314" speed="0">
