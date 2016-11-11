@@ -2501,11 +2501,11 @@
                         <x>4416</x>
                         <y>448</y>
                         <z>0</z>
-                        <width>32</width>
-                        <height>64</height>
+                        <width>33</width>
+                        <height>48</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
-                        <hotspotY>-0.015625</hotspotY>
+                        <hotspotY>-0.104166664</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2644,11 +2644,11 @@
                         <x>96</x>
                         <y>448</y>
                         <z>0</z>
-                        <width>32</width>
-                        <height>64</height>
+                        <width>33</width>
+                        <height>48</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
-                        <hotspotY>-0.015625</hotspotY>
+                        <hotspotY>-0.104166664</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

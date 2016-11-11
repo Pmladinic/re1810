@@ -1353,7 +1353,15 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699961651169070" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="-0.015625" />
+                        <frame duration="1" hotspotX="0" hotspotY="-0.104167" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Player\NPC - Ohiggins.png">
+                            <collision-poly>
+                                <point x="0.143939" y="0.0364583" />
+                                <point x="0.954545" y="0.0572917" />
+                                <point x="0.886364" y="0.640625" />
+                                <point x="0.742424" y="0.973958" />
+                                <point x="0.242424" y="0.973958" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
