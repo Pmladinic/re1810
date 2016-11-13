@@ -4959,11 +4959,11 @@
                         <x>4130</x>
                         <y>462</y>
                         <z>0</z>
-                        <width>64</width>
-                        <height>96</height>
+                        <width>42</width>
+                        <height>64</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>3</hotspotX>
+                        <hotspotY>1.984375</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

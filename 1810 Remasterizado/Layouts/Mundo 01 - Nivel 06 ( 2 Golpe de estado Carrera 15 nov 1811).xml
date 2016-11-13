@@ -2062,10 +2062,10 @@
                         <y>544</y>
                         <z>0</z>
                         <width>32</width>
-                        <height>64</height>
+                        <height>51</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.509803951</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
