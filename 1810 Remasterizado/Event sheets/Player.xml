@@ -1239,6 +1239,76 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="907821555033990">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="623201581825578" type="EnemyShooter">
+                            <param id="0" name="Animation">&quot;disparo&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="636671449613080" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="863145144004670" type="Audio">
+                            <param id="0" name="Audio file">Gunshot1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;GunShoot&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="188939282879348" title="SonidosP">
+            <sub-events>
+                <event-block sid="616354209223984">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="251952592488163" type="player">
+                            <param id="0" name="Animation">&quot;salto&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="452371974677303" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="800310656291019" type="Audio">
+                            <param id="0" name="Audio file">Salto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;pjSalto&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="736165159417194">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="921645042204618" type="player">
+                            <param id="0" name="Object">enemigo01</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="972620392761684" type="Audio">
+                            <param id="0" name="Tag">&quot;pjSalto&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="158461610075342" type="Audio">
+                            <param id="0" name="Audio file">Windshield_Hit_With_Bar</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Hit1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="729083917019570">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="461021880683417" type="player">
+                            <param id="0" name="Object">Objetos</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="579308662868420" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="270671891369525" type="Audio">
+                            <param id="0" name="Audio file">Victory1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
     </events>

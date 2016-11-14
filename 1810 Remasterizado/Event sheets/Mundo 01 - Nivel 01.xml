@@ -17,6 +17,12 @@
                 <action id="0" name="Set text" sid="3562038053987715" type="descripcionNivel">
                     <param id="0" name="Text">&quot;Primera Junta Nacional de Gobierno&quot;</param>
                 </action>
+                <action id="0" name="Play" sid="381004926829824" type="Audio">
+                    <param id="0" name="Audio file">Nivel1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;n1m2&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="286334638875935">

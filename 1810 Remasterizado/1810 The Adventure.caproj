@@ -10,6 +10,7 @@
     <unique-id>2e0k19i6ax0rl</unique-id>
     <saved-with-version>23900</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
@@ -2735,6 +2736,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Audio" sid="999537076936965">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2787,8 +2791,41 @@
         <global-instance type="Keyboard" uid="6" />
         <global-instance type="Browser" uid="14" />
         <global-instance type="Function" uid="690" />
+        <global-instance type="Audio" uid="12">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <sound-folder name="Musica">
+            <file name="Menu.ogg" />
+            <file name="Nivel1.ogg" />
+        </sound-folder>
+        <sound-folder name="Efectos">
+            <file name="Retro_Game_Menu_Navigation_3.ogg" />
+            <file name="Retro_Game_Unlock_2.ogg" />
+            <file name="Gunshot1.ogg" />
+            <file name="Victory Guerra.m4a" />
+            <file name="Victory Guerra.ogg" />
+            <file name="Victory1.m4a" />
+            <file name="Victory1.ogg" />
+        </sound-folder>
+        <sound-folder name="Personaje">
+            <file name="Salto.m4a" />
+            <file name="Salto.ogg" />
+            <file name="Windshield_Hit_With_Bar.ogg" />
+        </sound-folder>
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
