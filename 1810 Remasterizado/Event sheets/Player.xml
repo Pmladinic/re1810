@@ -1301,6 +1301,9 @@
                         <condition id="-4" name="Trigger once while true" sid="579308662868420" type="System" />
                     </conditions>
                     <actions>
+                        <action id="6" name="Stop" sid="252083959152318" type="Audio">
+                            <param id="0" name="Tag">&quot;n1m1&quot;</param>
+                        </action>
                         <action id="0" name="Play" sid="270671891369525" type="Audio">
                             <param id="0" name="Audio file">Victory1</param>
                             <param id="2" name="Loop">0</param>
