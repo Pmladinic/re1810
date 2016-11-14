@@ -1719,7 +1719,17 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953990393288215" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Soldado chileno.png">
+                            <collision-poly>
+                                <point x="0.1875" y="0.130435" />
+                                <point x="0.5" y="0.0434783" />
+                                <point x="0.78125" y="0.152174" />
+                                <point x="0.8125" y="0.5" />
+                                <point x="0.714844" y="0.97826" />
+                                <point x="0.167969" y="0.975543" />
+                                <point x="0.15625" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1743,7 +1753,17 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="296959984834789" speed="5">
-                        <frame duration="1" hotspotX="-0.03125" hotspotY="0" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Manuel Rodriguez.png">
+                            <collision-poly>
+                                <point x="0.178571" y="0.108696" />
+                                <point x="0.5" y="0.0434783" />
+                                <point x="0.892857" y="0.0652174" />
+                                <point x="0.892857" y="0.5" />
+                                <point x="0.848214" y="0.978261" />
+                                <point x="0.183036" y="0.978261" />
+                                <point x="0.0714286" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1751,7 +1771,17 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212586230309572" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.507692" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - General español.png">
+                            <collision-poly>
+                                <point x="0.133929" y="0.198077" />
+                                <point x="0.5" y="0.2" />
+                                <point x="0.928571" y="0.0307692" />
+                                <point x="0.9375" y="0.444231" />
+                                <point x="0.767857" y="0.984616" />
+                                <point x="0.129464" y="0.984616" />
+                                <point x="0.107143" y="0.492308" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1759,7 +1789,17 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="296231918504370" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0.015625" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Figueroa.png">
+                            <collision-poly>
+                                <point x="0.235294" y="0.170213" />
+                                <point x="0.5" y="0.0425532" />
+                                <point x="0.882353" y="0.0851064" />
+                                <point x="0.882353" y="0.489362" />
+                                <point x="0.801471" y="0.984043" />
+                                <point x="0.275735" y="0.981383" />
+                                <point x="0.150735" y="0.390957" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1770,7 +1810,16 @@
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760345190473138" speed="5">
-                        <frame duration="1" hotspotX="-0.03125" hotspotY="0" />
+                        <frame duration="1" hotspotX="-0.0689655" hotspotY="-0.0208333" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Soldado Vigia.png">
+                            <collision-poly>
+                                <point x="0.172414" y="0.104167" />
+                                <point x="0.482759" y="0.0208333" />
+                                <point x="0.862069" y="0.0833333" />
+                                <point x="0.965517" y="0.5" />
+                                <point x="0.780172" y="0.984375" />
+                                <point x="0.215517" y="0.984375" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
