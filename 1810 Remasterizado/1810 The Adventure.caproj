@@ -2824,6 +2824,7 @@
         <sound-folder name="Musica">
             <file name="Menu.ogg" />
             <file name="Nivel1.ogg" />
+            <file name="Caps.ogg" />
         </sound-folder>
         <sound-folder name="Efectos">
             <file name="Retro_Game_Menu_Navigation_3.ogg" />
