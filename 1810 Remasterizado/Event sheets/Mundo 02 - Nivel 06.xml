@@ -589,6 +589,10 @@
                                 <action behavior="Platform" id="7" name="Simulate control" sid="871784157867760" type="BossRafaelMaroto">
                                     <param id="0" name="Control">1</param>
                                 </action>
+                                <action id="4" name="Set animation" sid="146480938954880" type="BossRafaelMaroto">
+                                    <param id="0" name="Animation">&quot;caminando&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
                                 <action id="7" name="Set mirrored" sid="857127330831142" type="BossRafaelMaroto">
                                     <param id="0" name="State">1</param>
                                 </action>
@@ -604,6 +608,10 @@
                             <actions>
                                 <action behavior="Platform" id="7" name="Simulate control" sid="918557270154886" type="BossRafaelMaroto">
                                     <param id="0" name="Control">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="691105696747785" type="BossRafaelMaroto">
+                                    <param id="0" name="Animation">&quot;caminando&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                                 <action id="7" name="Set mirrored" sid="108103598548342" type="BossRafaelMaroto">
                                     <param id="0" name="State">0</param>

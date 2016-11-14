@@ -2539,7 +2539,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385875104492971" speed="5">
-                        <frame duration="1" hotspotX="3" hotspotY="1.98438" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Rafael Maroto.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Rafael Maroto.png">
                             <collision-poly>
                                 <point x="0.119048" y="0.09375" />
                                 <point x="0.892857" y="0.0839844" />

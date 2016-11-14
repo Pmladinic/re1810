@@ -233,7 +233,7 @@
                 <event-block sid="752761787448308">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="519567669640159" type="Keyboard">
-                            <param id="0" name="Key">13 (Return)</param>
+                            <param id="0" name="Key">88 (X)</param>
                         </condition>
                         <condition id="-8" name="Compare two values" sid="706728612427851" type="System">
                             <param id="0" name="First value">txtDialogosFuente.Text</param>
