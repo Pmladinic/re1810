@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Menu</name>
     <events>
+        <variable constant="0" name="menu" sid="494610093960352" static="0" type="number">1</variable>
         <event-group description="" sid="3031942681049735" title="Botones">
             <sub-events>
                 <event-group description="" sid="1909660437119704" title="Nueva partida">
@@ -55,14 +56,13 @@
                                 <condition id="7" name="Cursor is over object" sid="7161368815500095" type="Mouse">
                                     <param id="0" name="Object">btnNuevaPartida</param>
                                 </condition>
-                                <condition id="2" inverted="1" name="Is playing" sid="3478822344131579" type="btnNuevaPartida">
-                                    <param id="0" name="Animation">&quot;clicked&quot;</param>
-                                </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="4056287047808182" type="btnNuevaPartida">
-                                    <param id="0" name="Animation">&quot;focused&quot;</param>
-                                    <param id="1" name="From">1</param>
+                                <action id="9" name="Set scale" sid="4056287047808182" type="btnNuevaPartida">
+                                    <param id="0" name="Scale">1.2</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="476548237527062" type="btnNuevaPartida">
+                                    <param id="0" name="Opacity">100</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -71,14 +71,13 @@
                                 <condition id="7" inverted="1" name="Cursor is over object" sid="8459076851888396" type="Mouse">
                                     <param id="0" name="Object">btnNuevaPartida</param>
                                 </condition>
-                                <condition id="2" inverted="1" name="Is playing" sid="7083769277735982" type="btnNuevaPartida">
-                                    <param id="0" name="Animation">&quot;clicked&quot;</param>
-                                </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="9214867507808994" type="btnNuevaPartida">
-                                    <param id="0" name="Animation">&quot;idle&quot;</param>
-                                    <param id="1" name="From">1</param>
+                                <action id="9" name="Set scale" sid="9214867507808994" type="btnNuevaPartida">
+                                    <param id="0" name="Scale">1</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="607056211141424" type="btnNuevaPartida">
+                                    <param id="0" name="Opacity">70</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -86,6 +85,36 @@
                 </event-group>
                 <event-group description="" sid="6576732935380875" title="Cargar partida">
                     <sub-events>
+                        <event-block sid="604408856354536">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="152513548690809" type="Mouse">
+                                    <param id="0" name="Object">btnCargarPartida</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="9" name="Set scale" sid="355031441359658" type="btnCargarPartida">
+                                    <param id="0" name="Scale">1.2</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="684779089836656" type="btnCargarPartida">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="379997885595047">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="127921872321463" type="Mouse">
+                                    <param id="0" name="Object">btnCargarPartida</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="9" name="Set scale" sid="193144971327184" type="btnCargarPartida">
+                                    <param id="0" name="Scale">1</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="267994572660572" type="btnCargarPartida">
+                                    <param id="0" name="Opacity">70</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="1597504735310301">
                             <conditions>
                                 <condition id="6" name="On object clicked" sid="947960237341521" type="Mouse">
@@ -125,6 +154,36 @@
                 </event-group>
                 <event-group description="" sid="4837739213578197" title="Salir">
                     <sub-events>
+                        <event-block sid="564672002071184">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="680761684636229" type="Mouse">
+                                    <param id="0" name="Object">btnSalir</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="9" name="Set scale" sid="276192382610626" type="btnSalir">
+                                    <param id="0" name="Scale">1.2</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="343943599529928" type="btnSalir">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="250958509091111">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="932767419307787" type="Mouse">
+                                    <param id="0" name="Object">btnSalir</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="9" name="Set scale" sid="950806266739410" type="btnSalir">
+                                    <param id="0" name="Scale">1</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="727379951515312" type="btnSalir">
+                                    <param id="0" name="Opacity">70</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="1597504735310301">
                             <conditions>
                                 <condition id="6" name="On object clicked" sid="947960237341521" type="Mouse">
