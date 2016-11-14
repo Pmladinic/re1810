@@ -1307,7 +1307,17 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="912816346205640" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="2" hotspotX="0.5" hotspotY="0.509804" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Jose Miguel Carrera.png">
+                            <collision-poly>
+                                <point x="0.15625" y="0.0980392" />
+                                <point x="0.5" y="0.0196078" />
+                                <point x="0.90625" y="0.0588235" />
+                                <point x="0.96875" y="0.490196" />
+                                <point x="0.820313" y="0.977941" />
+                                <point x="0.28125" y="0.980392" />
+                                <point x="0.0625" y="0.490196" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="11" loop="1" name="caminando" pingpong="0" repeatcount="1" repeatto="0" sid="315567288383417" speed="25">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -1462,7 +1472,17 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="402067023992709" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="2" hotspotX="0.516129" hotspotY="0.509804" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Juan Jose Carrera.png">
+                            <collision-poly>
+                                <point x="0.16129" y="0.0980392" />
+                                <point x="0.483871" y="0.0392157" />
+                                <point x="0.870968" y="0.0784314" />
+                                <point x="0.903226" y="0.490196" />
+                                <point x="0.741935" y="0.980392" />
+                                <point x="0.229839" y="0.980392" />
+                                <point x="0.0645161" y="0.490196" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="11" loop="1" name="caminando" pingpong="0" repeatcount="1" repeatto="0" sid="235846165299441" speed="25">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.509804">
@@ -1613,7 +1633,16 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="416434495391887" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="2" hotspotX="0.5" hotspotY="0.509434" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Luis Carrera.png">
+                            <collision-poly>
+                                <point x="0.1875" y="0.113208" />
+                                <point x="0.9375" y="0.0377358" />
+                                <point x="0.875" y="0.490566" />
+                                <point x="0.710938" y="0.978774" />
+                                <point x="0.21875" y="0.981132" />
+                                <point x="0.0625" y="0.490566" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="11" loop="1" name="caminando" pingpong="0" repeatcount="1" repeatto="0" sid="570053550408640" speed="25">
                         <frame duration="1" hotspotX="0.515152" hotspotY="0.509434">
@@ -1883,42 +1912,31 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="M:\Recursos proyecto\Carpeta compartida con WIN7\SoldadoEspañol.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="M:\Recursos proyecto\Carpeta compartida con WIN7\SoldadoEspañol.png" />
                     </animation>
-                    <animation framecount="4" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="7264205122476063" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="M:\Proyecto titulo remaster\Sprites\Enemigo 01 - Soldado Español.png">
+                    <animation framecount="1" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="7264205122476063" speed="5">
+                        <frame duration="1" hotspotX="0.510638" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañol.png">
                             <collision-poly>
-                                <point x="0" y="0.015625" />
-                                <point x="1" y="0.015625" />
-                                <point x="1" y="1" />
-                                <point x="0" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="M:\Proyecto titulo remaster\Sprites\Enemigo 01 - Soldado Español.png">
-                            <collision-poly>
-                                <point x="0" y="0.046875" />
-                                <point x="1" y="0.046875" />
-                                <point x="1" y="0.953125" />
-                                <point x="0" y="0.953125" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="M:\Proyecto titulo remaster\Sprites\Enemigo 01 - Soldado Español.png">
-                            <collision-poly>
-                                <point x="0" y="0.0625" />
-                                <point x="1" y="0.0625" />
-                                <point x="1" y="0.9375" />
-                                <point x="0" y="0.9375" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="M:\Proyecto titulo remaster\Sprites\Enemigo 01 - Soldado Español.png">
-                            <collision-poly>
-                                <point x="0" y="0.078125" />
-                                <point x="1" y="0.078125" />
-                                <point x="1" y="0.9375" />
-                                <point x="0" y="0.9375" />
+                                <point x="0.191489" y="0.166667" />
+                                <point x="0.489362" y="0.0740741" />
+                                <point x="0.744681" y="0.222222" />
+                                <point x="0.744681" y="0.5" />
+                                <point x="0.648936" y="0.981481" />
+                                <point x="0.335106" y="0.981481" />
+                                <point x="0.106383" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="dañado" pingpong="0" repeatcount="1" repeatto="0" sid="5197456363645671" speed="5">
-                        <frame duration="5" hotspotX="0.506667" hotspotY="0.5" original-source="M:\Proyecto titulo remaster\Sprites\Enemigo 01 - Soldado Español.png" />
+                        <frame duration="5" hotspotX="0.510638" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañol.png">
+                            <collision-poly>
+                                <point x="0.191489" y="0.166667" />
+                                <point x="0.489362" y="0.0740741" />
+                                <point x="0.744681" y="0.222222" />
+                                <point x="0.744681" y="0.5" />
+                                <point x="0.664894" y="0.976852" />
+                                <point x="0.319149" y="0.981481" />
+                                <point x="0.106383" y="0.5" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2293,10 +2311,30 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                     <animation framecount="1" loop="0" name="muerte" pingpong="0" repeatcount="1" repeatto="0" sid="802807940738479" speed="5">
-                        <frame duration="3" hotspotX="0.5" hotspotY="0.407407" />
+                        <frame duration="3" hotspotX="0.512821" hotspotY="0.509091" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañol02.png">
+                            <collision-poly>
+                                <point x="0.128205" y="0.0909091" />
+                                <point x="0.487179" y="0.0181818" />
+                                <point x="0.717949" y="0.2" />
+                                <point x="0.871795" y="0.490909" />
+                                <point x="0.758013" y="0.980682" />
+                                <point x="0.339744" y="0.980682" />
+                                <point x="0.179487" y="0.490909" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="dañado" pingpong="0" repeatcount="1" repeatto="0" sid="956581747409593" speed="5">
-                        <frame duration="2" hotspotX="0.5" hotspotY="0.407407" />
+                        <frame duration="2" hotspotX="0.512821" hotspotY="0.509091" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañol02.png">
+                            <collision-poly>
+                                <point x="0.128205" y="0.0909091" />
+                                <point x="0.487179" y="0.0181818" />
+                                <point x="0.717949" y="0.2" />
+                                <point x="0.871795" y="0.490909" />
+                                <point x="0.75641" y="0.972727" />
+                                <point x="0.336539" y="0.975" />
+                                <point x="0.179487" y="0.490909" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2317,116 +2355,140 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="11" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716919453030706" speed="24">
-                        <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.491525" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.53125" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.53125" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.458333" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.454545" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.483333" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.482759" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
-                        <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.482759" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.0860216" y="0.075" />
-                                <point x="0.943548" y="0" />
-                                <point x="0.938172" y="0.63" />
-                                <point x="0.704301" y="0.98" />
-                                <point x="0.126344" y="0.9775" />
+                                <point x="0.163934" y="0.0943396" />
+                                <point x="0.491803" y="0.0283019" />
+                                <point x="0.868852" y="0.0754717" />
+                                <point x="0.95082" y="0.5" />
+                                <point x="0.75" y="0.985849" />
+                                <point x="0.0655738" y="0.985849" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="dañado" pingpong="0" repeatcount="1" repeatto="0" sid="696914388485371" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="3" hotspotX="0.5" hotspotY="0.504762" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <collision-poly>
+                                <point x="0.185714" y="0.12381" />
+                                <point x="0.5" y="0.0285714" />
+                                <point x="0.785714" y="0.142857" />
+                                <point x="0.942857" y="0.495238" />
+                                <point x="0.764286" y="0.985715" />
+                                <point x="0.217857" y="0.983334" />
+                            </collision-poly>
+                        </frame>
                     </animation>
-                    <animation framecount="6" loop="0" name="vencido" pingpong="1" repeatcount="2" repeatto="0" sid="704458150932696" speed="10">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="1" loop="0" name="vencido" pingpong="1" repeatcount="2" repeatto="0" sid="704458150932696" speed="10">
+                        <frame duration="3" hotspotX="0.5" hotspotY="0.504762" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <collision-poly>
+                                <point x="0.185714" y="0.12381" />
+                                <point x="0.5" y="0.0285714" />
+                                <point x="0.785714" y="0.142857" />
+                                <point x="0.942857" y="0.495238" />
+                                <point x="0.821429" y="0.985714" />
+                                <point x="0.214286" y="0.985714" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2487,10 +2549,28 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="dañado" pingpong="0" repeatcount="1" repeatto="0" sid="268459986476309" speed="5">
-                        <frame duration="3" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="3" hotspotX="0.511628" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Rafael Maroto.png">
+                            <collision-poly>
+                                <point x="0.0581395" y="0.160156" />
+                                <point x="0.488372" y="0.015625" />
+                                <point x="0.813953" y="0.125" />
+                                <point x="0.953488" y="0.5" />
+                                <point x="0.755814" y="0.988281" />
+                                <point x="0.226744" y="0.984375" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="vencido" pingpong="0" repeatcount="1" repeatto="0" sid="938957924568387" speed="5">
-                        <frame duration="5" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="5" hotspotX="0.5" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\NPC - Rafael Maroto.png">
+                            <collision-poly>
+                                <point x="0.0351563" y="0.755434" />
+                                <point x="0.015625" y="0.5" />
+                                <point x="0.125" y="0.173913" />
+                                <point x="0.5" y="0.0434783" />
+                                <point x="0.976563" y="0.222826" />
+                                <point x="0.976563" y="0.75" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="11" loop="1" name="caminando" pingpong="0" repeatcount="1" repeatto="0" sid="113068405121453" speed="25">
                         <frame duration="1" hotspotX="0.47619" hotspotY="0.5">
