@@ -440,5 +440,28 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="910151313932762">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="589632086604100" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="236521809841840" type="Audio">
+                    <param id="0" name="Audio file">Batalla</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;batalla&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="563825651261811">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="132578630639713" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="477522777645952" type="Audio">
+                    <param id="0" name="Tag">&quot;batalla&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

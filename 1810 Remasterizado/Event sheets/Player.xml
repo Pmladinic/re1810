@@ -1304,11 +1304,81 @@
                         <action id="6" name="Stop" sid="252083959152318" type="Audio">
                             <param id="0" name="Tag">&quot;n1m1&quot;</param>
                         </action>
+                        <action id="6" name="Stop" sid="436178139646103" type="Audio">
+                            <param id="0" name="Tag">&quot;n2m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="630308511522030" type="Audio">
+                            <param id="0" name="Tag">&quot;n3m1&quot;</param>
+                        </action>
                         <action id="0" name="Play" sid="270671891369525" type="Audio">
                             <param id="0" name="Audio file">Victory1</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="129957339759343">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="825357488173640" type="player">
+                            <param id="0" name="Animation">&quot;dañado&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="318593527050511" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="590065057078617" type="Audio">
+                            <param id="0" name="Tag">&quot;n1m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="298635688581585" type="Audio">
+                            <param id="0" name="Tag">&quot;n2m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="578707793108453" type="Audio">
+                            <param id="0" name="Tag">&quot;n3m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="450294766616019" type="Audio">
+                            <param id="0" name="Tag">&quot;n4m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="929121381102752" type="Audio">
+                            <param id="0" name="Tag">&quot;n5m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="575543675669314" type="Audio">
+                            <param id="0" name="Tag">&quot;n6m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="172128553937051" type="Audio">
+                            <param id="0" name="Tag">&quot;n7m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="684817757671905" type="Audio">
+                            <param id="0" name="Tag">&quot;n1m2&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="187658942972865" type="Audio">
+                            <param id="0" name="Tag">&quot;n2m2&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="570695346807694" type="Audio">
+                            <param id="0" name="Tag">&quot;n3m2&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="778001398816393" type="Audio">
+                            <param id="0" name="Tag">&quot;n4m2&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="807867207758408" type="Audio">
+                            <param id="0" name="Tag">&quot;n5m2&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="862629713568162" type="Audio">
+                            <param id="0" name="Tag">&quot;n6m2&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="123731812068388" type="Audio">
+                            <param id="0" name="Tag">&quot;n1m3&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="581985250557926" type="Audio">
+                            <param id="0" name="Tag">&quot;n2m3&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="526931338919702" type="Audio">
+                            <param id="0" name="Tag">&quot;n3m3&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="158209356853945" type="Audio">
+                            <param id="0" name="Audio file">defeat</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;defeat&quot;</param>
                         </action>
                     </actions>
                 </event-block>

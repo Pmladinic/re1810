@@ -2823,8 +2823,9 @@
     <sounds-folder>
         <sound-folder name="Musica">
             <file name="Menu.ogg" />
-            <file name="Nivel1.ogg" />
+            <file name="n1m1.ogg" />
             <file name="Caps.ogg" />
+            <file name="Batalla.ogg" />
         </sound-folder>
         <sound-folder name="Efectos">
             <file name="Retro_Game_Menu_Navigation_3.ogg" />
@@ -2834,6 +2835,8 @@
             <file name="Victory Guerra.ogg" />
             <file name="Victory1.m4a" />
             <file name="Victory1.ogg" />
+            <file name="defeat.m4a" />
+            <file name="defeat.ogg" />
         </sound-folder>
         <sound-folder name="Personaje">
             <file name="Salto.m4a" />

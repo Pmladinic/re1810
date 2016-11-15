@@ -240,5 +240,28 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="464615660519773">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="674463090889177" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="718472471329956" type="Audio">
+                    <param id="0" name="Audio file">n1m1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;n2m1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="740899227198030">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="682514943866676" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="140796526368655" type="Audio">
+                    <param id="0" name="Tag">&quot;n2m1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
