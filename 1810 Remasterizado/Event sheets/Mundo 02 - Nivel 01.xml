@@ -44,6 +44,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="344272229678343" type="reja">
                                     <param id="0" name="Unique ID">626</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="720308397891823" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="310400727555808" type="palancaActivable">
@@ -58,6 +59,12 @@
                                     <param id="0" name="Animation">&quot;open&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="327073655804842" type="Audio">
+                                    <param id="0" name="Audio file">Open Gate</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="472034543689008">
@@ -68,6 +75,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="665931250629954" type="reja">
                                     <param id="0" name="Unique ID">726</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="495922312139326" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="340194288890503" type="palancaActivable">
@@ -81,6 +89,12 @@
                                 <action id="4" name="Set animation" sid="563855497532971" type="reja">
                                     <param id="0" name="Animation">&quot;open&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="732740993743133" type="Audio">
+                                    <param id="0" name="Audio file">Open Gate</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -247,6 +261,29 @@
                 </action>
                 <action id="0" name="Set text" sid="241381437994503" type="descripcionNivel">
                     <param id="0" name="Text">&quot;Batalla de Rancagua&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="485766195904737">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="118990329740160" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="807498053555114" type="Audio">
+                    <param id="0" name="Audio file">n1m2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;n1m2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="273167480757406">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="148756162605018" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="737031900485842" type="Audio">
+                    <param id="0" name="Tag">&quot;n1m2&quot;</param>
                 </action>
             </actions>
         </event-block>

@@ -1270,58 +1270,17 @@
         </event-group>
         <event-group description="" sid="188939282879348" title="SonidosP">
             <sub-events>
-                <event-block sid="616354209223984">
+                <event-block sid="973947290955031">
                     <conditions>
-                        <condition id="2" name="Is playing" sid="251952592488163" type="player">
-                            <param id="0" name="Animation">&quot;salto&quot;</param>
-                        </condition>
-                        <condition id="-4" name="Trigger once while true" sid="452371974677303" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="800310656291019" type="Audio">
-                            <param id="0" name="Audio file">Salto</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;pjSalto&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="736165159417194">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="921645042204618" type="player">
-                            <param id="0" name="Object">enemigo01</param>
+                        <condition id="1" name="Is overlapping another object" sid="824053564153047" type="player">
+                            <param id="0" name="Object">BanderaCarrera</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="6" name="Stop" sid="972620392761684" type="Audio">
-                            <param id="0" name="Tag">&quot;pjSalto&quot;</param>
+                        <action id="6" name="Stop" sid="555125850608464" type="Audio">
+                            <param id="0" name="Tag">&quot;n7m1&quot;</param>
                         </action>
-                        <action id="0" name="Play" sid="158461610075342" type="Audio">
-                            <param id="0" name="Audio file">Windshield_Hit_With_Bar</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Hit1&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="729083917019570">
-                    <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="461021880683417" type="player">
-                            <param id="0" name="Object">Objetos</param>
-                        </condition>
-                        <condition id="-4" name="Trigger once while true" sid="579308662868420" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="6" name="Stop" sid="252083959152318" type="Audio">
-                            <param id="0" name="Tag">&quot;n1m1&quot;</param>
-                        </action>
-                        <action id="6" name="Stop" sid="436178139646103" type="Audio">
-                            <param id="0" name="Tag">&quot;n2m1&quot;</param>
-                        </action>
-                        <action id="6" name="Stop" sid="630308511522030" type="Audio">
-                            <param id="0" name="Tag">&quot;n3m1&quot;</param>
-                        </action>
-                        <action id="0" name="Play" sid="270671891369525" type="Audio">
+                        <action id="0" name="Play" sid="392228612192163" type="Audio">
                             <param id="0" name="Audio file">Victory1</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
@@ -1393,80 +1352,84 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="616354209223984">
+                    <conditions>
+                        <condition id="2" name="Is playing" sid="251952592488163" type="player">
+                            <param id="0" name="Animation">&quot;salto&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="452371974677303" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="800310656291019" type="Audio">
+                            <param id="0" name="Audio file">Salto</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;pjSalto&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="736165159417194">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="921645042204618" type="player">
+                            <param id="0" name="Object">enemigo01</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="972620392761684" type="Audio">
+                            <param id="0" name="Tag">&quot;pjSalto&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="158461610075342" type="Audio">
+                            <param id="0" name="Audio file">Windshield_Hit_With_Bar</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Hit1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="729083917019570">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="461021880683417" type="player">
+                            <param id="0" name="Object">Objetos</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="579308662868420" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="252083959152318" type="Audio">
+                            <param id="0" name="Tag">&quot;n1m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="436178139646103" type="Audio">
+                            <param id="0" name="Tag">&quot;n2m1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="630308511522030" type="Audio">
+                            <param id="0" name="Tag">&quot;n3m1&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="270671891369525" type="Audio">
+                            <param id="0" name="Audio file">Victory1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="829758842475653">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="315496682719056" type="player">
+                            <param id="0" name="Object">Enemy2hits</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="455493902442474" type="Audio">
+                            <param id="0" name="Tag">&quot;pjSalto&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="696700997651581" type="Audio">
+                            <param id="0" name="Audio file">Windshield_Hit_With_Bar</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Hit1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="207016083696483">
-            <conditions>
-                <condition id="1" name="Is overlapping another object" sid="285151933204640" type="player">
-                    <param id="0" name="Object">puntoDialogoNPC</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="588617751124923" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="392339410714976" type="Audio">
-                    <param id="0" name="Tag">&quot;n4m1&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="901458561742413" type="Audio">
-                    <param id="0" name="Tag">&quot;n5m1&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="894819409580079" type="Audio">
-                    <param id="0" name="Tag">&quot;n6m1&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="632178274805937" type="Audio">
-                    <param id="0" name="Tag">&quot;n7m1&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="962542639758851" type="Audio">
-                    <param id="0" name="Tag">&quot;n1m2&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="308330287911722" type="Audio">
-                    <param id="0" name="Tag">&quot;n2m2&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="196034684502230" type="Audio">
-                    <param id="0" name="Tag">&quot;n3m2&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="432202977331174" type="Audio">
-                    <param id="0" name="Tag">&quot;n4m2&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="372028870140172" type="Audio">
-                    <param id="0" name="Tag">&quot;n5m2&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="130390275993961" type="Audio">
-                    <param id="0" name="Tag">&quot;n6m2&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="879078042844824" type="Audio">
-                    <param id="0" name="Tag">&quot;n1m3&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="101559547518396" type="Audio">
-                    <param id="0" name="Tag">&quot;n2m3&quot;</param>
-                </action>
-                <action id="6" name="Stop" sid="416002862169964" type="Audio">
-                    <param id="0" name="Tag">&quot;n3m3&quot;</param>
-                </action>
-                <action id="0" name="Play" sid="621832358108447" type="Audio">
-                    <param id="0" name="Audio file">Victory1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="973947290955031">
-            <conditions>
-                <condition id="1" name="Is overlapping another object" sid="824053564153047" type="player">
-                    <param id="0" name="Object">BanderaCarrera</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="555125850608464" type="Audio">
-                    <param id="0" name="Tag">&quot;n7m1&quot;</param>
-                </action>
-                <action id="0" name="Play" sid="392228612192163" type="Audio">
-                    <param id="0" name="Audio file">Victory1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

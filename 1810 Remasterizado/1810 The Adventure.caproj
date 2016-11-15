@@ -225,35 +225,32 @@
                         <animation framecount="1" loop="0" name="Capitulo23" pingpong="0" repeatcount="1" repeatto="0" sid="493627091628843" speed="0">
                             <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 12 OK.jpg" />
                         </animation>
-                        <animation framecount="2" loop="0" name="Capitulo24" pingpong="0" repeatcount="1" repeatto="0" sid="864561297392022" speed="0">
+                        <animation framecount="1" loop="0" name="Capitulo24" pingpong="0" repeatcount="1" repeatto="0" sid="864561297392022" speed="0">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                        <animation framecount="2" loop="0" name="Capitulo25" pingpong="0" repeatcount="1" repeatto="0" sid="283863514193557" speed="0">
                             <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 13 OK.jpg" />
                             <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 14 OK.jpg" />
                         </animation>
-                        <animation framecount="1" loop="0" name="Capitulo25" pingpong="0" repeatcount="1" repeatto="0" sid="283863514193557" speed="0">
-                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 15 OK.jpg" />
-                        </animation>
                         <animation framecount="1" loop="0" name="Capitulo26" pingpong="0" repeatcount="1" repeatto="0" sid="945831427106442" speed="0">
-                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 16 OK.jpg" />
+                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 15 OK.jpg" />
                         </animation>
                     </animation-folder>
                     <animation-folder name="Mundo 3">
-                        <animation framecount="2" loop="0" name="Capitulo31" pingpong="0" repeatcount="1" repeatto="0" sid="664467928711876" speed="0">
+                        <animation framecount="1" loop="0" name="Capitulo31" pingpong="0" repeatcount="1" repeatto="0" sid="664467928711876" speed="0">
+                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 16 OK.jpg" />
+                        </animation>
+                        <animation framecount="2" loop="0" name="Capitulo32" pingpong="0" repeatcount="1" repeatto="0" sid="913042496795981" speed="0">
                             <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 17 OK.jpg" />
                             <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 18 OK.jpg" />
                         </animation>
-                        <animation framecount="1" loop="0" name="Capitulo32" pingpong="0" repeatcount="1" repeatto="0" sid="913042496795981" speed="0">
+                        <animation framecount="1" loop="0" name="Capitulo33" pingpong="0" repeatcount="1" repeatto="0" sid="929091221810317" speed="0">
                             <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 19 OK.jpg" />
                         </animation>
-                        <animation framecount="3" loop="0" name="Capitulo33" pingpong="0" repeatcount="1" repeatto="0" sid="929091221810317" speed="0">
-                            <frame duration="1" hotspotX="0.00181159" hotspotY="0.0018797" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 20 OK.jpg" />
-                            <frame duration="1" hotspotX="0" hotspotY="0" />
-                            <frame duration="1" hotspotX="0" hotspotY="0" />
-                        </animation>
                     </animation-folder>
-                    <animation framecount="3" loop="0" name="CapituloFinal" pingpong="0" repeatcount="1" repeatto="0" sid="562082866665943" speed="0">
-                        <frame duration="1" hotspotX="0.00138889" hotspotY="0.002" />
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <animation framecount="2" loop="0" name="CapituloFinal" pingpong="0" repeatcount="1" repeatto="0" sid="562082866665943" speed="0">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 20 OK.jpg" />
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\Historia lista\Pagina 21 OK.jpg" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2830,6 +2827,12 @@
             <file name="n6m1.ogg" />
             <file name="n5m1 .ogg" />
             <file name="n7m1.ogg" />
+            <file name="n1m2.ogg" />
+            <file name="n2m2.ogg" />
+            <file name="n3m2.ogg" />
+            <file name="n4m2.ogg" />
+            <file name="n5m2.ogg" />
+            <file name="n6m2.ogg" />
         </sound-folder>
         <sound-folder name="Efectos">
             <file name="Retro_Game_Menu_Navigation_3.ogg" />
@@ -2847,6 +2850,8 @@
             <file name="Caja cayendo.ogg" />
             <file name="Open Gate.m4a" />
             <file name="Open Gate.ogg" />
+            <file name="Cage.m4a" />
+            <file name="Cage.ogg" />
         </sound-folder>
         <sound-folder name="Personaje">
             <file name="Salto.m4a" />

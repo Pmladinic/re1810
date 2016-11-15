@@ -20,6 +20,12 @@
                     <param id="0" name="Animation">&quot;open&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action id="0" name="Play" sid="919372132178758" type="Audio">
+                    <param id="0" name="Audio file">Open Gate</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="221643915107917">

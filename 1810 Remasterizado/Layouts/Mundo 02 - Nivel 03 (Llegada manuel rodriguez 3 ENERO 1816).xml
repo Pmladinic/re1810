@@ -1736,7 +1736,7 @@
                 </instance>
                 <instance type="puntoDialogoNPC" uid="1752">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -1750,7 +1750,7 @@
                         <x>3456</x>
                         <y>288</y>
                         <z>0</z>
-                        <width>32</width>
+                        <width>192</width>
                         <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

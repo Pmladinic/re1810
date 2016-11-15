@@ -113,6 +113,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="602756038485801" type="reja">
                                     <param id="0" name="Unique ID">1211</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="475425828457329" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="640630547693689" type="palancaActivable">
@@ -126,6 +127,12 @@
                                 <action id="4" name="Set animation" sid="373475169118569" type="reja">
                                     <param id="0" name="Animation">&quot;open&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="120640671373216" type="Audio">
+                                    <param id="0" name="Audio file">Open Gate</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -527,6 +534,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="361388142463635" type="palancaActivable">
                                     <param id="0" name="Unique ID">1238</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="217057127144104" type="System" />
                             </conditions>
                             <actions>
                                 <action id="-15" name="Set visible" sid="276148058701933" type="cajaColgante">
@@ -539,6 +547,12 @@
                                 <action id="4" name="Set animation" sid="525551457893495" type="palancaActivable">
                                     <param id="0" name="Animation">&quot;idle&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="569678729985145" type="Audio">
+                                    <param id="0" name="Audio file">Cage</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -556,6 +570,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="866814314339775" type="palancaActivable">
                                     <param id="0" name="Unique ID">1237</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="257950474793316" type="System" />
                             </conditions>
                             <actions>
                                 <action id="-15" name="Set visible" sid="727667073581906" type="cajaColgante">
@@ -568,6 +583,12 @@
                                 <action id="4" name="Set animation" sid="498752760371919" type="palancaActivable">
                                     <param id="0" name="Animation">&quot;idle&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="314659365143274" type="Audio">
+                                    <param id="0" name="Audio file">Cage</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -816,6 +837,15 @@
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
+                                <action id="6" name="Stop" sid="498218379444245" type="Audio">
+                                    <param id="0" name="Tag">&quot;batalla&quot;</param>
+                                </action>
+                                <action id="0" name="Play" sid="480577573771671" type="Audio">
+                                    <param id="0" name="Audio file">Victory Guerra</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Vguerra&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -832,6 +862,38 @@
                 </action>
                 <action id="0" name="Set text" sid="771148023300653" type="descripcionNivel">
                     <param id="0" name="Text">&quot;Batalla de Chacabuco&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="739571955711434">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="349140614885152" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="376120879982698" type="Audio">
+                    <param id="0" name="Audio file">n6m2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;n6m2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="369276384060376">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="253320043716024" type="player">
+                    <param id="0" name="Object">puntoDialogoNPC</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="497293442318123" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="542549316918032" type="Audio">
+                    <param id="0" name="Tag">&quot;n6m2&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="935754630810683" type="Audio">
+                    <param id="0" name="Audio file">Batalla</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;batalla&quot;</param>
                 </action>
             </actions>
         </event-block>

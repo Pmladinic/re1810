@@ -45,6 +45,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="879597339935365" type="reja">
                                     <param id="0" name="Unique ID">698</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="569212506716363" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="539262621575002" type="palancaActivable">
@@ -59,6 +60,12 @@
                                     <param id="0" name="Animation">&quot;open&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="968968249363956" type="Audio">
+                                    <param id="0" name="Audio file">Open Gate</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="609791438261821">
@@ -69,6 +76,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="531683447184050" type="reja">
                                     <param id="0" name="Unique ID">865</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="556066489255708" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="890130954573174" type="palancaActivable">
@@ -82,6 +90,12 @@
                                 <action id="4" name="Set animation" sid="301223027429628" type="reja">
                                     <param id="0" name="Animation">&quot;open&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="971379599664079" type="Audio">
+                                    <param id="0" name="Audio file">Open Gate</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -340,6 +354,15 @@
                             <param id="0" name="Variable">nivelTerminado</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="6" name="Stop" sid="106329896832370" type="Audio">
+                            <param id="0" name="Tag">&quot;n3m2&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="777497565772158" type="Audio">
+                            <param id="0" name="Audio file">Victory1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -354,6 +377,29 @@
                 </action>
                 <action id="0" name="Set text" sid="698287600378109" type="descripcionNivel">
                     <param id="0" name="Text">&quot;Llegada de Manuel Rodríguez - Cercanías de Santiago&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="527922302166780">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="813157875144573" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="477489257471205" type="Audio">
+                    <param id="0" name="Audio file">n3m2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;n3m2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="799428449592631">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="829941418194541" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="723318792490074" type="Audio">
+                    <param id="0" name="Tag">&quot;n3m2&quot;</param>
                 </action>
             </actions>
         </event-block>
