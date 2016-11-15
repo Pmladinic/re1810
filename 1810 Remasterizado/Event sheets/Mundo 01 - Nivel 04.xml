@@ -151,5 +151,22 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="842657588333407">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="572107422030775" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="169958262508554" type="Audio">
+                    <param id="0" name="Audio file">n4m1</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;n4m1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="900534835843635">
+            <conditions />
+            <actions />
+        </event-block>
     </events>
 </c2eventsheet>

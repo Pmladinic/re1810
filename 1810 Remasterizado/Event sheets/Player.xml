@@ -1384,5 +1384,78 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="207016083696483">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="285151933204640" type="player">
+                    <param id="0" name="Object">puntoDialogoNPC</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="588617751124923" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="392339410714976" type="Audio">
+                    <param id="0" name="Tag">&quot;n4m1&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="901458561742413" type="Audio">
+                    <param id="0" name="Tag">&quot;n5m1&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="894819409580079" type="Audio">
+                    <param id="0" name="Tag">&quot;n6m1&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="632178274805937" type="Audio">
+                    <param id="0" name="Tag">&quot;n7m1&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="962542639758851" type="Audio">
+                    <param id="0" name="Tag">&quot;n1m2&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="308330287911722" type="Audio">
+                    <param id="0" name="Tag">&quot;n2m2&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="196034684502230" type="Audio">
+                    <param id="0" name="Tag">&quot;n3m2&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="432202977331174" type="Audio">
+                    <param id="0" name="Tag">&quot;n4m2&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="372028870140172" type="Audio">
+                    <param id="0" name="Tag">&quot;n5m2&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="130390275993961" type="Audio">
+                    <param id="0" name="Tag">&quot;n6m2&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="879078042844824" type="Audio">
+                    <param id="0" name="Tag">&quot;n1m3&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="101559547518396" type="Audio">
+                    <param id="0" name="Tag">&quot;n2m3&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="416002862169964" type="Audio">
+                    <param id="0" name="Tag">&quot;n3m3&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="621832358108447" type="Audio">
+                    <param id="0" name="Audio file">Victory1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="973947290955031">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="824053564153047" type="player">
+                    <param id="0" name="Object">BanderaCarrera</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="555125850608464" type="Audio">
+                    <param id="0" name="Tag">&quot;n7m1&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="392228612192163" type="Audio">
+                    <param id="0" name="Audio file">Victory1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

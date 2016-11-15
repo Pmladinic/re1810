@@ -19,7 +19,7 @@
                 </action>
                 <action id="0" name="Play" sid="381004926829824" type="Audio">
                     <param id="0" name="Audio file">n1m1</param>
-                    <param id="2" name="Loop">0</param>
+                    <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;n1m1&quot;</param>
                 </action>
@@ -130,11 +130,18 @@
                                         <condition id="-14" name="Pick by unique ID" sid="6887983969600078" type="reja">
                                             <param id="0" name="Unique ID">88</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="554761756399816" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="4" name="Set animation" sid="6662224748602473" type="reja">
                                             <param id="0" name="Animation">&quot;open&quot;</param>
                                             <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="957212925705856" type="Audio">
+                                            <param id="0" name="Audio file">Open Gate</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                         </action>
                                     </actions>
                                 </event-block>

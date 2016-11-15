@@ -2826,6 +2826,10 @@
             <file name="n1m1.ogg" />
             <file name="Caps.ogg" />
             <file name="Batalla.ogg" />
+            <file name="n4m1.ogg" />
+            <file name="n6m1.ogg" />
+            <file name="n5m1 .ogg" />
+            <file name="n7m1.ogg" />
         </sound-folder>
         <sound-folder name="Efectos">
             <file name="Retro_Game_Menu_Navigation_3.ogg" />
@@ -2837,6 +2841,12 @@
             <file name="Victory1.ogg" />
             <file name="defeat.m4a" />
             <file name="defeat.ogg" />
+            <file name="Tabla cayendo.m4a" />
+            <file name="Tabla cayendo.ogg" />
+            <file name="Caja cayendo.m4a" />
+            <file name="Caja cayendo.ogg" />
+            <file name="Open Gate.m4a" />
+            <file name="Open Gate.ogg" />
         </sound-folder>
         <sound-folder name="Personaje">
             <file name="Salto.m4a" />
