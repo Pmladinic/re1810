@@ -356,5 +356,18 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="203077136561590">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="817822782379889" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="762728714746758" type="fechaNivel">
+                    <param id="0" name="Text">&quot;03 de Enero, 1816&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="305091481227728" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Llegada de Manuel Rodriguez - Santiago&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -514,5 +514,18 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="971878891960913">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="450738082336691" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="387201163068401" type="fechaNivel">
+                    <param id="0" name="Text">&quot;10 de Febrero, 1817&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="609617718745751" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Información Falsa en Chacabuco&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

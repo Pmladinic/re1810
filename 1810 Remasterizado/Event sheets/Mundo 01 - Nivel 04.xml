@@ -162,6 +162,12 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;n4m1&quot;</param>
                 </action>
+                <action id="0" name="Set text" sid="303396452302151" type="fechaNivel">
+                    <param id="0" name="Text">&quot;01 de Abril, 1811&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="990088371745153" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Motin de Figueroa&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="900534835843635">

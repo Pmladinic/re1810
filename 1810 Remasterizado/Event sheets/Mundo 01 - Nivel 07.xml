@@ -401,6 +401,12 @@
                     <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;n7m1&quot;</param>
                 </action>
+                <action id="0" name="Set text" sid="764179957335762" type="fechaNivel">
+                    <param id="0" name="Text">&quot;1811 - 1812&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="520644881751163" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Gobierno de Carrera&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="152066676616412">

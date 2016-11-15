@@ -237,5 +237,18 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="894263004028055">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="601201956984913" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="500374727388163" type="fechaNivel">
+                    <param id="0" name="Text">&quot;01 de Octubre, 1814&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="241381437994503" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Batalla de Rancagua&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

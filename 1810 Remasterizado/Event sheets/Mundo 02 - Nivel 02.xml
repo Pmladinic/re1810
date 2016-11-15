@@ -567,5 +567,18 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="188470692303329">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="479387716946024" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="220313336478764" type="fechaNivel">
+                    <param id="0" name="Text">&quot;07 al 09 de Octubre, 1814&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="567976605983311" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Destierro de patriotas chilenos&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

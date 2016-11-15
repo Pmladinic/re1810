@@ -286,6 +286,23 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="345214360082432">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="141887886961703" type="System" />
+                        <condition id="1" name="Is overlapping another object" sid="727222210848325" type="player">
+                            <param id="0" name="Object">Escalera</param>
+                        </condition>
+                        <condition id="2" name="Is playing" sid="215752435644690" type="player">
+                            <param id="0" name="Animation">&quot;dañado&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="615996973927955" type="player">
+                            <param id="0" name="Instance variable">sobreEscalera</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="746414846096145">
                     <conditions>
                         <condition id="0" name="On key pressed" sid="562474394884431" type="Keyboard">

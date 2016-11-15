@@ -597,5 +597,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="366916224311647">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="269602820423614" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="751788948082526" type="fechaNivel">
+                    <param id="0" name="Text">&quot;05 de Abril, 1818&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="442289315256007" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Batalla de Maipu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -540,6 +540,12 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;n5m1&quot;</param>
                 </action>
+                <action id="0" name="Set text" sid="581341025228302" type="fechaNivel">
+                    <param id="0" name="Text">&quot;04 de Septiembre, 1811&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="177151831829731" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Golpe de Estado de Carrera&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="662782623314296">

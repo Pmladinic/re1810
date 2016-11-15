@@ -503,5 +503,18 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="560246434835803">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="906664319067294" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="129238660199144" type="fechaNivel">
+                    <param id="0" name="Text">&quot;16 de febrero, 1817&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="575281195428124" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Rescate de Patriotas en la Isla Juan Fernández&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

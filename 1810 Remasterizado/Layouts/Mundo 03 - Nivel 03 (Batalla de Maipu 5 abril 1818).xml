@@ -3362,7 +3362,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <mirrored>false</mirrored>
+                        <mirrored>true</mirrored>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
@@ -3377,8 +3377,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4576</x>
-                        <y>96</y>
+                        <x>4568</x>
+                        <y>102</y>
                         <z>0</z>
                         <width>76</width>
                         <height>52</height>
@@ -3565,41 +3565,6 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="EnemyShooter" uid="1585">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <mirrored>false</mirrored>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="LineOfSight">
-                            <properties>
-                                <obstacles>Solids</obstacles>
-                                <range>10000</range>
-                                <cone-of-view>360</cone-of-view>
-                                <use-collision-cells>Yes</use-collision-cells>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>384</x>
-                        <y>640</y>
-                        <z>0</z>
-                        <width>76</width>
-                        <height>52</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -4294,8 +4259,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1088</x>
-                        <y>480</y>
+                        <x>1094</x>
+                        <y>486</y>
                         <z>0</z>
                         <width>76</width>
                         <height>52</height>
@@ -4412,7 +4377,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <mirrored>false</mirrored>
+                        <mirrored>true</mirrored>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
@@ -4427,7 +4392,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2176</x>
+                        <x>2298</x>
                         <y>640</y>
                         <z>0</z>
                         <width>76</width>
@@ -4597,7 +4562,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1888</x>
-                        <y>96</y>
+                        <y>132</y>
                         <z>0</z>
                         <width>32</width>
                         <height>56</height>
@@ -4761,7 +4726,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>2208</x>
-                        <y>64</y>
+                        <y>100</y>
                         <z>0</z>
                         <width>32</width>
                         <height>56</height>
@@ -4913,7 +4878,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3072</x>
-                        <y>192</y>
+                        <y>224</y>
                         <z>0</z>
                         <width>32</width>
                         <height>56</height>
@@ -4965,7 +4930,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3232</x>
-                        <y>416</y>
+                        <y>448</y>
                         <z>0</z>
                         <width>32</width>
                         <height>56</height>
@@ -4999,8 +4964,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3072</x>
-                        <y>640</y>
+                        <x>3079</x>
+                        <y>646</y>
                         <z>0</z>
                         <width>76</width>
                         <height>52</height>
@@ -5125,7 +5090,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3456</x>
-                        <y>64</y>
+                        <y>96</y>
                         <z>0</z>
                         <width>32</width>
                         <height>56</height>
@@ -5177,7 +5142,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3360</x>
-                        <y>608</y>
+                        <y>640</y>
                         <z>0</z>
                         <width>32</width>
                         <height>56</height>
@@ -5371,7 +5336,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3584</x>
-                        <y>608</y>
+                        <y>640</y>
                         <z>0</z>
                         <width>32</width>
                         <height>56</height>
@@ -5579,8 +5544,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3936</x>
-                        <y>96</y>
+                        <x>3942</x>
+                        <y>102</y>
                         <z>0</z>
                         <width>76</width>
                         <height>52</height>
@@ -5645,7 +5610,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <mirrored>false</mirrored>
+                        <mirrored>true</mirrored>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
@@ -5660,8 +5625,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4224</x>
-                        <y>256</y>
+                        <x>4200</x>
+                        <y>262</y>
                         <z>0</z>
                         <width>76</width>
                         <height>52</height>
@@ -5758,6 +5723,41 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="EnemyShooter" uid="1585">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <mirrored>false</mirrored>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LineOfSight">
+                            <properties>
+                                <obstacles>Solids</obstacles>
+                                <range>10000</range>
+                                <cone-of-view>360</cone-of-view>
+                                <use-collision-cells>Yes</use-collision-cells>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>4281</x>
+                        <y>262</y>
+                        <z>0</z>
+                        <width>76</width>
+                        <height>52</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -5828,7 +5828,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3488</x>
-                        <y>608</y>
+                        <y>640</y>
                         <z>0</z>
                         <width>36</width>
                         <height>48</height>
@@ -5847,8 +5847,8 @@
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
-                <x>1</x>
-                <y>1</y>
+                <x>0</x>
+                <y>0</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
@@ -5857,7 +5857,62 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="fechaNivel" uid="1260">
+                    <properties>
+                        <text>Text</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Calibri,-29,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>32</x>
+                        <y>32</y>
+                        <z>0</z>
+                        <width>384</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="descripcionNivel" uid="1791">
+                    <properties>
+                        <text>Text</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Calibri Light,-16,300,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>32</x>
+                        <y>64</y>
+                        <z>0</z>
+                        <width>384</width>
+                        <height>32</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="cartel" sid="789579463701461">
@@ -5865,8 +5920,8 @@
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
-                <x>1</x>
-                <y>1</y>
+                <x>0</x>
+                <y>0</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>

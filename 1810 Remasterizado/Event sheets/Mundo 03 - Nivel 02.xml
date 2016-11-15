@@ -486,5 +486,18 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="382595935282530">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="674905214258592" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="736737913958193" type="fechaNivel">
+                    <param id="0" name="Text">&quot;18 de Marzo, 1818&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="695402195771324" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Batalla de Cancha Rayada&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

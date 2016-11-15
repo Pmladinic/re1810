@@ -472,6 +472,12 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;batalla&quot;</param>
                 </action>
+                <action id="0" name="Set text" sid="261246097750291" type="fechaNivel">
+                    <param id="0" name="Text">&quot;18 de Septiembre, 1810&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="837495522055770" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Primera Junta Nacional de Gobierno&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="563825651261811">

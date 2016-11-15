@@ -445,10 +445,17 @@
                         <event-block sid="350727565582796">
                             <conditions>
                                 <condition id="-4" name="Is outside layout" sid="854942875492519" type="player" />
+                                <condition id="-4" name="Trigger once while true" sid="635523821517804" type="System" />
                             </conditions>
                             <actions>
+                                <action id="0" name="Play" sid="296964235279034" type="Audio">
+                                    <param id="0" name="Audio file">defeat</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                                 <action id="-16" name="Wait" sid="891001045536318" type="System">
-                                    <param id="0" name="Seconds">1</param>
+                                    <param id="0" name="Seconds">1.5</param>
                                 </action>
                                 <action id="-26" name="Restart layout" sid="499513868977348" type="System" />
                             </actions>
@@ -623,6 +630,10 @@
                                         <action id="4" name="Set animation" sid="660925227205503" type="player">
                                             <param id="0" name="Animation">&quot;dañado&quot;</param>
                                             <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="674823093600770" type="player">
+                                            <param id="0" name="Instance variable">puedeSubirEscalera</param>
+                                            <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
