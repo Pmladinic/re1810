@@ -2676,6 +2676,183 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="MarianoOsorio" sid="300318189044991">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="derecha" sid="309502587350173" type="boolean" />
+                    <instance-variable name="speed" sid="320986828947110" type="number" />
+                    <instance-variable name="HP" sid="639206675496224" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="468017384542206">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="883784678031160" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.142857" y="0.0909091" />
+                                <point x="0.5" y="0.030303" />
+                                <point x="0.857143" y="0.0909091" />
+                                <point x="0.928571" y="0.5" />
+                                <point x="0.755952" y="0.984848" />
+                                <point x="0.184524" y="0.988636" />
+                                <point x="0.119048" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="11" loop="1" name="caminando" pingpong="0" repeatcount="1" repeatto="0" sid="105293057537141" speed="25">
+                        <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.52381" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.545455" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.545455" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.771342" y="0.975379" />
+                                <point x="0.0731707" y="0.975379" />
+                                <point x="0.097561" y="0.526515" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dañado" pingpong="0" repeatcount="1" repeatto="0" sid="493535389709341" speed="5">
+                        <frame duration="1" hotspotX="0.512195" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.121951" y="0.0757576" />
+                                <point x="0.487805" y="0.030303" />
+                                <point x="0.853659" y="0.0909091" />
+                                <point x="0.926829" y="0.5" />
+                                <point x="0.768293" y="0.988636" />
+                                <point x="0.170732" y="0.984848" />
+                                <point x="0.097561" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="vencido" pingpong="0" repeatcount="1" repeatto="0" sid="216077293086981" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\Mariano Osorio.png">
+                            <collision-poly>
+                                <point x="0.173913" y="0.121212" />
+                                <point x="0.5" y="0.030303" />
+                                <point x="0.869565" y="0.0909091" />
+                                <point x="0.934783" y="0.5" />
+                                <point x="0.788043" y="0.977273" />
+                                <point x="0.277174" y="0.977273" />
+                                <point x="0.195652" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Mouse" sid="8941637800240169">
             <plugin id="Mouse" />

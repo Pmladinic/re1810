@@ -560,7 +560,7 @@
                             <param id="0" name="Object">puntoDialogoNPC</param>
                         </condition>
                         <condition id="-14" name="Pick by unique ID" sid="406434501123398" type="puntoDialogoNPC">
-                            <param id="0" name="Unique ID">1737</param>
+                            <param id="0" name="Unique ID">1444</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -575,26 +575,14 @@
                             <param id="0" name="Seconds">1</param>
                         </action>
                         <action id="0" name="Set text" sid="146434273760107" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Gracias por ayudarnos, hemos salido bien parados de esta...&quot;</param>
+                            <param id="0" name="Text">&quot;Agregar textos&quot;</param>
                         </action>
-                        <action id="-16" name="Wait" sid="637707028570145" type="System">
-                            <param id="0" name="Seconds">5</param>
+                        <action id="-16" name="Wait" sid="870150709853126" type="System">
+                            <param id="0" name="Seconds">2</param>
                         </action>
-                        <action id="0" name="Set text" sid="830140455949572" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Mas no asi yo, estoy herido.&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="675408309989550" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="789875630648232" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Todo sea por Chile!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="613901322881173" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="557836204957859" type="System">
-                            <param id="0" name="Variable">nivelTerminado</param>
-                            <param id="1" name="Value">1</param>
+                        <action id="-12" name="Set group active" sid="669044245612680" type="System">
+                            <param id="0" name="Group name">&quot;Mariano Osorio&quot;</param>
+                            <param id="1" name="State">1</param>
                         </action>
                         <action id="-9" name="Set value" sid="980886939879785" type="System">
                             <param id="0" name="Variable">mostrandoTexto</param>
@@ -605,9 +593,271 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" inactive="1" sid="961384170622964" title="Mariano Osorio">
+            <sub-events>
+                <event-group description="" sid="220077535654091" title="Movimientos Rafael Maroto2">
+                    <sub-events>
+                        <event-block sid="347228445182646">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="141606006114100" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="131871385746652" type="MarianoOsorio">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="942542112855794" type="MarianoOsorio">
+                                    <param id="0" name="Animation">&quot;caminando&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="880123262980690" type="MarianoOsorio">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="725366088679208">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="798728727013108" type="System" />
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="949655699598285" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="297595187938375" type="MarianoOsorio">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="175524986609438" type="MarianoOsorio">
+                                    <param id="0" name="Animation">&quot;caminando&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="477333381203467" type="MarianoOsorio">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="950391379019769">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="381426295198326" type="MarianoOsorio">
+                                    <param id="0" name="Object">limiteIzquierdo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="861061854197644" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="669478947737033">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="822369099443981" type="MarianoOsorio">
+                                    <param id="0" name="Object">limiteDerecho</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="784873277662160" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">derecha</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="548538109659017" title="Velocidades Mariano Osorio">
+                    <sub-events>
+                        <event-block sid="814812386204348">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="868880105625271" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="494346507734449" type="MarianoOsorio">
+                                    <param id="0" name="Max Speed">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="749652054772776">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="929568900770156" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="647398498927564" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="802469203630161" type="MarianoOsorio">
+                                    <param id="0" name="Max Speed">125</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="948095248081872">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="135268885512818" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="330617082775819" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="870104179076652" type="MarianoOsorio">
+                                    <param id="0" name="Max Speed">150</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="824106956130706">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="369249979354140" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="634614292803236" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="846602362005668" type="MarianoOsorio">
+                                    <param id="0" name="Max Speed">175</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="106363233447211">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="905197848495025" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="122004048853637" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="118805255492606" type="MarianoOsorio">
+                                    <param id="0" name="Max Speed">200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="649621430700123" title="Interacciones y animaciones - Mariano Osorio">
+                    <sub-events>
+                        <event-block sid="753395458111651">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="790053709242533" type="cajaColgante">
+                                    <param id="0" name="Object">MarianoOsorio</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-12" name="Subtract from" sid="373260105951314" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="951094237818622" type="cajaColgante">
+                                    <param id="0" name="Animation">&quot;destroy&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action behavior="Physics" id="21" name="Set immovable" sid="682043117035262" type="cajaColgante">
+                                    <param id="0" name="Setting">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="911408175428871" type="cajaColgante">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="224782415744840" type="System">
+                                    <param id="0" name="Group name">&quot;Enemigo 02 - Jefe Español&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="226012185937088" type="MarianoOsorio">
+                                    <param id="0" name="Animation">&quot;dañado&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="479218741024493" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="405899158000586" type="System">
+                                    <param id="0" name="Group name">&quot;Enemigo 02 - Jefe Español&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="503993490880615" type="cajaColgante">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="147183919191535" type="cajaColgante">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="626074440778839" type="cajaColgante">
+                                    <param id="0" name="X">cajaColgante.posX</param>
+                                    <param id="1" name="Y">cajaColgante.posY</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="785880058368215" type="cajaColgante">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="183825170879874">
+                            <conditions>
+                                <condition id="4" name="On finished" sid="401888299836304" type="MarianoOsorio">
+                                    <param id="0" name="Animation">&quot;dañado&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="277415569398891" type="MarianoOsorio">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="343353688581151">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="133359632309141" type="MarianoOsorio">
+                                    <param id="0" name="Instance variable">HP</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="236301653134837" type="MarianoOsorio">
+                                    <param id="0" name="Animation">&quot;vencido&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="737768828501762" type="System">
+                                    <param id="0" name="Group name">&quot;Movimientos Rafael Maroto&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="381976024640785">
+                            <conditions>
+                                <condition id="4" name="On finished" sid="928217834013124" type="MarianoOsorio">
+                                    <param id="0" name="Animation">&quot;vencido&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="103140440029643" type="MarianoOsorio" />
+                                <action id="-9" name="Set value" sid="575502744558850" type="System">
+                                    <param id="0" name="Variable">nivelTerminado</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="6" name="Stop" sid="593446997413085" type="Audio">
+                                    <param id="0" name="Tag">&quot;batalla&quot;</param>
+                                </action>
+                                <action id="0" name="Play" sid="447352787228951" type="Audio">
+                                    <param id="0" name="Audio file">Victory Guerra</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Vguerra&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
         <event-block sid="847791093805494">
             <conditions>
-                <condition id="4" name="On finished" sid="629775533476882" type="Enemy_Boss">
+                <condition id="4" name="On finished" sid="629775533476882" type="MarianoOsorio">
                     <param id="0" name="Animation">&quot;vencido&quot;</param>
                 </condition>
             </conditions>

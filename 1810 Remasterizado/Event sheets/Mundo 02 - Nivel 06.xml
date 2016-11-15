@@ -765,6 +765,9 @@
                                 <action behavior="Physics" id="21" name="Set immovable" sid="859133856496034" type="cajaColgante">
                                     <param id="0" name="Setting">1</param>
                                 </action>
+                                <action id="11" name="Set collisions enabled" sid="277005802769736" type="cajaColgante">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
                                 <action id="-12" name="Set group active" sid="312236479631884" type="System">
                                     <param id="0" name="Group name">&quot;Enemigo 02 - Jefe Español&quot;</param>
                                     <param id="1" name="State">0</param>
@@ -782,6 +785,9 @@
                                 </action>
                                 <action id="-15" name="Set visible" sid="433337449175459" type="cajaColgante">
                                     <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="551876993456308" type="cajaColgante">
+                                    <param id="0" name="Collisions">1</param>
                                 </action>
                                 <action id="-3" name="Set position" sid="405426984298597" type="cajaColgante">
                                     <param id="0" name="X">cajaColgante.posX</param>
@@ -801,7 +807,7 @@
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="735113631163246" type="BossRafaelMaroto">
-                                    <param id="0" name="Animation">&quot;default&quot;</param>
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
                             </actions>
