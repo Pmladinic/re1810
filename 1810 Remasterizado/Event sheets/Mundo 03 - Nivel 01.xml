@@ -45,6 +45,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="291804748708565" type="reja">
                                     <param id="0" name="Unique ID">1271</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="238374338280322" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="230977062768840" type="palancaActivable">
@@ -58,6 +59,12 @@
                                 <action id="4" name="Set animation" sid="922672264835947" type="reja">
                                     <param id="0" name="Animation">&quot;open&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="714359735127819" type="Audio">
+                                    <param id="0" name="Audio file">Open Gate</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -74,6 +81,7 @@
                                         <condition id="-14" name="Pick by unique ID" sid="300800463310309" type="reja">
                                             <param id="0" name="Unique ID">1326</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="863530481398947" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="4" name="Set animation" sid="414297460533390" type="palancaActivable">
@@ -87,6 +95,12 @@
                                         <action id="4" name="Set animation" sid="310761805217535" type="TX_Celda">
                                             <param id="0" name="Animation">&quot;open&quot;</param>
                                             <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="104497200864397" type="Audio">
+                                            <param id="0" name="Audio file">Cage</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;cage&quot;</param>
                                         </action>
                                         <action id="0" name="Set text" sid="403373552811682" type="dialogosNPC">
                                             <param id="0" name="Text">&quot;&quot;</param>
@@ -112,6 +126,12 @@
                                             <param id="0" name="Animation">&quot;open&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
+                                        <action id="0" name="Play" sid="206571951905054" type="Audio">
+                                            <param id="0" name="Audio file">Open Gate</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="706298082060641">
@@ -122,6 +142,7 @@
                                         <condition id="-14" name="Pick by unique ID" sid="712311473968315" type="TX_Celda">
                                             <param id="0" name="Unique ID">1363</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="552771680540499" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="4" name="Set animation" sid="546063662489848" type="palancaActivable">
@@ -135,6 +156,12 @@
                                         <action id="4" name="Set animation" sid="946059639434882" type="TX_Celda">
                                             <param id="0" name="Animation">&quot;open&quot;</param>
                                             <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="257071581492181" type="Audio">
+                                            <param id="0" name="Audio file">Cage</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;cage&quot;</param>
                                         </action>
                                         <action id="0" name="Set text" sid="969984473683238" type="dialogosNPC">
                                             <param id="0" name="Text">&quot;&quot;</param>
@@ -181,6 +208,7 @@
                                         <condition id="-14" name="Pick by unique ID" sid="825881087060068" type="reja">
                                             <param id="0" name="Unique ID">1259</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="661363881278909" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="4" name="Set animation" sid="581895358011012" type="palancaActivable">
@@ -194,6 +222,12 @@
                                         <action id="4" name="Set animation" sid="752716289899718" type="TX_Celda">
                                             <param id="0" name="Animation">&quot;open&quot;</param>
                                             <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="745657304339328" type="Audio">
+                                            <param id="0" name="Audio file">Cage</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;cage&quot;</param>
                                         </action>
                                         <action id="0" name="Set text" sid="387390101251740" type="dialogosNPC">
                                             <param id="0" name="Text">&quot;&quot;</param>
@@ -230,6 +264,12 @@
                                         <action id="4" name="Set animation" sid="574653615571046" type="reja">
                                             <param id="0" name="Animation">&quot;open&quot;</param>
                                             <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="417491676132321" type="Audio">
+                                            <param id="0" name="Audio file">Open Gate</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -341,6 +381,7 @@
                                         <condition id="-6" name="Every X seconds" sid="517290994414837" type="System">
                                             <param id="0" name="Interval (seconds)">0.05</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="703907348488047" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-17" name="Set layer scale" sid="164818144412182" type="System">
@@ -350,6 +391,15 @@
                                         <action id="-11" name="Add to" sid="875129702655506" type="CartelVictoria">
                                             <param id="0" name="Instance variable">escala</param>
                                             <param id="1" name="Value">0.2</param>
+                                        </action>
+                                        <action id="6" name="Stop" sid="307621740918065" type="Audio">
+                                            <param id="0" name="Tag">&quot;n1m3&quot;</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="337364399378312" type="Audio">
+                                            <param id="0" name="Audio file">Victory1</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;victoria&quot;</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -513,6 +563,29 @@
                 </action>
                 <action id="0" name="Set text" sid="575281195428124" type="descripcionNivel">
                     <param id="0" name="Text">&quot;Rescate de Patriotas en la Isla Juan Fernández&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="181474731145477">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="535466557873279" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="110715916604337" type="Audio">
+                    <param id="0" name="Audio file">n1m3</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;n1m3&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="622050654382436">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="889616065263534" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="271949314118663" type="Audio">
+                    <param id="0" name="Tag">&quot;n1m3&quot;</param>
                 </action>
             </actions>
         </event-block>

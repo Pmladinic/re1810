@@ -2319,7 +2319,7 @@
                 </instance>
                 <instance type="puntoDialogoNPC" uid="11">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -2330,10 +2330,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4393</x>
+                        <x>4384</x>
                         <y>384</y>
                         <z>0</z>
-                        <width>32</width>
+                        <width>160</width>
                         <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -3728,7 +3728,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4384</x>
+                        <x>4352</x>
                         <y>384</y>
                         <z>0</z>
                         <width>32</width>
@@ -5546,8 +5546,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4448</x>
-                        <y>480</y>
+                        <x>4416</x>
+                        <y>448</y>
                         <z>0</z>
                         <width>36</width>
                         <height>48</height>

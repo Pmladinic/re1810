@@ -2833,6 +2833,10 @@
             <file name="n4m2.ogg" />
             <file name="n5m2.ogg" />
             <file name="n6m2.ogg" />
+            <file name="Final Boss.m4a" />
+            <file name="Final Boss.ogg" />
+            <file name="n1m3.ogg" />
+            <file name="n3m3.ogg" />
         </sound-folder>
         <sound-folder name="Efectos">
             <file name="Retro_Game_Menu_Navigation_3.ogg" />

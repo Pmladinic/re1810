@@ -113,6 +113,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="336120439095419" type="reja">
                                     <param id="0" name="Unique ID">1453</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="263137607770845" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="925812518577758" type="palancaActivable">
@@ -127,6 +128,12 @@
                                     <param id="0" name="Animation">&quot;open&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="991139788411628" type="Audio">
+                                    <param id="0" name="Audio file">Open Gate</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="373640756540730">
@@ -137,6 +144,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="461344659999736" type="reja">
                                     <param id="0" name="Unique ID">1661</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="220210257343231" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="151266478634207" type="palancaActivable">
@@ -151,6 +159,12 @@
                                     <param id="0" name="Animation">&quot;open&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="565339327427974" type="Audio">
+                                    <param id="0" name="Audio file">Open Gate</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="489945096227583">
@@ -161,6 +175,7 @@
                                 <condition id="-14" name="Pick by unique ID" sid="219175626831211" type="reja">
                                     <param id="0" name="Unique ID">1660</param>
                                 </condition>
+                                <condition id="-4" name="Trigger once while true" sid="720053470159579" type="System" />
                             </conditions>
                             <actions>
                                 <action id="4" name="Set animation" sid="812798059436213" type="palancaActivable">
@@ -174,6 +189,12 @@
                                 <action id="4" name="Set animation" sid="700659369216351" type="reja">
                                     <param id="0" name="Animation">&quot;open&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="675659821248511" type="Audio">
+                                    <param id="0" name="Audio file">Open Gate</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -607,6 +628,29 @@
                 </action>
                 <action id="0" name="Set text" sid="442289315256007" type="descripcionNivel">
                     <param id="0" name="Text">&quot;Batalla de Maipu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="558808713834907">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="373285093859384" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="318860859243703" type="Audio">
+                    <param id="0" name="Audio file">n3m3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;n3m3&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="272983122482413">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="236542825627130" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="247428340230709" type="Audio">
+                    <param id="0" name="Tag">&quot;n3m3&quot;</param>
                 </action>
             </actions>
         </event-block>
