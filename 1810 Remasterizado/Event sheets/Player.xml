@@ -570,6 +570,15 @@
                                             <param id="0" name="Instance variable">estaVivo</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
+                                        <action id="6" name="Stop" sid="683764755687684" type="Audio">
+                                            <param id="0" name="Tag">&quot;pjSalto&quot;</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="256733138750191" type="Audio">
+                                            <param id="0" name="Audio file">Windshield_Hit_With_Bar</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;hit1&quot;</param>
+                                        </action>
                                         <action id="4" name="Set animation" sid="570107510152267" type="enemigo01">
                                             <param id="0" name="Animation">&quot;dañado&quot;</param>
                                             <param id="1" name="From">1</param>
@@ -1365,24 +1374,6 @@
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;pjSalto&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="736165159417194">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="921645042204618" type="player">
-                            <param id="0" name="Object">enemigo01</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="6" name="Stop" sid="972620392761684" type="Audio">
-                            <param id="0" name="Tag">&quot;pjSalto&quot;</param>
-                        </action>
-                        <action id="0" name="Play" sid="158461610075342" type="Audio">
-                            <param id="0" name="Audio file">Windshield_Hit_With_Bar</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Hit1&quot;</param>
                         </action>
                     </actions>
                 </event-block>
