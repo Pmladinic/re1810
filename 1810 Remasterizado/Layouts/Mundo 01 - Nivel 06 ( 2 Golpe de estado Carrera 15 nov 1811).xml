@@ -1928,7 +1928,7 @@
                         <opacity>1</opacity>
                     </world>
                     <tilemap-data>
-                        <width>88</width>
+                        <width>81</width>
                         <height>21</height>
                         <max-width>88</max-width>
                         <max-height>21</max-height>
@@ -3441,8 +3441,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>46</x>
-                        <y>545</y>
+                        <x>160</x>
+                        <y>552</y>
                         <z>0</z>
                         <width>36</width>
                         <height>48</height>
