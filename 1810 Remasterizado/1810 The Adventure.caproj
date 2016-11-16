@@ -2855,6 +2855,24 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="Pop-up Menu">
+            <object-type name="popUpReiniciar" sid="672488100052944">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="744312182408211" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="popUpSalir" sid="348309057354660">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="803017895938069" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Mouse" sid="8941637800240169">
             <plugin id="Mouse" />
         </object-type>
@@ -2959,6 +2977,7 @@
             <event-sheet>ObjetosGlobales.xml</event-sheet>
             <event-sheet>dialogos.xml</event-sheet>
             <event-sheet>save.xml</event-sheet>
+            <event-sheet>popUpMenu.xml</event-sheet>
         </event-folder>
         <event-sheet>Menu.xml</event-sheet>
         <event-sheet>Capitulos.xml</event-sheet>

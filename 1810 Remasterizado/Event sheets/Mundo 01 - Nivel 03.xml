@@ -6,6 +6,7 @@
         <variable constant="0" name="caja" sid="637408567936240" static="0" type="number">0</variable>
         <include>ObjetosGlobales</include>
         <include>Player</include>
+        <include>popUpMenu</include>
         <event-block sid="350940255251771">
             <conditions>
                 <condition id="4" name="On finished" sid="717462511857643" type="Enemy_Boss">

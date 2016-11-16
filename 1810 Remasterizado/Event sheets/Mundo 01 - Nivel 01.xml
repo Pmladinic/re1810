@@ -5,6 +5,7 @@
     <events>
         <include>ObjetosGlobales</include>
         <include>Player</include>
+        <include>popUpMenu</include>
         <variable comment="0 = Sin terminar | 1 = Terminado" constant="0" name="nivelTerminado" sid="2337178945811325" static="0" type="number">0</variable>
         <event-block sid="99998017011676">
             <conditions>

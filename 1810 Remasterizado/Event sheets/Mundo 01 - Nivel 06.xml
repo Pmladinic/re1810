@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Mundo 01 - Nivel 06</name>
     <events>
+        <include>popUpMenu</include>
         <include>ObjetosGlobales</include>
         <include>Player</include>
         <event-block sid="742089648161531">
