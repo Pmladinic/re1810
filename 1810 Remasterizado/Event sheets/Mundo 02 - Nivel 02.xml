@@ -454,6 +454,10 @@
                                             <param id="0" name="Variable">framePaginaActual</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
+                                        <action id="0" name="Set item" sid="315476889554748" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;ultimoNivelAlcanzado&quot;</param>
+                                            <param id="1" name="Value">23</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>

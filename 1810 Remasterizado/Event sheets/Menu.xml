@@ -127,7 +127,7 @@
                             <actions />
                             <sub-events>
                                 <comment>Si la variable &quot;ultimoNivelAlcanzado&quot; es distinto de 0, redireccionamos al nivel correspondiente, si es 0, no hace nada.</comment>
-                                <event-block sid="916725409201171">
+                                <event-block any="1" sid="916725409201171">
                                     <conditions>
                                         <condition id="-14" name="Compare variable" sid="928461542330343" type="System">
                                             <param id="0" name="Variable">ultimoNivelAlcanzado</param>
@@ -148,9 +148,6 @@
                                             <param id="0" name="Variable">framePaginaActual</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
-                                        <action id="-2" name="Go to layout" sid="805114162394192" type="System">
-                                            <param id="0" name="Layout">Capitulos</param>
-                                        </action>
                                     </actions>
                                     <sub-events>
                                         <comment>Comparamos la variable &quot;ultimoNivelAlcanzado&quot;, y la redireccionamos al layer &quot;capitulo&quot; y establecemos las variables correspondientes</comment>
@@ -165,6 +162,9 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
+                                                        <action id="-2" name="Go to layout" sid="805114162394192" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
                                                         <action id="-9" name="Set value" sid="170616247206677" type="System">
                                                             <param id="0" name="Variable">capituloActual</param>
                                                             <param id="1" name="Value">11</param>
@@ -184,6 +184,9 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
+                                                        <action id="-2" name="Go to layout" sid="350688051938570" type="System">
+                                                            <param id="0" name="Layout">Mundo 01 - Nivel 02 (Busqueda Decreto formacion de cuerpos armados)</param>
+                                                        </action>
                                                         <action id="-9" name="Set value" sid="403191928633419" type="System">
                                                             <param id="0" name="Variable">capituloActual</param>
                                                             <param id="1" name="Value">12</param>
@@ -191,6 +194,116 @@
                                                         <action id="-9" name="Set value" sid="934429183654195" type="System">
                                                             <param id="0" name="Variable">nivelActual</param>
                                                             <param id="1" name="Value">12</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="505700299458423">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="158584451600275" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">13</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="207830412118557" type="System">
+                                                            <param id="0" name="Layout">Mundo 01 - Nivel 03(Busqueda decreto convocatoria del primer congreso nacional)</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="520751851086307" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">12</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="874712645428102" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">12</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="533796140140127">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="810600672093571" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">14</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="841051074269153" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="714842117348959" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">14</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="716173559986953" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">14</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="547627824827355">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="315096885046500" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">15</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="367466495151455" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="732391861623540" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">15</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="957408256823852" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">15</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="840999274675950">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="899893241214354" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">16</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="790255075927641" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="517959887578019" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">16</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="292416999534559" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">16</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="152375541958681">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="720805312683439" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">17</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="573859435109831" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="265094924928271" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">17</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="728519178969725" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">17</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -207,6 +320,9 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
+                                                        <action id="-2" name="Go to layout" sid="448277260137522" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
                                                         <action id="-9" name="Set value" sid="760409958773639" type="System">
                                                             <param id="0" name="Variable">capituloActual</param>
                                                             <param id="1" name="Value">21</param>
@@ -226,6 +342,9 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
+                                                        <action id="-2" name="Go to layout" sid="642496430747571" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
                                                         <action id="-9" name="Set value" sid="228623529917810" type="System">
                                                             <param id="0" name="Variable">capituloActual</param>
                                                             <param id="1" name="Value">22</param>
@@ -233,6 +352,94 @@
                                                         <action id="-9" name="Set value" sid="871235310551125" type="System">
                                                             <param id="0" name="Variable">nivelActual</param>
                                                             <param id="1" name="Value">22</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="353988550845167">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="619997872391253" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">23</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="867465194615143" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="359342936855851" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">23</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="625686921286658" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">23</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="921707329773999">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="488033462338341" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">24</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="124029887914060" type="System">
+                                                            <param id="0" name="Layout">Mundo 02 - Nivel 04 (Santiago-Llegada manuel rodriguez 3 ENERO 1816)</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="221553957496967" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">22</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="356938940842303" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">22</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="697662224987072">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="854503994009135" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">25</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="916212387161475" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="883659418879883" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">25</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="970830989306322" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">25</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="738741203687901">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="560560383137175" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">26</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="366885532940870" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="183968950170327" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">26</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="846861082726564" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">26</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -249,6 +456,9 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
+                                                        <action id="-2" name="Go to layout" sid="613939445041589" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
                                                         <action id="-9" name="Set value" sid="755067402622603" type="System">
                                                             <param id="0" name="Variable">capituloActual</param>
                                                             <param id="1" name="Value">31</param>
@@ -268,6 +478,9 @@
                                                         </condition>
                                                     </conditions>
                                                     <actions>
+                                                        <action id="-2" name="Go to layout" sid="167071299290869" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
                                                         <action id="-9" name="Set value" sid="929277582447834" type="System">
                                                             <param id="0" name="Variable">capituloActual</param>
                                                             <param id="1" name="Value">32</param>
@@ -275,6 +488,28 @@
                                                         <action id="-9" name="Set value" sid="574833582349628" type="System">
                                                             <param id="0" name="Variable">nivelActual</param>
                                                             <param id="1" name="Value">32</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="550375193156727">
+                                                    <conditions>
+                                                        <condition id="-14" name="Compare variable" sid="906315290585295" type="System">
+                                                            <param id="0" name="Variable">ultimoNivelAlcanzado</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">33</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Go to layout" sid="574290268999633" type="System">
+                                                            <param id="0" name="Layout">Capitulos</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="975508265242527" type="System">
+                                                            <param id="0" name="Variable">capituloActual</param>
+                                                            <param id="1" name="Value">33</param>
+                                                        </action>
+                                                        <action id="-9" name="Set value" sid="289755493281218" type="System">
+                                                            <param id="0" name="Variable">nivelActual</param>
+                                                            <param id="1" name="Value">33</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
