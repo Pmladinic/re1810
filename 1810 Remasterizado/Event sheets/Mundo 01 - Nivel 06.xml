@@ -296,6 +296,18 @@
                         <action behavior="Platform" id="7" name="Simulate control" sid="914171247137051" type="LuisCarrera">
                             <param id="0" name="Control">1</param>
                         </action>
+                        <action id="4" name="Set animation" sid="219448152823250" type="JoseMiguelCarrera">
+                            <param id="0" name="Animation">&quot;caminando&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="475491770412572" type="JuanJoseCarrera">
+                            <param id="0" name="Animation">&quot;caminando&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="425971404586767" type="LuisCarrera">
+                            <param id="0" name="Animation">&quot;caminando&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="997224640793989">
