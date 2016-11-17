@@ -130,7 +130,7 @@
         </event-group>
         <event-group description="" sid="829162534286065" title="Mundo 2 - Nivel 01 - Dialogos">
             <sub-events>
-                <event-block disabled="1" sid="179872402781310">
+                <event-block sid="179872402781310">
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="146088215837615" type="System" />
                     </conditions>
@@ -146,13 +146,13 @@
                             <param id="0" name="Seconds">3</param>
                         </action>
                         <action id="0" name="Set text" sid="499240827183097" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Estimado, necesito de tu ayuda para poder ir en ayuda de Chile&quot;</param>
+                            <param id="0" name="Text">&quot;¡Ayúdame a escapar Diego!&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="846685020674795" type="System">
                             <param id="0" name="Seconds">4</param>
                         </action>
                         <action id="0" name="Set text" sid="135516159254623" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Espero buenas noticias, no tenemos mucho tiempo!&quot;</param>
+                            <param id="0" name="Text">&quot;Avísale a nuestros soldados, nos vemos fuera de la batalla.&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="124309277722068" type="System">
                             <param id="0" name="Seconds">3</param>

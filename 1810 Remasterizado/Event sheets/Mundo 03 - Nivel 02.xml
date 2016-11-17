@@ -416,7 +416,7 @@
         </event-group>
         <event-group description="" sid="400385665089970" title="Mundo 3 - Nivel 02 - Dialogos">
             <sub-events>
-                <event-block disabled="1" sid="196069930901681">
+                <event-block sid="196069930901681">
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="996392601319361" type="System" />
                     </conditions>
@@ -432,22 +432,28 @@
                             <param id="0" name="Seconds">3</param>
                         </action>
                         <action id="0" name="Set text" sid="950498993136605" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Tienes una nueva mision mi estimado.&quot;</param>
+                            <param id="0" name="Text">&quot;¡Diego, era una trampa! &quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="790464363952443" type="System">
-                            <param id="0" name="Seconds">4</param>
+                            <param id="0" name="Seconds">2</param>
                         </action>
                         <action id="0" name="Set text" sid="768710853901473" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Debes repartir informacion falsa para poder despejarnos el trayecto.&quot;</param>
+                            <param id="0" name="Text">&quot;¡Mariano Osorio nos estaba esperando junto a sus realistas españoles!&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="364911845399629" type="System">
-                            <param id="0" name="Seconds">5</param>
+                            <param id="0" name="Seconds">4</param>
                         </action>
                         <action id="0" name="Set text" sid="665692968816542" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Ve ahi y demuestra lo que vales!&quot;</param>
+                            <param id="0" name="Text">&quot;O’Higgins está oculto, pero herido.&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="622596326828498" type="System">
                             <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="448939547838630" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Debes encontrarlo. Yo, José de San Martin estaré muy agradecido.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="436687759125756" type="System">
+                            <param id="0" name="Seconds">4</param>
                         </action>
                         <action id="0" name="Set text" sid="765627766744161" type="dialogosNPC">
                             <param id="0" name="Text">&quot;&quot;</param>
@@ -485,19 +491,19 @@
                             <param id="0" name="Text">&quot;Gracias por ayudarnos, hemos salido bien parados de esta...&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="600133091585027" type="System">
-                            <param id="0" name="Seconds">5</param>
+                            <param id="0" name="Seconds">4</param>
                         </action>
                         <action id="0" name="Set text" sid="739571845321778" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Mas no asi yo, estoy herido.&quot;</param>
+                            <param id="0" name="Text">&quot;Debemos irnos mi brazo se encuentra mal y necesito descansar unos días.&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="138981391918095" type="System">
-                            <param id="0" name="Seconds">3</param>
+                            <param id="0" name="Seconds">5</param>
                         </action>
                         <action id="0" name="Set text" sid="331654496789140" type="dialogosNPC">
                             <param id="0" name="Text">&quot;¡Todo sea por Chile!&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="680291761500831" type="System">
-                            <param id="0" name="Seconds">3</param>
+                            <param id="0" name="Seconds">2</param>
                         </action>
                         <action id="-9" name="Set value" sid="285427270072585" type="System">
                             <param id="0" name="Variable">nivelTerminado</param>

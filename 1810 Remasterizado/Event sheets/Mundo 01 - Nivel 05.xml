@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Mundo 01 - Nivel 05</name>
     <events>
+        <include>dialogos</include>
         <include>popUpMenu</include>
         <include>ObjetosGlobales</include>
         <include>Player</include>
@@ -365,43 +366,6 @@
                         <action id="-26" name="Restart layout" sid="816936361491696" type="System" />
                     </actions>
                 </event-block>
-                <event-block sid="874620493169972">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="519205883855430" type="LuisCarrera">
-                            <param id="0" name="Object">paradaNPC</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" sid="298666057465825" type="JoseMiguelCarrera">
-                            <param id="0" name="Instance variable">mover</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="790086502711042" type="JuanJoseCarrera">
-                            <param id="0" name="Instance variable">mover</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="871689877046653" type="LuisCarrera">
-                            <param id="0" name="Instance variable">mover</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="401432528402802" type="JoseMiguelCarrera">
-                            <param id="0" name="Animation">&quot;Default&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="627263484018000" type="JuanJoseCarrera">
-                            <param id="0" name="Animation">&quot;Default&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="349488874115248" type="LuisCarrera">
-                            <param id="0" name="Animation">&quot;Default&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="570148496226066" type="System">
-                            <param id="0" name="Variable">nivelTerminado</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
                 <event-block any="1" sid="255039347924534">
                     <conditions>
                         <condition id="-4" name="Is outside layout" sid="437597489866084" type="JoseMiguelCarrera" />
@@ -606,5 +570,109 @@
                 </action>
             </actions>
         </event-block>
+        <event-group description="" sid="713775809041441" title="Mundo 1 - Nivel 05 - Dialogos">
+            <sub-events>
+                <event-block sid="605332182660250">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="475710919553552" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="669250687871525" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="442331467777760" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="766813633228578" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="241270196829392" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Recuerda que debes capturar a Tomas de Figueroa.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="170273733384535" type="System">
+                            <param id="0" name="Seconds">4</param>
+                        </action>
+                        <action id="0" name="Set text" sid="254562076681129" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Él quiere detener nuestra independencia.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="210263439266529" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="605530346491048" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="884821941740729" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="357347249832977">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="519205883855430" type="LuisCarrera">
+                            <param id="0" name="Object">paradaNPC</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="333831837938073" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="298666057465825" type="JoseMiguelCarrera">
+                            <param id="0" name="Instance variable">mover</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="790086502711042" type="JuanJoseCarrera">
+                            <param id="0" name="Instance variable">mover</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="871689877046653" type="LuisCarrera">
+                            <param id="0" name="Instance variable">mover</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="401432528402802" type="JoseMiguelCarrera">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="627263484018000" type="JuanJoseCarrera">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="349488874115248" type="LuisCarrera">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="980153102832246" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="780192528683476" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="502524857927646" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Hemos llegado!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="226616189510533" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="726905681457162" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Eres grande pequeño soldado!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="213904117200916" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="527189464631710" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="112054810911476" type="System">
+                            <param id="0" name="Variable">nivelTerminado</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="289659409565619" type="puntoDialogoNPC" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

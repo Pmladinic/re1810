@@ -368,7 +368,7 @@
         </event-group>
         <event-group description="" sid="986480678916396" title="Mundo 2 - Nivel 06 - Dialogos">
             <sub-events>
-                <event-block disabled="1" sid="488826921840750">
+                <event-block sid="488826921840750">
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="694066558421963" type="System" />
                     </conditions>
@@ -384,21 +384,15 @@
                             <param id="0" name="Seconds">3</param>
                         </action>
                         <action id="0" name="Set text" sid="960379254963754" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Tienes una nueva mision mi estimado.&quot;</param>
+                            <param id="0" name="Text">&quot;¡Debes detener a Rafael Maroto!&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="699533120704035" type="System">
                             <param id="0" name="Seconds">4</param>
                         </action>
                         <action id="0" name="Set text" sid="450207680368857" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Debes repartir informacion falsa para poder despejarnos el trayecto.&quot;</param>
+                            <param id="0" name="Text">&quot;¡Sin su comandante ganaremos esta batalla!&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="862806409790599" type="System">
-                            <param id="0" name="Seconds">5</param>
-                        </action>
-                        <action id="0" name="Set text" sid="863484708644419" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Ve ahi y demuestra lo que vales!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="150888622176242" type="System">
                             <param id="0" name="Seconds">3</param>
                         </action>
                         <action id="0" name="Set text" sid="656977426710011" type="dialogosNPC">
