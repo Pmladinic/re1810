@@ -21,7 +21,7 @@
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" sid="455142267203384" type="backgroundCapitulos">
-                            <param id="0" name="Animation">&quot;Capitulo Final&quot;</param>
+                            <param id="0" name="Animation">&quot;CapituloFinal&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>

@@ -881,10 +881,6 @@
                             </conditions>
                             <actions>
                                 <action id="-9" name="Destroy" sid="103140440029643" type="MarianoOsorio" />
-                                <action id="-9" name="Set value" sid="575502744558850" type="System">
-                                    <param id="0" name="Variable">nivelTerminado</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
                                 <action id="6" name="Stop" sid="593446997413085" type="Audio">
                                     <param id="0" name="Tag">&quot;batalla&quot;</param>
                                 </action>

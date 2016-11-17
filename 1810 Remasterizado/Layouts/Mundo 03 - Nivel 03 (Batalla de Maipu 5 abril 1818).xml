@@ -5742,7 +5742,7 @@
                     <instance-variables>
                         <derecha>false</derecha>
                         <speed>0</speed>
-                        <HP>7</HP>
+                        <HP>5</HP>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -6006,7 +6006,34 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="CartelVictoria" uid="1829">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <escala>1</escala>
+                        <activado>false</activado>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>360</x>
+                        <y>240</y>
+                        <z>0</z>
+                        <width>300</width>
+                        <height>150</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="popup" sid="691320647511904">
