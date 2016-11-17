@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Mundo 01 - Nivel 04</name>
     <events>
+        <include>dialogos</include>
         <include>popUpMenu</include>
         <include>Player</include>
         <include>ObjetosGlobales</include>
@@ -171,5 +172,238 @@
                 </action>
             </actions>
         </event-block>
+        <event-group description="" sid="591741706184520" title="Cambio a Nivel 04 a Nivel 5">
+            <sub-events>
+                <event-block sid="496135328388013">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="186777707543695" type="player">
+                            <param id="0" name="Animation">&quot;celebracion&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-2" name="Go to layout" sid="930512518646580" type="System">
+                            <param id="0" name="Layout">Mundo 01 - Nivel 03(Busqueda decreto convocatoria del primer congreso nacional)</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="887064285683446" type="CartelVictoria">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="423288629215987" type="CartelVictoria">
+                            <param id="0" name="Instance variable">activado</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="838964697229319" title="0104 - Victoria">
+            <sub-events>
+                <event-block sid="276872901555943">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="144672880175182" type="CartelVictoria" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="183810177070204">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="677148415967012" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">escala</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">1.5</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="257146452610819" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">escala</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                                <condition id="-8" name="Is boolean instance variable set" sid="279563044893564" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">activado</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="106355131046747">
+                                    <conditions>
+                                        <condition id="-6" name="Every X seconds" sid="834375061444928" type="System">
+                                            <param id="0" name="Interval (seconds)">0.05</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-17" name="Set layer scale" sid="966179063822357" type="System">
+                                            <param id="0" name="Layer">&quot;cartel&quot;</param>
+                                            <param id="1" name="Scale">LayerScale(&quot;cartel&quot;) + 0.2</param>
+                                        </action>
+                                        <action id="-11" name="Add to" sid="245492604055793" type="CartelVictoria">
+                                            <param id="0" name="Instance variable">escala</param>
+                                            <param id="1" name="Value">0.2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="545521370587232">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="306244763863837" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">escala</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1.5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="654458139534733" type="CartelVictoria">
+                                    <param id="0" name="Instance variable">activado</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="192497566279352" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="768940419925385" type="System">
+                                    <param id="0" name="Group name">&quot;Animaciones Player&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="699126988691440" type="System">
+                                    <param id="0" name="Layout">Capitulos</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="214447288808504" type="player">
+                                    <param id="0" name="Instance variable">sePuedeMover</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="132370710224449" type="System">
+                                    <param id="0" name="Variable">nivelTerminado</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <comment>Establecer capitulo al que se redirige | Establecer parametros y reiniciar frame de pagina actual a 0</comment>
+                                <event-block sid="288610559797460">
+                                    <conditions />
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="194785436845294" type="System">
+                                            <param id="0" name="Variable">capituloActual</param>
+                                            <param id="1" name="Value">15</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="233036486899640" type="System">
+                                            <param id="0" name="Variable">nivelActual</param>
+                                            <param id="1" name="Value">15</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="566459243157036" type="System">
+                                            <param id="0" name="Variable">framePaginaActual</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="526107236599325" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;ultimoNivelAlcanzado&quot;</param>
+                                            <param id="1" name="Value">15</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="420495064346176" title="Mundo 1 - Nivel 04 - Dialogos">
+            <sub-events>
+                <event-block disabled="1" sid="999151553501838">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="803587922654681" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="853906438201358" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="983566842355881" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="406646131942466" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="222046396259656" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Tienes una nueva mision mi estimado.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="620989513227176" type="System">
+                            <param id="0" name="Seconds">4</param>
+                        </action>
+                        <action id="0" name="Set text" sid="497678287027365" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Debes repartir informacion falsa para poder despejarnos el trayecto.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="935417961913338" type="System">
+                            <param id="0" name="Seconds">5</param>
+                        </action>
+                        <action id="0" name="Set text" sid="877464182761634" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Ve ahi y demuestra lo que vales!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="649108169296692" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="519132409063212" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="233299537442225" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="194881090449478" type="System">
+                            <param id="0" name="Seconds">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="441209801844403">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="685446782547324" type="player">
+                            <param id="0" name="Object">puntoDialogoNPC</param>
+                        </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="756084485172613" type="puntoDialogoNPC">
+                            <param id="0" name="Unique ID">1831</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="800471989612611" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="530004150548576" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="363671365811496" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="432563752728730" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡No puede ser!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="124414815336046" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="336249675804564" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡¿Cómo me encontraste?!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="554561470222863" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="144173042814486" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Eres más rápido que ese ratón Mexicano!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="929416058307702" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="779879381026899" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Está bien, me rindo...&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="857137181221181" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="830498879866589" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="562388549527419" type="System">
+                            <param id="0" name="Variable">nivelTerminado</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="656287456155878" type="puntoDialogoNPC" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

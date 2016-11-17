@@ -1374,5 +1374,34 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="125381788369171" title="NPC Soldado Chileno">
+            <sub-events>
+                <event-block sid="336821896492184">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="789849345653213" type="NPC_Soldado">
+                            <param id="0" name="Instance variable">mirrored</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="230276571154957" type="NPC_Soldado">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="998794459672253">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="243549021262182" type="System" />
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="628019865415668" type="NPC_Soldado">
+                            <param id="0" name="Instance variable">mirrored</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="498850903904908" type="NPC_Soldado">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
