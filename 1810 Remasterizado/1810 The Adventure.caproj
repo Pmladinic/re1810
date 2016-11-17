@@ -1286,7 +1286,14 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972017706654493" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.625" hotspotY="0.625" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\bala.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.75" y="0.25" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.25" y="0.75" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>

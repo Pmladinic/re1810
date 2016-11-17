@@ -5688,11 +5688,11 @@
                         <x>0</x>
                         <y>-32</y>
                         <z>0</z>
-                        <width>6</width>
-                        <height>6</height>
+                        <width>8</width>
+                        <height>8</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.625</hotspotX>
+                        <hotspotY>0.625</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -5844,8 +5844,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3936</x>
-                        <y>384</y>
+                        <x>3712</x>
+                        <y>640</y>
                         <z>0</z>
                         <width>36</width>
                         <height>48</height>

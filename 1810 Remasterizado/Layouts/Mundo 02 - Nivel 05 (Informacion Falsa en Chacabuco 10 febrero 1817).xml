@@ -4210,11 +4210,11 @@
                         <x>934.5</x>
                         <y>-58.5</y>
                         <z>0</z>
-                        <width>19</width>
-                        <height>17</height>
+                        <width>25.333333969</width>
+                        <height>22.666666031</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.625</hotspotX>
+                        <hotspotY>0.625</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
