@@ -59,26 +59,23 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="9" name="Set scale" sid="4056287047808182" type="btnNuevaPartida">
-                                    <param id="0" name="Scale">1.2</param>
-                                </action>
-                                <action id="-16" name="Set opacity" sid="476548237527062" type="btnNuevaPartida">
-                                    <param id="0" name="Opacity">100</param>
+                                <action id="4" name="Set animation" sid="505902554679159" type="btnNuevaPartida">
+                                    <param id="0" name="Animation">&quot;onFocus&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="2106531610724464">
                             <conditions>
+                                <condition id="-22" name="Else" sid="835456721550791" type="System" />
                                 <condition id="7" inverted="1" name="Cursor is over object" sid="8459076851888396" type="Mouse">
                                     <param id="0" name="Object">btnNuevaPartida</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="9" name="Set scale" sid="9214867507808994" type="btnNuevaPartida">
-                                    <param id="0" name="Scale">1</param>
-                                </action>
-                                <action id="-16" name="Set opacity" sid="607056211141424" type="btnNuevaPartida">
-                                    <param id="0" name="Opacity">70</param>
+                                <action id="4" name="Set animation" sid="188557729918739" type="btnNuevaPartida">
+                                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -93,26 +90,23 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="9" name="Set scale" sid="355031441359658" type="btnCargarPartida">
-                                    <param id="0" name="Scale">1.2</param>
-                                </action>
-                                <action id="-16" name="Set opacity" sid="684779089836656" type="btnCargarPartida">
-                                    <param id="0" name="Opacity">100</param>
+                                <action id="4" name="Set animation" sid="806144654098036" type="btnCargarPartida">
+                                    <param id="0" name="Animation">&quot;onFocus&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="379997885595047">
                             <conditions>
+                                <condition id="-22" name="Else" sid="586712281164462" type="System" />
                                 <condition id="7" inverted="1" name="Cursor is over object" sid="127921872321463" type="Mouse">
                                     <param id="0" name="Object">btnCargarPartida</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="9" name="Set scale" sid="193144971327184" type="btnCargarPartida">
-                                    <param id="0" name="Scale">1</param>
-                                </action>
-                                <action id="-16" name="Set opacity" sid="267994572660572" type="btnCargarPartida">
-                                    <param id="0" name="Opacity">70</param>
+                                <action id="4" name="Set animation" sid="995523590756748" type="btnCargarPartida">
+                                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -546,26 +540,23 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="9" name="Set scale" sid="276192382610626" type="btnSalir">
-                                    <param id="0" name="Scale">1.2</param>
-                                </action>
-                                <action id="-16" name="Set opacity" sid="343943599529928" type="btnSalir">
-                                    <param id="0" name="Opacity">100</param>
+                                <action id="4" name="Set animation" sid="439827176787189" type="btnSalir">
+                                    <param id="0" name="Animation">&quot;onFocus&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="250958509091111">
                             <conditions>
+                                <condition id="-22" name="Else" sid="982561487742814" type="System" />
                                 <condition id="7" inverted="1" name="Cursor is over object" sid="932767419307787" type="Mouse">
                                     <param id="0" name="Object">btnSalir</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="9" name="Set scale" sid="950806266739410" type="btnSalir">
-                                    <param id="0" name="Scale">1</param>
-                                </action>
-                                <action id="-16" name="Set opacity" sid="727379951515312" type="btnSalir">
-                                    <param id="0" name="Opacity">70</param>
+                                <action id="4" name="Set animation" sid="611180863862052" type="btnSalir">
+                                    <param id="0" name="Animation">&quot;idle&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>

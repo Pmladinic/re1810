@@ -70,16 +70,10 @@
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="2134241107918392" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\Pedro\Desktop\tbn Nueva Partida.png">
-                            <collision-poly>
-                                <point x="0.044" y="0.2" />
-                                <point x="0.956" y="0.2" />
-                                <point x="0.98" y="0.490909" />
-                                <point x="0.96" y="0.818182" />
-                                <point x="0.04" y="0.818182" />
-                                <point x="0.02" y="0.490909" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\botones.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="onFocus" pingpong="0" repeatcount="1" repeatto="0" sid="683324429864013" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\botones.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -89,17 +83,11 @@
                     <instance-variable name="CargarPartida" sid="610702520312460" type="number" />
                 </instance-variables>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8166907200954496" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.508772" original-source="C:\Users\Pedro\Desktop\btn Cargar Partida.png">
-                            <collision-poly>
-                                <point x="0.044" y="0.192982" />
-                                <point x="0.956" y="0.192982" />
-                                <point x="0.98" y="0.491228" />
-                                <point x="0.956" y="0.807018" />
-                                <point x="0.044" y="0.807018" />
-                                <point x="0.02" y="0.491228" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="8166907200954496" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\botones.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="onFocus" pingpong="0" repeatcount="1" repeatto="0" sid="968534884172097" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\botones.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -109,17 +97,11 @@
                     <instance-variable name="Salir" sid="191687302918239" type="number" />
                 </instance-variables>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2199856496077827" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.509091" original-source="C:\Users\Pedro\Desktop\btn Salir.png">
-                            <collision-poly>
-                                <point x="0.044" y="0.2" />
-                                <point x="0.956" y="0.2" />
-                                <point x="0.98" y="0.490909" />
-                                <point x="0.96" y="0.818182" />
-                                <point x="0.04" y="0.818182" />
-                                <point x="0.02" y="0.490909" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="828300528901548" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\botones.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="onFocus" pingpong="0" repeatcount="1" repeatto="0" sid="2199856496077827" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\botones.png" />
                     </animation>
                 </animation-folder>
             </object-type>
