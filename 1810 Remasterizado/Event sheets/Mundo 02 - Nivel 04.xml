@@ -64,7 +64,7 @@
                                 <action id="0" name="Play" sid="188891622684434" type="Audio">
                                     <param id="0" name="Audio file">Open Gate</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
@@ -95,7 +95,7 @@
                                 <action id="0" name="Play" sid="687413775381723" type="Audio">
                                     <param id="0" name="Audio file">Open Gate</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
@@ -377,7 +377,7 @@
                         <action id="0" name="Play" sid="482125393131777" type="Audio">
                             <param id="0" name="Audio file">Victory1</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
+                            <param id="3" name="Volume">-10</param>
                             <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
                         </action>
                     </actions>
@@ -405,7 +405,7 @@
                 <action id="0" name="Play" sid="520562946542063" type="Audio">
                     <param id="0" name="Audio file">n4m2</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-20</param>
                     <param id="1" name="Tag (optional)">&quot;n4m2&quot;</param>
                 </action>
             </actions>

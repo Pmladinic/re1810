@@ -132,7 +132,7 @@
                                 <action id="0" name="Play" sid="991139788411628" type="Audio">
                                     <param id="0" name="Audio file">Open Gate</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
@@ -163,7 +163,7 @@
                                 <action id="0" name="Play" sid="565339327427974" type="Audio">
                                     <param id="0" name="Audio file">Open Gate</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
@@ -194,7 +194,7 @@
                                 <action id="0" name="Play" sid="675659821248511" type="Audio">
                                     <param id="0" name="Audio file">Open Gate</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
@@ -565,6 +565,15 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="6" name="Stop" sid="399884493844151" type="Audio">
+                            <param id="0" name="Tag">&quot;n3m3&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="178882757840540" type="Audio">
+                            <param id="0" name="Audio file">Final Boss</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-20</param>
+                            <param id="1" name="Tag (optional)">&quot;Fboss&quot;</param>
+                        </action>
                         <action id="-9" name="Set value" sid="682197741016838" type="System">
                             <param id="0" name="Variable">mostrandoTexto</param>
                             <param id="1" name="Value">1</param>
@@ -847,7 +856,7 @@
                                 <action id="0" name="Play" sid="447352787228951" type="Audio">
                                     <param id="0" name="Audio file">Victory Guerra</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;Vguerra&quot;</param>
                                 </action>
                             </actions>
@@ -890,7 +899,7 @@
                 <action id="0" name="Play" sid="318860859243703" type="Audio">
                     <param id="0" name="Audio file">n3m3</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-20</param>
                     <param id="1" name="Tag (optional)">&quot;n3m3&quot;</param>
                 </action>
             </actions>

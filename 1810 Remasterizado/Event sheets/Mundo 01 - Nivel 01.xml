@@ -21,7 +21,7 @@
                 <action id="0" name="Play" sid="381004926829824" type="Audio">
                     <param id="0" name="Audio file">n1m1</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-20</param>
                     <param id="1" name="Tag (optional)">&quot;n1m1&quot;</param>
                 </action>
             </actions>
@@ -141,7 +141,7 @@
                                         <action id="0" name="Play" sid="957212925705856" type="Audio">
                                             <param id="0" name="Audio file">Open Gate</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                         </action>
                                     </actions>

@@ -735,7 +735,7 @@
                                 <action id="0" name="Play" sid="987487828682744" type="Audio">
                                     <param id="0" name="Audio file">Retro_Game_Unlock_2</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;Menu Sounds&quot;</param>
                                 </action>
                             </actions>
@@ -764,7 +764,7 @@
                                 <action id="0" name="Play" sid="791610340551026" type="Audio">
                                     <param id="0" name="Audio file">Retro_Game_Menu_Navigation_3</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;btnSounds&quot;</param>
                                 </action>
                             </actions>

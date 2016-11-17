@@ -642,7 +642,7 @@
                 <action id="0" name="Play" sid="952720746534007" type="Audio">
                     <param id="0" name="Audio file">Caps</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;MusicaCapitulos&quot;</param>
                 </action>
             </actions>

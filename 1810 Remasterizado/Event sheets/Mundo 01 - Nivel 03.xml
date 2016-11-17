@@ -17,15 +17,15 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="654375846261908" type="reja">
-                    <param id="0" name="Animation">&quot;open&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
                 <action id="0" name="Play" sid="919372132178758" type="Audio">
                     <param id="0" name="Audio file">Open Gate</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
+                </action>
+                <action id="4" name="Set animation" sid="654375846261908" type="reja">
+                    <param id="0" name="Animation">&quot;open&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -86,7 +86,7 @@
                                 <action id="0" name="Play" sid="279061036722820" type="Audio">
                                     <param id="0" name="Audio file">Open Gate</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
@@ -480,7 +480,7 @@
                 <action id="0" name="Play" sid="236521809841840" type="Audio">
                     <param id="0" name="Audio file">Batalla</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">-20</param>
                     <param id="1" name="Tag (optional)">&quot;batalla&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="261246097750291" type="fechaNivel">

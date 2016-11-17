@@ -64,7 +64,7 @@
                                 <action id="0" name="Play" sid="714359735127819" type="Audio">
                                     <param id="0" name="Audio file">Open Gate</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
@@ -100,7 +100,7 @@
                                         <action id="0" name="Play" sid="104497200864397" type="Audio">
                                             <param id="0" name="Audio file">Cage</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;cage&quot;</param>
                                         </action>
                                         <action id="0" name="Set text" sid="403373552811682" type="dialogosNPC">
@@ -130,7 +130,7 @@
                                         <action id="0" name="Play" sid="206571951905054" type="Audio">
                                             <param id="0" name="Audio file">Open Gate</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                         </action>
                                     </actions>
@@ -161,7 +161,7 @@
                                         <action id="0" name="Play" sid="257071581492181" type="Audio">
                                             <param id="0" name="Audio file">Cage</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;cage&quot;</param>
                                         </action>
                                         <action id="0" name="Set text" sid="969984473683238" type="dialogosNPC">
@@ -227,7 +227,7 @@
                                         <action id="0" name="Play" sid="745657304339328" type="Audio">
                                             <param id="0" name="Audio file">Cage</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;cage&quot;</param>
                                         </action>
                                         <action id="0" name="Set text" sid="387390101251740" type="dialogosNPC">
@@ -269,7 +269,7 @@
                                         <action id="0" name="Play" sid="417491676132321" type="Audio">
                                             <param id="0" name="Audio file">Open Gate</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                         </action>
                                     </actions>
@@ -399,7 +399,7 @@
                                         <action id="0" name="Play" sid="337364399378312" type="Audio">
                                             <param id="0" name="Audio file">Victory1</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;victoria&quot;</param>
                                         </action>
                                     </actions>
@@ -579,7 +579,7 @@
                 <action id="0" name="Play" sid="110715916604337" type="Audio">
                     <param id="0" name="Audio file">n1m3</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-10</param>
+                    <param id="3" name="Volume">-20</param>
                     <param id="1" name="Tag (optional)">&quot;n1m3&quot;</param>
                 </action>
             </actions>

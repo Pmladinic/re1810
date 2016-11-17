@@ -163,7 +163,7 @@
                                 <action id="0" name="Play" sid="192637294803307" type="Audio">
                                     <param id="0" name="Audio file">Open Gate</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
                             </actions>
@@ -207,7 +207,7 @@
                         <action id="0" name="Play" sid="762396859172112" type="Audio">
                             <param id="0" name="Audio file">Open Gate</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
+                            <param id="3" name="Volume">-10</param>
                             <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                         </action>
                     </actions>
@@ -245,7 +245,7 @@
                         <action id="0" name="Play" sid="533081504505145" type="Audio">
                             <param id="0" name="Audio file">Open Gate</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
+                            <param id="3" name="Volume">-10</param>
                             <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                         </action>
                     </actions>
@@ -403,7 +403,7 @@
                 <action id="0" name="Play" sid="792477615364691" type="Audio">
                     <param id="0" name="Audio file">n7m1</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-10</param>
+                    <param id="3" name="Volume">-20</param>
                     <param id="1" name="Tag (optional)">&quot;n7m1&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="764179957335762" type="fechaNivel">
