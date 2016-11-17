@@ -46,6 +46,12 @@
                             <param id="0" name="Group name">&quot;ObjetosGlobales&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
+                        <action id="0" name="Play" sid="453698170200591" type="Audio">
+                            <param id="0" name="Audio file">Pause</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Pause&quot;</param>
+                        </action>
                         <action id="10" name="Set master volume" sid="648549827837600" type="Audio">
                             <param id="0" name="dB">-20</param>
                         </action>
@@ -89,6 +95,12 @@
                         <action id="10" name="Set master volume" sid="706102373997376" type="Audio">
                             <param id="0" name="dB">0</param>
                         </action>
+                        <action id="0" name="Play" sid="210890731946101" type="Audio">
+                            <param id="0" name="Audio file">unpause</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;unpause&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -120,6 +132,12 @@
                             <param id="0" name="Group name">&quot;ObjetosGlobales&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
+                        <action id="0" name="Play" sid="604923570888997" type="Audio">
+                            <param id="0" name="Audio file">Retro_Game_Unlock_2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;Click&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="162954591434089">
@@ -131,6 +149,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="279133248059847" type="Audio">
+                            <param id="0" name="Audio file">Retro_Game_Unlock_2</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;Click&quot;</param>
+                        </action>
                         <action id="1" name="Close" sid="425665407663125" type="Browser" />
                     </actions>
                 </event-block>
@@ -141,11 +165,18 @@
                 <condition id="7" name="Cursor is over object" sid="198112141164385" type="Mouse">
                     <param id="0" name="Object">popUpReiniciar</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="501599819444847" type="System" />
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="670389429937158" type="popUpReiniciar">
                     <param id="0" name="Animation">&quot;onFocus&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Play" sid="813467231826092" type="Audio">
+                    <param id="0" name="Audio file">Retro_Game_Menu_Navigation_3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;Select&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -168,11 +199,18 @@
                 <condition id="7" name="Cursor is over object" sid="375881061974266" type="Mouse">
                     <param id="0" name="Object">popUpSalir</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="363047602557117" type="System" />
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="465972507264482" type="popUpSalir">
                     <param id="0" name="Animation">&quot;onFocus&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Play" sid="191235825586469" type="Audio">
+                    <param id="0" name="Audio file">Retro_Game_Menu_Navigation_3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;Select&quot;</param>
                 </action>
             </actions>
         </event-block>

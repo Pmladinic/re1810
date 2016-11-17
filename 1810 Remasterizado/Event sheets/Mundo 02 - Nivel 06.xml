@@ -556,7 +556,7 @@
                                 <action id="0" name="Play" sid="569678729985145" type="Audio">
                                     <param id="0" name="Audio file">Caja cayendo</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
                                 </action>
                             </actions>
@@ -592,7 +592,7 @@
                                 <action id="0" name="Play" sid="314659365143274" type="Audio">
                                     <param id="0" name="Audio file">Caja cayendo</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
                                 </action>
                             </actions>
@@ -779,6 +779,12 @@
                                 <action id="-12" name="Subtract from" sid="520565593069670" type="BossRafaelMaroto">
                                     <param id="0" name="Instance variable">HP</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="506278292797996" type="Audio">
+                                    <param id="0" name="Audio file">CajaBoss</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-10</param>
+                                    <param id="1" name="Tag (optional)">&quot;cajaB&quot;</param>
                                 </action>
                                 <action id="4" name="Set animation" sid="433288575192431" type="cajaColgante">
                                     <param id="0" name="Animation">&quot;destroy&quot;</param>

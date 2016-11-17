@@ -348,6 +348,12 @@
                                     <param id="0" name="Animation">&quot;idle&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="218653961427259" type="Audio">
+                                    <param id="0" name="Audio file">Caja cayendo</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-10</param>
+                                    <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="334615514659152">
@@ -376,6 +382,12 @@
                                 <action id="4" name="Set animation" sid="508901639914870" type="palancaActivable">
                                     <param id="0" name="Animation">&quot;idle&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="342423761585192" type="Audio">
+                                    <param id="0" name="Audio file">Caja cayendo</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-10</param>
+                                    <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -781,6 +793,12 @@
                                 <action id="-12" name="Subtract from" sid="373260105951314" type="MarianoOsorio">
                                     <param id="0" name="Instance variable">HP</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="314113898666891" type="Audio">
+                                    <param id="0" name="Audio file">CajaBoss</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-10</param>
+                                    <param id="1" name="Tag (optional)">&quot;cajaB&quot;</param>
                                 </action>
                                 <action id="4" name="Set animation" sid="951094237818622" type="cajaColgante">
                                     <param id="0" name="Animation">&quot;destroy&quot;</param>

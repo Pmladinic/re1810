@@ -3101,6 +3101,9 @@
             <file name="Open Gate.ogg" />
             <file name="Cage.m4a" />
             <file name="Cage.ogg" />
+            <file name="CajaBoss.ogg" />
+            <file name="Pause.ogg" />
+            <file name="unpause.ogg" />
         </sound-folder>
         <sound-folder name="Personaje">
             <file name="Salto.m4a" />

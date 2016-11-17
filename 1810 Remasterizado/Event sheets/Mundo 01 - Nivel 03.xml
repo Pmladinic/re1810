@@ -113,7 +113,7 @@
                                         <action id="0" name="Play" sid="164416656611230" type="Audio">
                                             <param id="0" name="Audio file">Caja cayendo</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
                                         </action>
                                         <action id="-9" name="Set value" sid="836482285790265" type="System">
@@ -166,7 +166,7 @@
                                         <action id="0" name="Play" sid="814066757195832" type="Audio">
                                             <param id="0" name="Audio file">Caja cayendo</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
                                         </action>
                                     </actions>
