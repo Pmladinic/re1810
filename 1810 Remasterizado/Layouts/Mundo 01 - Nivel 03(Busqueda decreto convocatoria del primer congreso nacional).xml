@@ -1206,7 +1206,7 @@
                 <instance type="Enemy_Boss" uid="205">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
+                        <initial-animation>idle</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
@@ -1245,10 +1245,10 @@
                         <x>640</x>
                         <y>459</y>
                         <z>0</z>
-                        <width>61</width>
+                        <width>68</width>
                         <height>106</height>
                         <depth>0</depth>
-                        <hotspotX>0.508196712</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -1533,7 +1533,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1216</x>
+                        <x>1024</x>
                         <y>480</y>
                         <z>0</z>
                         <width>36</width>
@@ -1695,8 +1695,8 @@
                         <x>640</x>
                         <y>32</y>
                         <z>0</z>
-                        <width>64</width>
-                        <height>32</height>
+                        <width>67</width>
+                        <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -1717,11 +1717,11 @@
                         <x>672</x>
                         <y>96</y>
                         <z>0</z>
-                        <width>64</width>
-                        <height>32</height>
+                        <width>67</width>
+                        <height>35</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.50746268</hotspotX>
+                        <hotspotY>0.514285743</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

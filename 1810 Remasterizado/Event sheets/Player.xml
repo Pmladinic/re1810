@@ -549,6 +549,138 @@
         </event-group>
         <event-group description="[Jefe Mundo 01 - Nivel 03]" sid="871004193177494" title="Enemigo 02 - Jefe Español">
             <sub-events>
+                <event-group description="" sid="730633492189608" title="Enemigo 02 - Movimientos">
+                    <sub-events>
+                        <event-block sid="841482639695273">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="490845733738021" type="Enemy_Boss">
+                                    <param id="0" name="Instance variable">right</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="563092076688994" type="Enemy_Boss">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="800028836300948" type="Enemy_Boss">
+                                    <param id="0" name="Animation">&quot;caminando&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="781227097163467" type="Enemy_Boss">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="889450379074945">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="385577437497333" type="System" />
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="246446807380559" type="Enemy_Boss">
+                                    <param id="0" name="Instance variable">right</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="181486870295485" type="Enemy_Boss">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="881761237061802" type="Enemy_Boss">
+                                    <param id="0" name="Animation">&quot;caminando&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="519336565657438" type="Enemy_Boss">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="609695126143326">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="547789825628353" type="Enemy_Boss">
+                                    <param id="0" name="Object">limiteDerecho</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="616636729924541" type="Enemy_Boss">
+                                    <param id="0" name="Instance variable">right</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="270735286223370">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="596511006611513" type="Enemy_Boss">
+                                    <param id="0" name="Object">limiteIzquierdo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="911292176630953" type="Enemy_Boss">
+                                    <param id="0" name="Instance variable">right</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="164233842534688">
+                            <conditions>
+                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="115717635760135" type="Enemy_Boss">
+                                    <param id="0" name="Object">player</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="576559325018600" type="Enemy_Boss">
+                                    <param id="0" name="Instance variable">playerEnVision</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="445050418921023" type="Enemy_Boss">
+                                    <param id="0" name="Max Speed">175</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block disabled="1" sid="939644857280517">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="221741255303521" type="Enemy_Boss">
+                                            <param id="0" name="Comparison">2</param>
+                                            <param id="1" name="X co-ordinate">player.X</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="314961667155120" type="Enemy_Boss">
+                                            <param id="0" name="Instance variable">right</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block disabled="1" sid="433873021335612">
+                                    <conditions>
+                                        <condition id="-1" name="Compare X" sid="436863464438469" type="Enemy_Boss">
+                                            <param id="0" name="Comparison">4</param>
+                                            <param id="1" name="X co-ordinate">player.X</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="599136289297430" type="Enemy_Boss">
+                                            <param id="0" name="Instance variable">right</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="587492337564416">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="513045670704695" type="System" />
+                                <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="969770895132371" type="Enemy_Boss">
+                                    <param id="0" name="Object">player</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="868025266161924" type="Enemy_Boss">
+                                    <param id="0" name="Instance variable">playerEnVision</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action behavior="Platform" id="1" name="Set max speed" sid="563872138147795" type="Enemy_Boss">
+                                    <param id="0" name="Max Speed">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
                 <event-block sid="594357150458052">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="695308916808111" type="cajaColgante">
@@ -568,7 +700,7 @@
                             <param id="0" name="Setting">1</param>
                         </action>
                         <action id="-12" name="Set group active" sid="295845855087126" type="System">
-                            <param id="0" name="Group name">&quot;Enemigo 02 - Jefe Español&quot;</param>
+                            <param id="0" name="Group name">&quot;Enemigo 02 - Movimientos&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
                         <action id="4" name="Set animation" sid="441464450760021" type="Enemy_Boss">
@@ -579,7 +711,7 @@
                             <param id="0" name="Seconds">2</param>
                         </action>
                         <action id="-12" name="Set group active" sid="538287088594968" type="System">
-                            <param id="0" name="Group name">&quot;Enemigo 02 - Jefe Español&quot;</param>
+                            <param id="0" name="Group name">&quot;Enemigo 02 - Movimientos&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
                         <action id="-15" name="Set visible" sid="727086887607450" type="cajaColgante">
@@ -603,7 +735,7 @@
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" sid="376931286062872" type="Enemy_Boss">
-                            <param id="0" name="Animation">&quot;caminando&quot;</param>
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>
@@ -637,123 +769,20 @@
                         <action id="-9" name="Destroy" sid="623232187124008" type="Enemy_Boss" />
                     </actions>
                 </event-block>
-                <event-block sid="841482639695273">
+                <event-block sid="588628581474798">
                     <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="490845733738021" type="Enemy_Boss">
-                            <param id="0" name="Instance variable">right</param>
+                        <condition id="0" name="On collision with another object" sid="860455795977574" type="player">
+                            <param id="0" name="Object">Enemy_Boss</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="563092076688994" type="Enemy_Boss">
-                            <param id="0" name="Control">1</param>
+                        <action id="4" name="Set animation" sid="508914883833581" type="player">
+                            <param id="0" name="Animation">&quot;dañado&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
-                        <action id="7" name="Set mirrored" sid="781227097163467" type="Enemy_Boss">
-                            <param id="0" name="State">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="889450379074945">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="385577437497333" type="System" />
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="246446807380559" type="Enemy_Boss">
-                            <param id="0" name="Instance variable">right</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="181486870295485" type="Enemy_Boss">
-                            <param id="0" name="Control">0</param>
-                        </action>
-                        <action id="7" name="Set mirrored" sid="519336565657438" type="Enemy_Boss">
-                            <param id="0" name="State">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="609695126143326">
-                    <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="547789825628353" type="Enemy_Boss">
-                            <param id="0" name="Object">limiteDerecho</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" sid="616636729924541" type="Enemy_Boss">
-                            <param id="0" name="Instance variable">right</param>
+                        <action id="-13" name="Set boolean" sid="916945789116850" type="player">
+                            <param id="0" name="Instance variable">puedeSubirEscalera</param>
                             <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="270735286223370">
-                    <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="596511006611513" type="Enemy_Boss">
-                            <param id="0" name="Object">limiteIzquierdo</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" sid="911292176630953" type="Enemy_Boss">
-                            <param id="0" name="Instance variable">right</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="164233842534688">
-                    <conditions>
-                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="115717635760135" type="Enemy_Boss">
-                            <param id="0" name="Object">player</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" sid="576559325018600" type="Enemy_Boss">
-                            <param id="0" name="Instance variable">playerEnVision</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action behavior="Platform" id="1" name="Set max speed" sid="445050418921023" type="Enemy_Boss">
-                            <param id="0" name="Max Speed">175</param>
-                        </action>
-                    </actions>
-                    <sub-events>
-                        <event-block disabled="1" sid="939644857280517">
-                            <conditions>
-                                <condition id="-1" name="Compare X" sid="221741255303521" type="Enemy_Boss">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">player.X</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-13" name="Set boolean" sid="314961667155120" type="Enemy_Boss">
-                                    <param id="0" name="Instance variable">right</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block disabled="1" sid="433873021335612">
-                            <conditions>
-                                <condition id="-1" name="Compare X" sid="436863464438469" type="Enemy_Boss">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="X co-ordinate">player.X</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-13" name="Set boolean" sid="599136289297430" type="Enemy_Boss">
-                                    <param id="0" name="Instance variable">right</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-                <event-block sid="587492337564416">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="513045670704695" type="System" />
-                        <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="969770895132371" type="Enemy_Boss">
-                            <param id="0" name="Object">player</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" sid="868025266161924" type="Enemy_Boss">
-                            <param id="0" name="Instance variable">playerEnVision</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action behavior="Platform" id="1" name="Set max speed" sid="563872138147795" type="Enemy_Boss">
-                            <param id="0" name="Max Speed">100</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1189,6 +1218,23 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="251871716245168">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="420123705131083" type="player">
+                    <param id="0" name="Object">EnemyShooter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="521877264399990" type="player">
+                    <param id="0" name="Animation">&quot;dañado&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="791801242692418" type="player">
+                    <param id="0" name="Instance variable">puedeSubirEscalera</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="188939282879348" title="SonidosP">
             <sub-events>
                 <event-block sid="973947290955031">

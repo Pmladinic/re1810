@@ -752,6 +752,23 @@
                 </event-group>
                 <event-group description="" sid="805476225684460" title="Interacciones y animaciones">
                     <sub-events>
+                        <event-block sid="844693227153176">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="443005115945336" type="player">
+                                    <param id="0" name="Object">BossRafaelMaroto</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="106917810020888" type="player">
+                                    <param id="0" name="Animation">&quot;dañado&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="515192204448203" type="player">
+                                    <param id="0" name="Instance variable">puedeSubirEscalera</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="655395950349771">
                             <conditions>
                                 <condition id="0" name="On collision with another object" sid="375999574356073" type="cajaColgante">
