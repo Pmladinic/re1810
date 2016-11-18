@@ -23,6 +23,25 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="188470692303329">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="479387716946024" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="272629496329326" type="Audio">
+                    <param id="0" name="Audio file">n2m2</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-20</param>
+                    <param id="1" name="Tag (optional)">&quot;n2m2&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="220313336478764" type="fechaNivel">
+                    <param id="0" name="Text">&quot;07 al 09 de Octubre, 1814&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="567976605983311" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Destierro de patriotas chilenos&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="585485093420429" title="Palanca Activable - Mundo 02 - Nivel 2">
             <sub-events>
                 <event-block sid="749455727991396">
@@ -433,10 +452,6 @@
                                     <param id="0" name="Variable">prisionerosRescatados</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="843773838745074" type="player">
-                                    <param id="0" name="Instance variable">sePuedeMover</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
                             </actions>
                             <sub-events>
                                 <comment>Establecer capitulo al que se redirige | Establecer parametros y reiniciar frame de pagina actual a 0</comment>
@@ -616,41 +631,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="188470692303329">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="479387716946024" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="220313336478764" type="fechaNivel">
-                    <param id="0" name="Text">&quot;07 al 09 de Octubre, 1814&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="567976605983311" type="descripcionNivel">
-                    <param id="0" name="Text">&quot;Destierro de patriotas chilenos&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="355673110228584">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="868142211662708" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="272629496329326" type="Audio">
-                    <param id="0" name="Audio file">n2m2</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-20</param>
-                    <param id="1" name="Tag (optional)">&quot;n2m2&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="197643360474323">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="548212442837990" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="567787060363612" type="Audio">
-                    <param id="0" name="Tag">&quot;n2m2&quot;</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

@@ -141,7 +141,7 @@
                                         <action id="0" name="Play" sid="365720693781054" type="Audio">
                                             <param id="0" name="Audio file">Caja cayendo</param>
                                             <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">0</param>
+                                            <param id="3" name="Volume">-10</param>
                                             <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
                                         </action>
                                     </actions>
@@ -541,35 +541,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="662782623314296">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="204592526688542" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="399069172750231" type="Audio">
-                    <param id="0" name="Tag">&quot;n5m1&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="568878750741232">
-            <conditions>
-                <condition id="1" name="Is overlapping another object" sid="407790199783312" type="LuisCarrera">
-                    <param id="0" name="Object">paradaNPC</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="371141121076439" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="639347215962759" type="Audio">
-                    <param id="0" name="Tag">&quot;n5m1&quot;</param>
-                </action>
-                <action id="0" name="Play" sid="358696231094475" type="Audio">
-                    <param id="0" name="Audio file">Victory1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-10</param>
-                    <param id="1" name="Tag (optional)">&quot;victoria&quot;</param>
-                </action>
-            </actions>
-        </event-block>
         <event-group description="" sid="713775809041441" title="Mundo 1 - Nivel 05 - Dialogos">
             <sub-events>
                 <event-block sid="605332182660250">
@@ -588,13 +559,13 @@
                             <param id="0" name="Seconds">3</param>
                         </action>
                         <action id="0" name="Set text" sid="241270196829392" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Recuerda que debes capturar a Tomas de Figueroa.&quot;</param>
+                            <param id="0" name="Text">&quot;Debemos tomar el congreso,&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="170273733384535" type="System">
                             <param id="0" name="Seconds">4</param>
                         </action>
                         <action id="0" name="Set text" sid="254562076681129" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Él quiere detener nuestra independencia.&quot;</param>
+                            <param id="0" name="Text">&quot;solo así podremos cambiar el destino de Chile.&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="210263439266529" type="System">
                             <param id="0" name="Seconds">3</param>
@@ -670,6 +641,15 @@
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-9" name="Destroy" sid="289659409565619" type="puntoDialogoNPC" />
+                        <action id="6" name="Stop" sid="715793723824881" type="Audio">
+                            <param id="0" name="Tag">&quot;n5m1&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="198117880814624" type="Audio">
+                            <param id="0" name="Audio file">Victory1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

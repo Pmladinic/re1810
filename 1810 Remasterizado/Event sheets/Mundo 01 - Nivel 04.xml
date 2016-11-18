@@ -263,10 +263,6 @@
                                 <action id="-2" name="Go to layout" sid="699126988691440" type="System">
                                     <param id="0" name="Layout">Capitulos</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="214447288808504" type="player">
-                                    <param id="0" name="Instance variable">sePuedeMover</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
                                 <action id="-9" name="Set value" sid="132370710224449" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">0</param>
@@ -392,6 +388,15 @@
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-9" name="Destroy" sid="656287456155878" type="puntoDialogoNPC" />
+                        <action id="6" name="Stop" sid="750983907999867" type="Audio">
+                            <param id="0" name="Tag">&quot;n4m1&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="324669607364659" type="Audio">
+                            <param id="0" name="Audio file">Victory1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

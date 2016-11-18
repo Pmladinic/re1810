@@ -22,6 +22,25 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="366916224311647">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="269602820423614" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="751788948082526" type="fechaNivel">
+                    <param id="0" name="Text">&quot;05 de Abril, 1818&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="442289315256007" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Batalla de Maipu&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="318860859243703" type="Audio">
+                    <param id="0" name="Audio file">n3m3</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-20</param>
+                    <param id="1" name="Tag (optional)">&quot;n3m3&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="218023785039207" title="Palanca Activable - Mundo 03 - Nivel 3">
             <sub-events>
                 <event-block sid="552048927032422">
@@ -490,10 +509,6 @@
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="927957444186696" type="player">
-                                    <param id="0" name="Instance variable">sePuedeMover</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
                             </actions>
                             <sub-events>
                                 <comment>Establecer capitulo al que se redirige | Establecer parametros y reiniciar frame de pagina actual a 0</comment>
@@ -597,10 +612,16 @@
                             <param id="0" name="Seconds">1</param>
                         </action>
                         <action id="0" name="Set text" sid="146434273760107" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Agregar textos&quot;</param>
+                            <param id="0" name="Text">&quot;Se acabo, esta es la batalla definitiva.&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="870150709853126" type="System">
                             <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="244254063638857" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Por Españaa!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="691015832677149" type="System">
+                            <param id="0" name="Seconds">3</param>
                         </action>
                         <action id="-12" name="Set group active" sid="669044245612680" type="System">
                             <param id="0" name="Group name">&quot;Mariano Osorio&quot;</param>
@@ -882,7 +903,7 @@
                             <actions>
                                 <action id="-9" name="Destroy" sid="103140440029643" type="MarianoOsorio" />
                                 <action id="6" name="Stop" sid="593446997413085" type="Audio">
-                                    <param id="0" name="Tag">&quot;batalla&quot;</param>
+                                    <param id="0" name="Tag">&quot;Fboss&quot;</param>
                                 </action>
                                 <action id="0" name="Play" sid="447352787228951" type="Audio">
                                     <param id="0" name="Audio file">Victory Guerra</param>
@@ -906,42 +927,6 @@
                 <action id="-9" name="Set value" sid="312655710124518" type="System">
                     <param id="0" name="Variable">nivelTerminado</param>
                     <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="366916224311647">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="269602820423614" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="751788948082526" type="fechaNivel">
-                    <param id="0" name="Text">&quot;05 de Abril, 1818&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="442289315256007" type="descripcionNivel">
-                    <param id="0" name="Text">&quot;Batalla de Maipu&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="558808713834907">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="373285093859384" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="318860859243703" type="Audio">
-                    <param id="0" name="Audio file">n3m3</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-20</param>
-                    <param id="1" name="Tag (optional)">&quot;n3m3&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="272983122482413">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="236542825627130" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="247428340230709" type="Audio">
-                    <param id="0" name="Tag">&quot;n3m3&quot;</param>
                 </action>
             </actions>
         </event-block>

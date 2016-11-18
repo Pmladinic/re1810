@@ -536,16 +536,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="283093035248044">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="867297870003311" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="737205550894486" type="Audio">
-                    <param id="0" name="Tag">&quot;n6m1&quot;</param>
-                </action>
-            </actions>
-        </event-block>
         <event-group description="" sid="854206842090522" title="Mundo 1 - Nivel 06 - Dialogos">
             <sub-events>
                 <event-block sid="651127812570431">
@@ -589,7 +579,6 @@
                         <condition id="1" name="Is overlapping another object" sid="954990251979341" type="JoseMiguelCarrera">
                             <param id="0" name="Object">paradaNPC</param>
                         </condition>
-                        <condition id="-4" name="Trigger once while true" sid="755566150892531" type="System" />
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="153080641187649" type="System">

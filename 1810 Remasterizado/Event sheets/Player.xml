@@ -343,11 +343,65 @@
                                 <condition id="-4" name="Trigger once while true" sid="635523821517804" type="System" />
                             </conditions>
                             <actions>
+                                <action id="6" name="Stop" sid="683977098244041" type="Audio">
+                                    <param id="0" name="Tag">&quot;n1m1&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="644444923580807" type="Audio">
+                                    <param id="0" name="Tag">&quot;n2m1&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="946379959065683" type="Audio">
+                                    <param id="0" name="Tag">&quot;n3m1&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="449127911297990" type="Audio">
+                                    <param id="0" name="Tag">&quot;n4m1&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="140320334375689" type="Audio">
+                                    <param id="0" name="Tag">&quot;n5m1&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="138042947442405" type="Audio">
+                                    <param id="0" name="Tag">&quot;n6m1&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="195658627791796" type="Audio">
+                                    <param id="0" name="Tag">&quot;n7m1&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="974568758028550" type="Audio">
+                                    <param id="0" name="Tag">&quot;n1m2&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="264784981629445" type="Audio">
+                                    <param id="0" name="Tag">&quot;n2m2&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="783927915465406" type="Audio">
+                                    <param id="0" name="Tag">&quot;n3m2&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="317059761072618" type="Audio">
+                                    <param id="0" name="Tag">&quot;n4m2&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="689489445607780" type="Audio">
+                                    <param id="0" name="Tag">&quot;n5m2&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="386573888584405" type="Audio">
+                                    <param id="0" name="Tag">&quot;n6m2&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="765742641888101" type="Audio">
+                                    <param id="0" name="Tag">&quot;n1m3&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="571030354839854" type="Audio">
+                                    <param id="0" name="Tag">&quot;n2m3&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="153562808776088" type="Audio">
+                                    <param id="0" name="Tag">&quot;batalla&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="463639012371472" type="Audio">
+                                    <param id="0" name="Tag">&quot;Fboss&quot;</param>
+                                </action>
+                                <action id="6" name="Stop" sid="903540868249042" type="Audio">
+                                    <param id="0" name="Tag">&quot;n3m3&quot;</param>
+                                </action>
                                 <action id="0" name="Play" sid="296964235279034" type="Audio">
                                     <param id="0" name="Audio file">defeat</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
-                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                    <param id="3" name="Volume">-10</param>
+                                    <param id="1" name="Tag (optional)">&quot;defeat&quot;</param>
                                 </action>
                                 <action id="-16" name="Wait" sid="891001045536318" type="System">
                                     <param id="0" name="Seconds">1.5</param>

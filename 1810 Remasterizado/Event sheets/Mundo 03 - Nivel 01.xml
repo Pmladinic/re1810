@@ -22,6 +22,25 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="560246434835803">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="906664319067294" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="129238660199144" type="fechaNivel">
+                    <param id="0" name="Text">&quot;16 de febrero, 1817&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="575281195428124" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Rescate de Patriotas en la Isla Juan Fernández&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="110715916604337" type="Audio">
+                    <param id="0" name="Audio file">n1m3</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-20</param>
+                    <param id="1" name="Tag (optional)">&quot;n1m3&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="972430989912156" title="Palanca Activable - Mundo 03 - Nivel 1">
             <sub-events>
                 <event-block sid="301176286898021">
@@ -382,7 +401,6 @@
                                         <condition id="-6" name="Every X seconds" sid="517290994414837" type="System">
                                             <param id="0" name="Interval (seconds)">0.05</param>
                                         </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="703907348488047" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-17" name="Set layer scale" sid="164818144412182" type="System">
@@ -392,15 +410,6 @@
                                         <action id="-11" name="Add to" sid="875129702655506" type="CartelVictoria">
                                             <param id="0" name="Instance variable">escala</param>
                                             <param id="1" name="Value">0.2</param>
-                                        </action>
-                                        <action id="6" name="Stop" sid="307621740918065" type="Audio">
-                                            <param id="0" name="Tag">&quot;n1m3&quot;</param>
-                                        </action>
-                                        <action id="0" name="Play" sid="337364399378312" type="Audio">
-                                            <param id="0" name="Audio file">Victory1</param>
-                                            <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">-10</param>
-                                            <param id="1" name="Tag (optional)">&quot;victoria&quot;</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -432,10 +441,6 @@
                                 <action id="-9" name="Set value" sid="405145335549261" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="-13" name="Set boolean" sid="678145686427319" type="player">
-                                    <param id="0" name="Instance variable">sePuedeMover</param>
-                                    <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -548,45 +553,18 @@
                             <param id="0" name="Variable">nivelTerminado</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="6" name="Stop" sid="254559971905523" type="Audio">
+                            <param id="0" name="Tag">&quot;n1m3&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="630859828496050" type="Audio">
+                            <param id="0" name="Audio file">Victory1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="560246434835803">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="906664319067294" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="129238660199144" type="fechaNivel">
-                    <param id="0" name="Text">&quot;16 de febrero, 1817&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="575281195428124" type="descripcionNivel">
-                    <param id="0" name="Text">&quot;Rescate de Patriotas en la Isla Juan Fernández&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="181474731145477">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="535466557873279" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="110715916604337" type="Audio">
-                    <param id="0" name="Audio file">n1m3</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-20</param>
-                    <param id="1" name="Tag (optional)">&quot;n1m3&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="622050654382436">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="889616065263534" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="271949314118663" type="Audio">
-                    <param id="0" name="Tag">&quot;n1m3&quot;</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

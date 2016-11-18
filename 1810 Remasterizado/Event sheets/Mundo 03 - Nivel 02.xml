@@ -22,6 +22,25 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="382595935282530">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="674905214258592" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="736737913958193" type="fechaNivel">
+                    <param id="0" name="Text">&quot;18 de Marzo, 1818&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="695402195771324" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Batalla de Cancha Rayada&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="983235854100892" type="Audio">
+                    <param id="0" name="Audio file">Batalla</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-20</param>
+                    <param id="1" name="Tag (optional)">&quot;n2m3&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="999017961070315" title="Palanca Activable - Mundo 03 - Nivel 2">
             <sub-events>
                 <event-block sid="500560087555260">
@@ -94,7 +113,7 @@
                                 <action id="0" name="Play" sid="491955035337046" type="Audio">
                                     <param id="0" name="Audio file">Caja cayendo</param>
                                     <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
+                                    <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;caja&quot;</param>
                                 </action>
                             </actions>
@@ -380,10 +399,6 @@
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="579329797461358" type="player">
-                                    <param id="0" name="Instance variable">sePuedeMover</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
                             </actions>
                             <sub-events>
                                 <comment>Establecer capitulo al que se redirige | Establecer parametros y reiniciar frame de pagina actual a 0</comment>
@@ -505,6 +520,15 @@
                         <action id="-16" name="Wait" sid="680291761500831" type="System">
                             <param id="0" name="Seconds">2</param>
                         </action>
+                        <action id="6" name="Stop" sid="384575122926783" type="Audio">
+                            <param id="0" name="Tag">&quot;n2m3&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="504170925368924" type="Audio">
+                            <param id="0" name="Audio file">Victory1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                        </action>
                         <action id="-9" name="Set value" sid="285427270072585" type="System">
                             <param id="0" name="Variable">nivelTerminado</param>
                             <param id="1" name="Value">1</param>
@@ -518,41 +542,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="382595935282530">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="674905214258592" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="736737913958193" type="fechaNivel">
-                    <param id="0" name="Text">&quot;18 de Marzo, 1818&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="695402195771324" type="descripcionNivel">
-                    <param id="0" name="Text">&quot;Batalla de Cancha Rayada&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="743951204532686">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="740986856743543" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="983235854100892" type="Audio">
-                    <param id="0" name="Audio file">Batalla</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-20</param>
-                    <param id="1" name="Tag (optional)">&quot;n2m3&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="505086221715751">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="144052717739815" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="774446260446238" type="Audio">
-                    <param id="0" name="Tag">&quot;n2m3&quot;</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
