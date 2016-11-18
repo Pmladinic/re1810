@@ -624,64 +624,6 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="" sid="9026427802978878" title="Background">
-            <sub-events>
-                <event-group description="" sid="1713573877230474" title="Background 01">
-                    <sub-events>
-                        <event-block sid="7104816041931536">
-                            <conditions>
-                                <condition id="-1" name="Every tick" sid="1586341268851669" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-1" name="Set X" sid="174586982821319" type="menuBackground01">
-                                    <param id="0" name="X">menuBackground01.X-0.2</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="5873116804851485">
-                            <conditions>
-                                <condition id="-1" name="Compare X" sid="2514656663127338" type="menuBackground01">
-                                    <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="X co-ordinate">-720</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-1" name="Set X" sid="995378764464959" type="menuBackground01">
-                                    <param id="0" name="X">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-group>
-                <event-group description="" sid="5583333601952619" title="Background 02">
-                    <sub-events>
-                        <event-block sid="7951543399012429">
-                            <conditions>
-                                <condition id="-1" name="Every tick" sid="3872001336378244" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-1" name="Set X" sid="1691129654943826" type="menuBackground02">
-                                    <param id="0" name="X">menuBackground02.X-0.5</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="3450125649786924">
-                            <conditions>
-                                <condition id="-1" name="Compare X" sid="1679552313074812" type="menuBackground02">
-                                    <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="X co-ordinate">-720</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-1" name="Set X" sid="635626092904182" type="menuBackground02">
-                                    <param id="0" name="X">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-group>
-            </sub-events>
-        </event-group>
         <event-group description="" sid="877983544003602" title="Sonidos">
             <sub-events>
                 <event-block sid="203562261304244">
@@ -691,8 +633,8 @@
                     <actions>
                         <action id="0" name="Play" sid="284676445504069" type="Audio">
                             <param id="0" name="Audio file">Menu</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">20</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-20</param>
                             <param id="1" name="Tag (optional)">&quot;Menu Sounds&quot;</param>
                         </action>
                     </actions>

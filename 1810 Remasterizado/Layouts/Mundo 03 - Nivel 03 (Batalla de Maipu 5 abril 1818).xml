@@ -3257,7 +3257,7 @@
                         <opacity>1</opacity>
                     </world>
                     <tilemap-data>
-                        <width>161</width>
+                        <width>146</width>
                         <height>23</height>
                         <max-width>161</max-width>
                         <max-height>23</max-height>
@@ -5872,8 +5872,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3904</x>
-                        <y>352</y>
+                        <x>49</x>
+                        <y>649</y>
                         <z>0</z>
                         <width>36</width>
                         <height>48</height>
@@ -5959,9 +5959,9 @@
                 </instance>
                 <instance type="dialogosNPC" uid="1827">
                     <properties>
-                        <character-width>18</character-width>
-                        <character-height>26</character-height>
-                        <character-set>ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789.,;:?!¡-_~#&quot;&apos;&amp;()[]|`\/@°+=*$£€&lt;&gt;%</character-set>
+                        <character-width>15</character-width>
+                        <character-height>20</character-height>
+                        <character-set>ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789.,;:¡¿?!-_~#&quot;&apos;&amp;()[]|`\/@°+=*$£€&lt;&gt;%áéíóúÁÉÍÓÚ</character-set>
                         <text>Text</text>
                         <scale>1</scale>
                         <initial-visibility>Visible</initial-visibility>
@@ -5971,7 +5971,7 @@
                         <wrapping>Word</wrapping>
                         <character-spacing>0</character-spacing>
                         <line-height>0</line-height>
-                        <char-width-json>{&quot;&quot;c2array&quot;&quot;:true,&quot;&quot;size&quot;&quot;:[2,10,1],&quot;&quot;data&quot;&quot;:[[[4],[5],[6],[7],[8],[9],[11],[12],[14],[16]],[[&quot;&quot;¡&quot;&quot;],[&quot;&quot;i!|&quot;&quot;],[&quot;&quot;l.,;:&apos;()&quot;&quot;],[&quot;&quot;\&quot;&quot;[]`&quot;&quot;],[&quot;&quot;1&quot;&quot;],[&quot;&quot;fjknrst\\°&quot;&quot;],[&quot;&quot;ABCDEFGHIJKLMNOPRSTUVWXYZabcdeghmopquvwxyz023456789?-_&amp;/+=*$£€&lt;&gt;&quot;&quot;],[&quot;&quot;ÑQñ~&quot;&quot;],[&quot;&quot;@%&quot;&quot;],[&quot;&quot;#&quot;&quot;]]]}</char-width-json>
+                        <char-width-json>{&quot;&quot;c2array&quot;&quot;:true,&quot;&quot;size&quot;&quot;:[2,7,1],&quot;&quot;data&quot;&quot;:[[[4],[6],[7],[9],[10],[12],[13]],[[&quot;&quot;il¡!&apos;&quot;&quot;],[&quot;&quot;j1.,;:`&quot;&quot;],[&quot;&quot;I\&quot;&quot;()[]&quot;&quot;],[&quot;&quot;fkrt-°&lt;&gt;í&quot;&quot;],[&quot;&quot;ABCDEFGHJKLNÑOPRSTUVXYZabcdeghnñopqsuvxyz023456789¿?~+=*£áéóúÁÉÓÚ&quot;&quot;],[&quot;&quot;MQ_#&amp;€Í&quot;&quot;],[&quot;&quot;Wmw|\\/@$%&quot;&quot;]]]}</char-width-json>
                         <space-char-width>-1</space-char-width>
                     </properties>
                     <blend-mode>0</blend-mode>

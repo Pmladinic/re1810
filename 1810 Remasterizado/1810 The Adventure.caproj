@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>1810 The Adventure</name>
-    <description></description>
+    <description>Cuidado con las clases de historia...</description>
     <version>1.0.0.0</version>
     <author>viCkorN</author>
     <author-email>irojas.h25@gmail.com</author-email>
@@ -52,12 +52,12 @@
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
-        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Loader style">Progress bar only</prop>
         <prop name="Orientations">Any</prop>
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview browser">NW.js</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
@@ -109,12 +109,12 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6490658690288672" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0.0025" original-source="C:\Users\Pedro\Desktop\000.png">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\000.png">
                             <collision-poly>
-                                <point x="0" y="0" />
-                                <point x="0.5" y="0" />
-                                <point x="0.5" y="1" />
-                                <point x="0" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0.0025" />
+                                <point x="1" y="0.0025" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1287,7 +1287,7 @@
             </object-type>
             <object-type name="dialogosNPC" sid="962474287498999">
                 <plugin id="SpriteFontPlus" />
-                <texture original-source="C:\Users\korN\Desktop\fuente02 18x26.png" />
+                <texture original-source="E:\SpriteFonts\SpriteFont_Volter(Goldfish)v2 15x20.png" />
             </object-type>
             <object-type name="CartelVictoria" sid="5550499177604727">
                 <plugin id="Sprite" />
@@ -2582,15 +2582,15 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="110410386676509" speed="5">
-                        <frame duration="1" hotspotX="0.558824" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.441176" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
-                                <point x="0.25" y="0.160377" />
+                                <point x="0.816176" y="0.596698" />
+                                <point x="0.748162" y="0.992924" />
+                                <point x="0.242647" y="0.992924" />
+                                <point x="0.044118" y="0.5" />
+                                <point x="0.117647" y="0.0754717" />
                                 <point x="0.5" y="0.0283019" />
-                                <point x="0.882353" y="0.0754717" />
-                                <point x="0.955882" y="0.5" />
-                                <point x="0.757353" y="0.992924" />
-                                <point x="0.251838" y="0.992924" />
-                                <point x="0.183824" y="0.596698" />
+                                <point x="0.75" y="0.160377" />
                             </collision-poly>
                         </frame>
                     </animation>
