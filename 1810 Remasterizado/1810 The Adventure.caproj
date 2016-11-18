@@ -634,18 +634,80 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858256696653718" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Pedro\Desktop\caja1.png">
+                        <frame duration="1" hotspotX="0.03125" hotspotY="0.03125" original-source="C:\Users\viCkorN\Desktop\box animation\murek zniszczalny\Animacja\00.png">
                             <collision-poly>
-                                <point x="0.0136719" y="0" />
-                                <point x="0.984375" y="0" />
-                                <point x="0.984375" y="1" />
-                                <point x="0.0117188" y="1" />
+                                <point x="0.0460205" y="0" />
+                                <point x="0.950195" y="0" />
+                                <point x="0.948242" y="1" />
+                                <point x="0.0422364" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="2" loop="0" name="destroy" pingpong="0" repeatcount="1" repeatto="0" sid="773593621943119" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <animation framecount="7" loop="0" name="destroy" pingpong="0" repeatcount="1" repeatto="0" sid="773593621943119" speed="15">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\viCkorN\Desktop\box animation\murek zniszczalny\Animacja\01.png">
+                            <collision-poly>
+                                <point x="0.03125" y="0.03125" />
+                                <point x="0.96875" y="0.03125" />
+                                <point x="0.96875" y="0.96875" />
+                                <point x="0.03125" y="0.96875" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\viCkorN\Desktop\box animation\murek zniszczalny\Animacja\02.png">
+                            <collision-poly>
+                                <point x="0.078125" y="0.078125" />
+                                <point x="0.96875" y="0.03125" />
+                                <point x="0.890625" y="0.5" />
+                                <point x="0.96875" y="0.96875" />
+                                <point x="0.03125" y="0.96875" />
+                                <point x="0.078125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\viCkorN\Desktop\box animation\murek zniszczalny\Animacja\03.png">
+                            <collision-poly>
+                                <point x="0.03125" y="0.03125" />
+                                <point x="0.96875" y="0.03125" />
+                                <point x="0.96875" y="0.96875" />
+                                <point x="0.03125" y="0.96875" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\viCkorN\Desktop\box animation\murek zniszczalny\Animacja\04.png">
+                            <collision-poly>
+                                <point x="0.453125" y="0.453125" />
+                                <point x="0.546875" y="0.453125" />
+                                <point x="0.921875" y="0.5" />
+                                <point x="0.96875" y="0.96875" />
+                                <point x="0.03125" y="0.96875" />
+                                <point x="0.265625" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\viCkorN\Desktop\box animation\murek zniszczalny\Animacja\05.png">
+                            <collision-poly>
+                                <point x="0.453125" y="0.453125" />
+                                <point x="0.546875" y="0.453125" />
+                                <point x="0.75" y="0.5" />
+                                <point x="0.96875" y="0.96875" />
+                                <point x="0.03125" y="0.96875" />
+                                <point x="0.28125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\viCkorN\Desktop\box animation\murek zniszczalny\Animacja\06.png">
+                            <collision-poly>
+                                <point x="0.453125" y="0.453125" />
+                                <point x="0.546875" y="0.453125" />
+                                <point x="0.75" y="0.5" />
+                                <point x="0.96875" y="0.96875" />
+                                <point x="0.03125" y="0.96875" />
+                                <point x="0.28125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\viCkorN\Desktop\box animation\murek zniszczalny\Animacja\07.png">
+                            <collision-poly>
+                                <point x="0.1875" y="0.453125" />
+                                <point x="0.765625" y="0.4375" />
+                                <point x="0.96875" y="0.96875" />
+                                <point x="0.03125" y="0.96875" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -2385,6 +2447,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.516129" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.516129" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2395,6 +2458,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.533333" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2405,6 +2469,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.491525" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.542373" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2415,6 +2480,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.508197" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.52459" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2425,6 +2491,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.484848" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2435,6 +2502,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.458333" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.444444" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2445,6 +2513,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.454545" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.484848" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2455,6 +2524,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.483333" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.533333" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2465,6 +2535,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.482759" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.551724" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2475,6 +2546,7 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.482759" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                            <image-point name="Imagepoint 1" x="0.551724" y="-0.132075" />
                             <collision-poly>
                                 <point x="0.163934" y="0.0943396" />
                                 <point x="0.491803" y="0.0283019" />
@@ -2486,7 +2558,7 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="dañado" pingpong="0" repeatcount="1" repeatto="0" sid="696914388485371" speed="5">
-                        <frame duration="3" hotspotX="0.5" hotspotY="0.504762" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="3" hotspotX="0.542857" hotspotY="0.504762" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
                                 <point x="0.185714" y="0.12381" />
                                 <point x="0.5" y="0.0285714" />
@@ -2498,7 +2570,7 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="vencido" pingpong="1" repeatcount="2" repeatto="0" sid="704458150932696" speed="10">
-                        <frame duration="3" hotspotX="0.5" hotspotY="0.504762" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="3" hotspotX="0.542857" hotspotY="0.504762" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
                                 <point x="0.185714" y="0.12381" />
                                 <point x="0.5" y="0.0285714" />
@@ -2510,7 +2582,7 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="110410386676509" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
+                        <frame duration="1" hotspotX="0.558824" hotspotY="0.5" original-source="E:\Recursos proyecto\Carpeta compartida con WIN7\Bocetos\Sprites Listos\SoldadoEspañolBoss01.png">
                             <collision-poly>
                                 <point x="0.25" y="0.160377" />
                                 <point x="0.5" y="0.0283019" />
@@ -3006,7 +3078,28 @@
             <plugin id="LocalStorage" />
         </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="NPC" plugin-id="Sprite" sid="414208044088334">
+            <members>
+                <member>BossRafaelMaroto</member>
+                <member>Enemy_Boss</member>
+                <member>JoseMiguelCarrera</member>
+                <member>JuanJoseCarrera</member>
+                <member>LuisCarrera</member>
+                <member>MarianoOsorio</member>
+                <member>NPC_EnemyVigia</member>
+                <member>NPC_Figueroa</member>
+                <member>NPC_General</member>
+                <member>NPC_ManuelRodriguez</member>
+                <member>NPC_Ohiggins</member>
+                <member>NPC_SanMartin</member>
+                <member>NPC_Soldado</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="nombreNPC" sid="900159050389398" type="string" />
+            </instance-variables>
+        </family>
+    </families>
     <layout-folder>
         <layout>Menu.xml</layout>
         <layout>Capitulos.xml</layout>

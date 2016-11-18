@@ -4,9 +4,54 @@
     <name>Mundo 01 - Nivel 03</name>
     <events>
         <variable constant="0" name="caja" sid="637408567936240" static="0" type="number">0</variable>
+        <include>dialogos</include>
         <include>ObjetosGlobales</include>
         <include>Player</include>
         <include>popUpMenu</include>
+        <event-block sid="221643915107917">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="465448713852460" type="System">
+                    <param id="0" name="Variable">nivelTerminado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="445876729022534" type="player">
+                    <param id="0" name="Instance variable">sePuedeMover</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="910151313932762">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="589632086604100" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="236521809841840" type="Audio">
+                    <param id="0" name="Audio file">Batalla</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-20</param>
+                    <param id="1" name="Tag (optional)">&quot;batalla&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="261246097750291" type="fechaNivel">
+                    <param id="0" name="Text">&quot;18 de Septiembre, 1810&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="837495522055770" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Primera Junta Nacional de Gobierno&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="563825651261811">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="132578630639713" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="477522777645952" type="Audio">
+                    <param id="0" name="Tag">&quot;batalla&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="350940255251771">
             <conditions>
                 <condition id="4" name="On finished" sid="717462511857643" type="Enemy_Boss">
@@ -26,21 +71,6 @@
                 <action id="4" name="Set animation" sid="654375846261908" type="reja">
                     <param id="0" name="Animation">&quot;open&quot;</param>
                     <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="221643915107917">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="465448713852460" type="System">
-                    <param id="0" name="Variable">nivelTerminado</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-13" name="Set boolean" sid="445876729022534" type="player">
-                    <param id="0" name="Instance variable">sePuedeMover</param>
-                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>
@@ -472,34 +502,51 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="910151313932762">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="589632086604100" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="236521809841840" type="Audio">
-                    <param id="0" name="Audio file">Batalla</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-20</param>
-                    <param id="1" name="Tag (optional)">&quot;batalla&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="261246097750291" type="fechaNivel">
-                    <param id="0" name="Text">&quot;18 de Septiembre, 1810&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="837495522055770" type="descripcionNivel">
-                    <param id="0" name="Text">&quot;Primera Junta Nacional de Gobierno&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="563825651261811">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="132578630639713" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="477522777645952" type="Audio">
-                    <param id="0" name="Tag">&quot;batalla&quot;</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="119237914952965" title="Mundo 1 - Nivel 03 - Dialogos">
+            <sub-events>
+                <event-block sid="918871367005773">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="136544854611910" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="541605034376017" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="189154180002564" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="140758293299197" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="853039405604448" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Oye tú!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="266686165010309" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="478909600099359" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Te falta valor para recuperar esto!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="574545604833407" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="856742586292193" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Si entras no hay vuelta atrás!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="143218898829650" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="105964569931660" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="859929674192643" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

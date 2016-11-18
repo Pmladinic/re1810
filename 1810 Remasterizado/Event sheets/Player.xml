@@ -1155,6 +1155,40 @@
         </event-group>
         <event-group description="" sid="388256006050104" title="Enemigo 05 - Soldado Español Shooter">
             <sub-events>
+                <event-block sid="251871716245168">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="420123705131083" type="player">
+                            <param id="0" name="Object">EnemyShooter</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="521877264399990" type="player">
+                            <param id="0" name="Animation">&quot;dañado&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="791801242692418" type="player">
+                            <param id="0" name="Instance variable">puedeSubirEscalera</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="464029962302462">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="684652442659748" type="bala">
+                            <param id="0" name="Object">player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="858602279340294" type="player">
+                            <param id="0" name="Animation">&quot;dañado&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="751315078632400" type="player">
+                            <param id="0" name="Instance variable">puedeSubirEscalera</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="224121377860921">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="261027729403619" type="System">
@@ -1205,23 +1239,6 @@
                             </actions>
                         </event-block>
                     </sub-events>
-                </event-block>
-                <event-block sid="464029962302462">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="684652442659748" type="bala">
-                            <param id="0" name="Object">player</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="858602279340294" type="player">
-                            <param id="0" name="Animation">&quot;dañado&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="751315078632400" type="player">
-                            <param id="0" name="Instance variable">puedeSubirEscalera</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
                 </event-block>
                 <event-block sid="307499408924723">
                     <conditions>
@@ -1278,23 +1295,6 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="251871716245168">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="420123705131083" type="player">
-                    <param id="0" name="Object">EnemyShooter</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="521877264399990" type="player">
-                    <param id="0" name="Animation">&quot;dañado&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="791801242692418" type="player">
-                    <param id="0" name="Instance variable">puedeSubirEscalera</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-            </actions>
-        </event-block>
         <event-group description="" sid="188939282879348" title="SonidosP">
             <sub-events>
                 <event-block sid="973947290955031">

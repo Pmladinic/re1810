@@ -2111,6 +2111,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
+                        <nombreNPC></nombreNPC>
                         <mirrored>false</mirrored>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -2421,6 +2422,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
+                        <nombreNPC></nombreNPC>
                         <mirrored>false</mirrored>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
@@ -2566,7 +2568,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <mirrored>false</mirrored>
+                        <nombreNPC></nombreNPC>
+                        <mirrored>true</mirrored>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -2846,6 +2849,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <nombreNPC></nombreNPC>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -3373,7 +3379,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <mirrored>false</mirrored>
+                        <nombreNPC></nombreNPC>
+                        <mirrored>true</mirrored>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -3955,6 +3962,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <nombreNPC></nombreNPC>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -4310,8 +4320,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>834</x>
-                        <y>262</y>
+                        <x>114</x>
+                        <y>424</y>
                         <z>0</z>
                         <width>36</width>
                         <height>48</height>
@@ -4361,8 +4371,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>301</x>
-                        <y>412</y>
+                        <x>360</x>
+                        <y>416</y>
                         <z>0</z>
                         <width>576</width>
                         <height>64</height>

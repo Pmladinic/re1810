@@ -2032,6 +2032,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
+                        <nombreNPC></nombreNPC>
                         <mover>false</mover>
                     </instance-variables>
                     <behavior-instances>
@@ -2113,8 +2114,8 @@
                         <width>64</width>
                         <height>64</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.03125</hotspotX>
+                        <hotspotY>0.03125</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2607,8 +2608,8 @@
                         <width>58</width>
                         <height>64</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.03125</hotspotX>
+                        <hotspotY>0.03125</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2681,8 +2682,8 @@
                         <width>55</width>
                         <height>64</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.03125</hotspotX>
+                        <hotspotY>0.03125</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2730,8 +2731,8 @@
                         <width>56</width>
                         <height>64</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.03125</hotspotX>
+                        <hotspotY>0.03125</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -3442,7 +3443,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>160</x>
-                        <y>552</y>
+                        <y>544</y>
                         <z>0</z>
                         <width>36</width>
                         <height>48</height>
