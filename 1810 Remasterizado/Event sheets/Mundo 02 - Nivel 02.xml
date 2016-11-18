@@ -376,7 +376,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="399623056237888" title="0202 - Victoria2">
+        <event-group description="" sid="399623056237888" title="0202 - Victoria">
             <sub-events>
                 <event-block sid="820565952650167">
                     <conditions>
@@ -473,6 +473,10 @@
                                         <action id="0" name="Set item" sid="315476889554748" type="LocalStorage">
                                             <param id="0" name="Key">&quot;ultimoNivelAlcanzado&quot;</param>
                                             <param id="1" name="Value">23</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="814335766723179" type="System">
+                                            <param id="0" name="Group name">&quot;Movimientos Player&quot;</param>
+                                            <param id="1" name="State">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -581,6 +585,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-12" name="Set group active" sid="886412715758046" type="System">
+                            <param id="0" name="Group name">&quot;Movimientos Player&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
                         <action id="-9" name="Set value" sid="240919756911397" type="System">
                             <param id="0" name="Variable">mostrandoTexto</param>
                             <param id="1" name="Value">1</param>

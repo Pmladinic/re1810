@@ -464,6 +464,10 @@
                                             <param id="0" name="Key">&quot;ultimoNivelAlcanzado&quot;</param>
                                             <param id="1" name="Value">32</param>
                                         </action>
+                                        <action id="-12" name="Set group active" sid="206596970506116" type="System">
+                                            <param id="0" name="Group name">&quot;Movimientos Player&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>
@@ -523,6 +527,10 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-12" name="Set group active" sid="929380666074693" type="System">
+                            <param id="0" name="Group name">&quot;Movimientos Player&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
                         <action id="-9" name="Set value" sid="869586213490444" type="System">
                             <param id="0" name="Variable">mostrandoTexto</param>
                             <param id="1" name="Value">1</param>

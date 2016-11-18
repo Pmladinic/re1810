@@ -252,6 +252,10 @@
                                     <param id="3" name="Volume">-10</param>
                                     <param id="1" name="Tag (optional)">&quot;gate&quot;</param>
                                 </action>
+                                <action id="-12" name="Set group active" sid="700626836099122" type="System">
+                                    <param id="0" name="Group name">&quot;Movimientos Player&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -488,6 +492,10 @@
                                         <action id="0" name="Set item" sid="907737015017572" type="LocalStorage">
                                             <param id="0" name="Key">&quot;ultimoNivelAlcanzado&quot;</param>
                                             <param id="1" name="Value">17</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="885831228655315" type="System">
+                                            <param id="0" name="Group name">&quot;Movimientos Player&quot;</param>
+                                            <param id="1" name="State">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
