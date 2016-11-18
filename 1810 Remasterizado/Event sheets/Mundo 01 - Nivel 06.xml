@@ -262,6 +262,115 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="854206842090522" title="Mundo 1 - Nivel 06 - Dialogos">
+            <sub-events>
+                <event-block sid="651127812570431">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="744077804778360" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="480958634785748" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="458419056953657" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="586445640884002" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="977220375550295" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Estos políticos nunca paran con sus discusiones…&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="710295338317579" type="System">
+                            <param id="0" name="Seconds">4</param>
+                        </action>
+                        <action id="0" name="Set text" sid="601395595628515" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Debemos realizar otro golpe, ¿podrías ayudarme a llegar al Congreso otra vez?&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="529282239812561" type="System">
+                            <param id="0" name="Seconds">5</param>
+                        </action>
+                        <action id="0" name="Set text" sid="795079359230607" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="867175539897370" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="143282707836361">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="954990251979341" type="JoseMiguelCarrera">
+                            <param id="0" name="Object">paradaNPC</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="685406303955284" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="153080641187649" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="844020004123602" type="JoseMiguelCarrera">
+                            <param id="0" name="Instance variable">mover</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="987437395195314" type="JoseMiguelCarrera">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="646775494190013" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="319789824457918" type="System">
+                            <param id="0" name="Seconds">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="431239080696890" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Bien, hemos llegado.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="255559128537683" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="187098367939487" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Muchas gracias nuevamente.&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="825019034430060" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Set text" sid="231418528493231" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;Ahora, si me permites...&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="443817007298270" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Set text" sid="285886448561497" type="dialogosNPC">
+                            <param id="0" name="Text">&quot;¡Aquí viene el golpe!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="541458212605448" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="415728986341930" type="System">
+                            <param id="0" name="Variable">mostrandoTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="194376030198610" type="System">
+                            <param id="0" name="Variable">nivelTerminado</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="6" name="Stop" sid="945698226175118" type="Audio">
+                            <param id="0" name="Tag">&quot;n6m1&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="793301762079054" type="Audio">
+                            <param id="0" name="Audio file">Victory1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-group description="" sid="171188190987806" title="Nivel 06 - Jose Miguel Carrera">
             <sub-events>
                 <event-block sid="281825134495012">
@@ -524,114 +633,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-group description="" sid="854206842090522" title="Mundo 1 - Nivel 06 - Dialogos">
-            <sub-events>
-                <event-block sid="651127812570431">
-                    <conditions>
-                        <condition id="-2" name="On start of layout" sid="744077804778360" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Set text" sid="480958634785748" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;&quot;</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="458419056953657" type="System">
-                            <param id="0" name="Variable">mostrandoTexto</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="586445640884002" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="977220375550295" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Estos políticos nunca paran con sus discusiones…&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="710295338317579" type="System">
-                            <param id="0" name="Seconds">4</param>
-                        </action>
-                        <action id="0" name="Set text" sid="601395595628515" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Debemos realizar otro golpe, ¿podrías ayudarme a llegar al Congreso otra vez?&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="529282239812561" type="System">
-                            <param id="0" name="Seconds">5</param>
-                        </action>
-                        <action id="0" name="Set text" sid="795079359230607" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;&quot;</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="867175539897370" type="System">
-                            <param id="0" name="Variable">mostrandoTexto</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="143282707836361">
-                    <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="954990251979341" type="JoseMiguelCarrera">
-                            <param id="0" name="Object">paradaNPC</param>
-                        </condition>
-                        <condition id="-4" name="Trigger once while true" sid="685406303955284" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="153080641187649" type="System">
-                            <param id="0" name="Variable">mostrandoTexto</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="844020004123602" type="JoseMiguelCarrera">
-                            <param id="0" name="Instance variable">mover</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="987437395195314" type="JoseMiguelCarrera">
-                            <param id="0" name="Animation">&quot;Default&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="646775494190013" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="319789824457918" type="System">
-                            <param id="0" name="Seconds">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="431239080696890" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Bien, hemos llegado.&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="255559128537683" type="System">
-                            <param id="0" name="Seconds">2</param>
-                        </action>
-                        <action id="0" name="Set text" sid="187098367939487" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Muchas gracias nuevamente.&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="825019034430060" type="System">
-                            <param id="0" name="Seconds">2</param>
-                        </action>
-                        <action id="0" name="Set text" sid="231418528493231" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;Ahora, si me permites...&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="443817007298270" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Set text" sid="285886448561497" type="dialogosNPC">
-                            <param id="0" name="Text">&quot;¡Aquí viene el golpe!&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="541458212605448" type="System">
-                            <param id="0" name="Seconds">2</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="415728986341930" type="System">
-                            <param id="0" name="Variable">mostrandoTexto</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="194376030198610" type="System">
-                            <param id="0" name="Variable">nivelTerminado</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="6" name="Stop" sid="945698226175118" type="Audio">
-                            <param id="0" name="Tag">&quot;n6m1&quot;</param>
-                        </action>
-                        <action id="0" name="Play" sid="793301762079054" type="Audio">
-                            <param id="0" name="Audio file">Victory1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">-10</param>
-                            <param id="1" name="Tag (optional)">&quot;victoria1&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
     </events>
 </c2eventsheet>
