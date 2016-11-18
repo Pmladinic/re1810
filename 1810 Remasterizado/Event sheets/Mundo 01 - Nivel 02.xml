@@ -21,6 +21,25 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="464615660519773">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="674463090889177" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="718472471329956" type="Audio">
+                    <param id="0" name="Audio file">n1m1</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-20</param>
+                    <param id="1" name="Tag (optional)">&quot;n2m1&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="803312343618823" type="fechaNivel">
+                    <param id="0" name="Text">&quot;18 de Septiembre, 1810&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="372351713921862" type="descripcionNivel">
+                    <param id="0" name="Text">&quot;Primera Junta Nacional de Gobierno&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="908704574158545" title="Palanca Activable - Mundo 2">
             <sub-events>
                 <event-block sid="598494248019536">
@@ -218,10 +237,6 @@
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="516725040262258" type="player">
-                                    <param id="0" name="Instance variable">sePuedeMover</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
                             </actions>
                             <sub-events>
                                 <comment>Establecer capitulo al que se redirige | Establecer parametros y reiniciar frame de pagina actual a 0</comment>
@@ -252,34 +267,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="464615660519773">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="674463090889177" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="718472471329956" type="Audio">
-                    <param id="0" name="Audio file">n1m1</param>
-                    <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-20</param>
-                    <param id="1" name="Tag (optional)">&quot;n2m1&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="803312343618823" type="fechaNivel">
-                    <param id="0" name="Text">&quot;18 de Septiembre, 1810&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="372351713921862" type="descripcionNivel">
-                    <param id="0" name="Text">&quot;Primera Junta Nacional de Gobierno&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="740899227198030">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="682514943866676" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="140796526368655" type="Audio">
-                    <param id="0" name="Tag">&quot;n2m1&quot;</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

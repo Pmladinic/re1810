@@ -31,7 +31,7 @@
                 <action id="0" name="Play" sid="236521809841840" type="Audio">
                     <param id="0" name="Audio file">Batalla</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">-20</param>
+                    <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;batalla&quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="261246097750291" type="fechaNivel">
@@ -39,16 +39,6 @@
                 </action>
                 <action id="0" name="Set text" sid="837495522055770" type="descripcionNivel">
                     <param id="0" name="Text">&quot;Primera Junta Nacional de Gobierno&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="563825651261811">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="132578630639713" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="477522777645952" type="Audio">
-                    <param id="0" name="Tag">&quot;batalla&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -463,10 +453,6 @@
                                 </action>
                                 <action id="-2" name="Go to layout" sid="779303229718355" type="System">
                                     <param id="0" name="Layout">Capitulos</param>
-                                </action>
-                                <action id="-13" name="Set boolean" sid="256583139748645" type="player">
-                                    <param id="0" name="Instance variable">sePuedeMover</param>
-                                    <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="300942577469571" type="System">
                                     <param id="0" name="Variable">nivelTerminado</param>

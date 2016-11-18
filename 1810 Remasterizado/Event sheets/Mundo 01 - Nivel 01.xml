@@ -350,10 +350,6 @@
                                     <param id="0" name="Variable">nivelTerminado</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="129079683650324" type="player">
-                                    <param id="0" name="Instance variable">sePuedeMover</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
                             </actions>
                             <sub-events>
                                 <comment>Establecer capitulo al que se redirige | Establecer parametros y reiniciar frame de pagina actual a 0</comment>
@@ -384,15 +380,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="687104558063811">
-            <conditions>
-                <condition id="-3" name="On end of layout" sid="440775282062713" type="System" />
-            </conditions>
-            <actions>
-                <action id="6" name="Stop" sid="334105743081659" type="Audio">
-                    <param id="0" name="Tag">&quot;n1m1&quot;</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
