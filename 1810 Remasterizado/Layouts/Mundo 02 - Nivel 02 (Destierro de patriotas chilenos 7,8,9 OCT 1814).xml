@@ -2063,7 +2063,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>4512</x>
-                        <y>96</y>
+                        <y>160</y>
                         <z>0</z>
                         <width>32</width>
                         <height>32</height>
