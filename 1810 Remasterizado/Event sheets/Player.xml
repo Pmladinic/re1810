@@ -1171,6 +1171,9 @@
                         <action id="6" name="Stop" sid="630308511522030" type="Audio">
                             <param id="0" name="Tag">&quot;n3m1&quot;</param>
                         </action>
+                        <action id="6" name="Stop" sid="768427264072068" type="Audio">
+                            <param id="0" name="Tag">&quot;batalla&quot;</param>
+                        </action>
                         <action id="0" name="Play" sid="270671891369525" type="Audio">
                             <param id="0" name="Audio file">Victory1</param>
                             <param id="2" name="Loop">0</param>
